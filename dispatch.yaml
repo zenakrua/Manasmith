@@ -1,4 +1,4 @@
 dispatch:
-- url: "*/admin/*"
+- url: "*admin.shardsmith.com*"
   service: phpmyadmin
   secure: always

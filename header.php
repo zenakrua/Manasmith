@@ -21,6 +21,6 @@
 			
 		<button value="Dragons">Dragons</button>
 		
-		<a href="/admin">Admin</a>
+		<a href="/admin/">Admin</a>
 			
 	</header>

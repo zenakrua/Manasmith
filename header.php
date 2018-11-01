@@ -21,6 +21,6 @@
 			
 		<button value="Dragons">Dragons</button>
 		
-		<a href="phpmyadmin-dot-manasmith-221002.appspot.com">Admin</a>
+		<a href="https://phpmyadmin-dot-manasmith-221002.appspot.com">Admin</a>
 			
 	</header>

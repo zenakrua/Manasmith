@@ -6,6 +6,8 @@ handlers:
 
 - url: /css
   static_dir: css
+  secure: always
   
 - url: /
   script: index.php
+  secure: always

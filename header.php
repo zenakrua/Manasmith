@@ -11,7 +11,7 @@
 
 	<header>
 	
-		<a href="/">Home</a>
+		<a href="https://www.shardsmith.com">Home</a>
 		
 		<button value="Adventurers">Adventurers</button>
 		

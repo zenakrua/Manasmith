@@ -8,3 +8,6 @@ handlers:
   
 - url: /.*
   script: index.php
+  
+- url: /admin/.*
+  script: /admin/index.php

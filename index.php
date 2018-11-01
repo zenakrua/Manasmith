@@ -4,13 +4,10 @@ include 'header.php';
 
 <div id="collection">
 
-	test testest
-	
-	BIG FUCKING MOOD
+	test testest TEEEEEEST
 	
 </div>
 
 <?php
 include 'footer.php'
 ?>
-

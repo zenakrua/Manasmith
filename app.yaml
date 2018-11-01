@@ -3,6 +3,10 @@ api_version: 1
 
 handlers:
 
+# Homepage
+- url: /
+  script: index.php
+
 # CSS folder
 - url: /css
   static_dir: css

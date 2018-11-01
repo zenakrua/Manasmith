@@ -11,6 +11,8 @@
 
 	<header>
 	
+		<a href="/">Home</a>
+		
 		<button value="Adventurers">Adventurers</button>
 		
 		<button value="Mana Circles">Mana Circles</button>

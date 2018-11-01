@@ -4,7 +4,7 @@ include 'header.php';
 
 <div id="collection">
 
-	test testest TEEEEEEST
+BIG FUCKING MOOD
 	
 </div>
 

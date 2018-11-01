@@ -2,9 +2,9 @@
 <?php
 
 $host = "zendb.cn5kmpwmbexo.us-east-1.rds.amazonaws.com";
-$user = "shardsmith";
-$pass = "D5rcIG1pL9K5bEiz";
-$database = "shardsmith";
+$user = "althemia";
+$pass = "!3nd0fL1n3";
+$database = "collections";
 
 
 try {

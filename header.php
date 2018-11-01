@@ -20,5 +20,7 @@
 		<button value="Wyrmprints">Wyrmprints</button>
 			
 		<button value="Dragons">Dragons</button>
+		
+		<a href="phpmyadmin-dot-manasmith-221002.appspot.com">Admin</a>
 			
 	</header>

@@ -3,6 +3,10 @@ api_version: 1
 
 handlers:
 
+# Admin
+- url: /admin
+  script: /admin/index.php
+
 # Homepage
 - url: /
   script: index.php

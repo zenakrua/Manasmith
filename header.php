@@ -11,17 +11,17 @@
 
 	<header>
 	
-		<a href="https://www.shardsmith.com">Home</a>
+		<a href="/">Home</a>
 		
-		<button value="Adventurers">Adventurers</button>
+		<a href="/adventurers">Adventurers</a>
 		
-		<button value="Mana Circles">Mana Circles</button>
-			
-		<button value="Weapons">Weapons</button>
-			
-		<button value="Wyrmprints">Wyrmprints</button>
-			
-		<button value="Dragons">Dragons</button>
+		<a href="/mana-circles">Mana Circles</a>
+		
+		<a href="/weapons">Weapons</a>
+		
+		<a href="/wyrmprints">Wyrmprints</a>
+		
+		<a href="/dragons">Dragons</a>
 		
 		<a href="https://admin.shardsmith.com">Admin</a>
 			

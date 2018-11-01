@@ -4,7 +4,7 @@ include 'header.php';
 
 <div id="collection">
 
-	test testest
+	test testest TEEEEEEEST
 	
 </div>
 

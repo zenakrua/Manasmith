@@ -1,3 +1,0 @@
-dispatch:
-- url: "dl.shardsmith.com/admin/*"
-  service: phpmyadmin

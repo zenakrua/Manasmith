@@ -3,7 +3,7 @@
 
 $host = "zendb.cn5kmpwmbexo.us-east-1.rds.amazonaws.com";
 $user = "althemia";
-$pass = "!3nd0fL1n3";
+$pass = "manifest";
 $database = "collections";
 
 

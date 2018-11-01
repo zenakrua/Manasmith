@@ -1,4 +1,4 @@
 dispatch:
 
-- url: "dl.shardsmith.com/admin/*"
+- url: "*/admin/*"
   service: phpmyadmin

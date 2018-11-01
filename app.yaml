@@ -6,8 +6,5 @@ handlers:
 - url: /css
   static_dir: css
   
-- url: /admin
-  static_dir: admin
-  
 - url: /.*
   script: index.php

@@ -1,1 +1,4 @@
 dispatch:
+- url: "*/admin/*"
+  service: phpmyadmin
+  secure: always

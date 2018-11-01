@@ -23,6 +23,6 @@
 			
 		<button value="Dragons">Dragons</button>
 		
-		<a href="/admin/">Admin</a>
+		<a href="admin.shardsmith.com">Admin</a>
 			
 	</header>

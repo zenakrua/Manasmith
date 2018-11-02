@@ -3,7 +3,7 @@ include 'header.php';
 ?>
 
 <?php
-//$host = "manasmith-221002:us-east1:manasmith";
+//$host = "/cloudsql/manasmith-221002:us-east1:manasmith";
 //$user = "silke";
 //$pass = "Y1j5]NZb)GfH";
 //$database = "collections";

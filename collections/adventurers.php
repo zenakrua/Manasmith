@@ -2,7 +2,11 @@
 include 'header.php';
 ?>
 
-muh peeps
+<div id="collection">
+
+MUH PEEPS
+	
+</div>
 
 <?php
 include 'footer.php'

@@ -8,6 +8,9 @@ handlers:
   static_dir: css
   secure: always
   
+- url: /adventurers
+  script: /collections/adventurers.php
+  
 - url: /
   script: index.php
   secure: always

@@ -2,13 +2,7 @@
 include 'header.php';
 ?>
 
-<div id="collection">
-
-BIG FUCKING MOOD
-
-test
-	
-</div>
+muh peeps
 
 <?php
 include 'footer.php'

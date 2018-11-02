@@ -11,6 +11,18 @@ handlers:
 - url: /adventurers
   script: /collections/adventurers.php
   
+- url: /mana-circles
+  script: /collections/mana-circles.php
+  
+- url: /dragons
+  script: /collections/dragons.php
+  
+- url: /weapons
+  script: /collections/weapons.php
+  
+- url: /wyrmprints
+  script: /collections/wyrmprints.php
+  
 - url: /
   script: index.php
   secure: always

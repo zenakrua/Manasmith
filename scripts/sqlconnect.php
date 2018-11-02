@@ -1,10 +1,10 @@
 
 <?php
 
-$host = "manasmith-221002:us-east1:manasmith";
-$user = "silke";
-$pass = "Y1j5]NZb)GfH";
-$database = "collections";
+//$host = "manasmith-221002:us-east1:manasmith";
+//$user = "silke";
+//$pass = "Y1j5]NZb)GfH";
+//$database = "collections";
 
 
 try {

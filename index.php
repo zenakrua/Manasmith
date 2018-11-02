@@ -5,8 +5,6 @@ include 'header.php';
 <div id="collection">
 
 BIG FUCKING MOOD
-
-test
 	
 </div>
 

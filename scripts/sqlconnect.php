@@ -1,9 +1,9 @@
 
 <?php
 
-$host = "zendb.cn5kmpwmbexo.us-east-1.rds.amazonaws.com";
-$user = "althemia";
-$pass = "manifest";
+$host = "manasmith-221002:us-east1:manasmith";
+$user = "silke";
+$pass = "Y1j5]NZb)GfH";
 $database = "collections";
 
 

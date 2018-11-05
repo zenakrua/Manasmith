@@ -26,11 +26,11 @@ $(document).ready(function() {
 	
 </script>
 
-<content>
+<div id="content">
 	
 test
 	
-</content>
+</div>
 
 <?php
 include 'footer.php'

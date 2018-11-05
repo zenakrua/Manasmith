@@ -14,23 +14,23 @@ handlers:
   secure: always
   static_dir: css
   
-- url: /adventurers
+- url: /adventurers/
   secure: always
   script: /adventurers.php
   
-- url: /mana-circles
+- url: /mana-circles/
   secure: always
   script: /mana-circles.php
   
-- url: /dragons
+- url: /dragons/
   secure: always
   script: /dragons.php
   
-- url: /weapons
+- url: /weapons/
   secure: always
   script: /weapons.php
   
-- url: /wyrmprints
+- url: /wyrmprints/
   secure: always
   script: /wyrmprints.php
   

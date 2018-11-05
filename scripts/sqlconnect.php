@@ -1,7 +1,7 @@
 
 <?php
 
-//$host = "manasmith-221002:us-east1:manasmith";
+//$host = "mysql:unix_socket=/cloudsql/manasmith-221002:us-east1:manasmith";
 //$user = "silke";
 //$pass = "Y1j5]NZb)GfH";
 //$database = "collections";

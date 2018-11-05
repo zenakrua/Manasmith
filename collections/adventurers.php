@@ -15,7 +15,7 @@ $(document).ready(function() {
 //			$.each(data, function(key,value) {
 //				var $name = value.name;
 //				$("content").append($name);
-			});
+//			});
 		},
 		error: function(data, errorThrown){
 			alert('Request failed: '+errorThrown);

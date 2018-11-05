@@ -11,24 +11,33 @@ env_variables:
 handlers:
 
 - url: /css
-  static_dir: css
   secure: always
+  static_dir: css
+  
+- url: /scripts
+  secure: always
+  static_dir: scripts
   
 - url: /adventurers
+  secure: always
   script: /collections/adventurers.php
   
 - url: /mana-circles
+  secure: always
   script: /collections/mana-circles.php
   
 - url: /dragons
+  secure: always
   script: /collections/dragons.php
   
 - url: /weapons
+  secure: always
   script: /collections/weapons.php
   
 - url: /wyrmprints
+  secure: always
   script: /collections/wyrmprints.php
   
 - url: /
-  script: index.php
   secure: always
+  script: index.php

@@ -14,10 +14,6 @@ handlers:
   secure: always
   static_dir: css
   
-- url: /scripts
-  secure: always
-  static_dir: scripts
-  
 - url: /adventurers
   secure: always
   script: /collections/adventurers.php

@@ -2,9 +2,9 @@
 include 'header.php';
 ?>
 
-<div id="collection">
+<content>
 	
-</div>
+</content>
 
 <?php
 include 'footer.php'

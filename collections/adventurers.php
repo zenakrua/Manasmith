@@ -12,9 +12,10 @@ $(document).ready(function() {
 		dataType: 'json',
 		url: 'functions.php',
 		success: function(data) {
-			$.each(data, function(key,value) {
-				var $name = value.name;
-				$("content").append($name);
+			alert("Success.");
+//			$.each(data, function(key,value) {
+//				var $name = value.name;
+//				$("content").append($name);
 			});
 		},
 		error: function(data, errorThrown){

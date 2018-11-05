@@ -4,9 +4,9 @@ include 'header.php';
 
 <?php
 
-//$host = getenv("MYSQL_DSN");
-//$user = getenv("MYSQL_USER");
-//$pass = getenv("MYSQL_PASSWORD");
+$host = getenv("MYSQL_DSN");
+$user = getenv("MYSQL_USER");
+$pass = getenv("MYSQL_PASSWORD");
 
 	try {
 

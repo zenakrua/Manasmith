@@ -4,9 +4,9 @@ threadsafe: true
 
 env_variables:
 
-	MYSQL_DSN: mysql:unix_socket=/cloudsql/manasmith-221002:us-east1:manasmith;dbname=collections
-	MYSQL_USER: silke
-	MYSQL_PASSWORD: Y1j5]NZb)GfH
+  MYSQL_DSN: mysql:unix_socket=/cloudsql/manasmith-221002:us-east1:manasmith;dbname=collections
+  MYSQL_USER: silke
+  MYSQL_PASSWORD: Y1j5]NZb)GfH
 
 handlers:
 

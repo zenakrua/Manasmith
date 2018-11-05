@@ -34,6 +34,10 @@ handlers:
   secure: always
   script: /wyrmprints.php
   
+  # Serve php scripts.
+- url: /(.+\.php)$
+  script: \1
+  
 - url: /
   secure: always
   script: index.php

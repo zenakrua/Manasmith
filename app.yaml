@@ -14,27 +14,13 @@ handlers:
   secure: always
   static_dir: css
   
-- url: /adventurers/
-  secure: always
-  script: /adventurers.php
-  
-- url: /mana-circles/
-  secure: always
-  script: /mana-circles.php
-  
-- url: /dragons/
-  secure: always
-  script: /dragons.php
-  
-- url: /weapons/
-  secure: always
-  script: /weapons.php
-  
-- url: /wyrmprints/
-  secure: always
-  script: /wyrmprints.php
-  
-  # Serve php scripts.
+# Serve images as static resources.
+- url: /(.+\.(gif|png|jpg))$
+  static_files: \1
+  upload: .+\.(gif|png|jpg)$
+  application_readable: true
+
+# Serve php scripts.
 - url: /(.+\.php)$
   script: \1
   

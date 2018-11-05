@@ -15,6 +15,8 @@ include 'header.php';
 
 <content>
 	
+test
+	
 </content>
 
 <?php

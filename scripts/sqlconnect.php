@@ -1,4 +1,3 @@
-
 <?php
 
 //$host = "mysql:unix_socket=/cloudsql/manasmith-221002:us-east1:manasmith";

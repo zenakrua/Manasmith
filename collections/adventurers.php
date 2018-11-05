@@ -9,9 +9,9 @@ $(document).ready(function() {
 	$.ajax({
 		contentType: 'application/json; charset=UTF-8',
 		dataType: 'json',
-		url: '../functions.php',
+		url: 'functions.php',
 		success: function(data) {
-			alert("Success.");
+			alert('Success.');
 //			$.each(data, function(key,value) {
 //				var $name = value.name;
 //				$("content").append($name);

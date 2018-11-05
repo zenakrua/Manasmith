@@ -4,7 +4,7 @@ include 'header.php';
 
 <?php
 
-	require_once '../scripts/dbconnect.php';
+	require_once '../dbconnect.php';
 
 	$query = $dbconnect->prepare("select * from adventurers");
 	$query->execute();

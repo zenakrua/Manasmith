@@ -14,26 +14,6 @@ handlers:
   secure: always
   static_dir: css
   
-- url: /adventurers
-  secure: always
-  script: /collections/adventurers.php
-  
-- url: /mana-circles
-  secure: always
-  script: /collections/mana-circles.php
-  
-- url: /dragons
-  secure: always
-  script: /collections/dragons.php
-  
-- url: /weapons
-  secure: always
-  script: /collections/weapons.php
-  
-- url: /wyrmprints
-  secure: always
-  script: /collections/wyrmprints.php
-  
 - url: /
   secure: always
   script: index.php

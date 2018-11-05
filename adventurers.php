@@ -14,7 +14,7 @@ $(document).ready(function() {
 //			alert('Success.');
 			$.each(data, function(key,value) {
 				var $name = value.name;
-				$("content").append($name);
+				$("#content").append($name);
 			});
 		},
 		error: function(data, errorThrown){

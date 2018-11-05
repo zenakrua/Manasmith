@@ -19,15 +19,15 @@ error_reporting(E_ALL);
 	
 		<a href="/">Home</a>
 		
-		<a href="/adventurers">Adventurers</a>
+		<a href="/adventurers/">Adventurers</a>
 		
-		<a href="/mana-circles">Mana Circles</a>
+		<a href="/mana-circles/">Mana Circles</a>
 		
-		<a href="/weapons">Weapons</a>
+		<a href="/weapons/">Weapons</a>
 		
-		<a href="/wyrmprints">Wyrmprints</a>
+		<a href="/wyrmprints/">Wyrmprints</a>
 		
-		<a href="/dragons">Dragons</a>
+		<a href="/dragons/">Dragons</a>
 		
 		<a href="https://admin.shardsmith.com">Admin</a>
 			

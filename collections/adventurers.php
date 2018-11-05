@@ -3,6 +3,8 @@ include 'header.php';
 ?>
 
 <div id="collection">
+	
+<?php
 
 	require_once 'dbconnect.php';
 
@@ -14,6 +16,8 @@ include 'header.php';
 	echo json_encode($jsonData);
 
 	$dbconnect = null;
+	
+?>
 	
 </div>
 

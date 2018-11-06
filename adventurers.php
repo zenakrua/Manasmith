@@ -12,13 +12,8 @@ $(document).ready(function() {
 		success: function(data) {
 //			alert('Success.');
 			$.each(data, function(key,value) {
-				$("#content").append("<table>"
-						    	+"<tr>"
-						    		+"<th>"
-						     			+value.name
-						     		+"</th>"
-						    	+"</tr>"
-						+"</table>");
+				var $name = value.name;
+				$("#content").append($name);
 			});
 		},
 		error: function(data, errorThrown){

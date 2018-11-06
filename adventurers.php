@@ -23,7 +23,6 @@ foreach($json->data as $mydata)
 
 echo '</div>';
 
-<?php
 include 'footer.php'
 ?>
 

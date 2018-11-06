@@ -12,10 +12,10 @@ $(document).ready(function() {
 		success: function(data) {
 //			alert('Success.');
 			$.each(data, function(key,value) {
-				$options = <?php ['size' => 120, 'crop' => true] ?>;
-				$image_file = 'gs://${manasmith-221002.appspot.com}/'+value.id+'_'+value.variation+'.png';
-				$image_url = <?php CloudStorageTools::getImageServingUrl($image_file, $options) ?>;
-				$('#content').append(value.name+'<img src='+$image_url);
+				var $options = ['size' => 120, 'crop' => true];
+				var $image_file = 'gs://${manasmith-221002.appspot.com}/'+value.id+'_'+value.variation+'.png';
+				var $image_url = CloudStorageTools::getImageServingUrl($image_file, $options);
+				var $('#content').append('<img src='+$image_url);
 			});
 		},
 		error: function(data, errorThrown){

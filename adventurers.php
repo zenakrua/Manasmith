@@ -12,9 +12,9 @@ $(document).ready(function() {
 		success: function(data) {
 //			alert('Success.');
 			$.each(data, function(key,value) {
-				var $options = ['size' => 120, 'crop' => true];
+				var $options = {'size' : 120, 'crop' : true};
 				var $image_file = 'gs://${manasmith-221002.appspot.com}/'+value.id+'_'+value.variation+'.png';
-				var $image_url = '<?php CloudStorageTools::getImageServingUrl('+$image_file+', '+$options+') ?>';
+				var $image_url = CloudStorageTools::getImageServingUrl('+$image_file+', '+$options+');
 				
 				$('#content').append('<img src='+$image_url);
 			});

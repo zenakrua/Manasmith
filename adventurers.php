@@ -1,37 +1,27 @@
 <?php
 include 'header.php';
-?>
 
-<script>
-	
-$(document).ready(function() {
-	$.ajax({
-		contentType: 'application/json; charset=UTF-8',
-		dataType: 'json',
-		url: 'queries.php',
-		success: function(data) {
-//			alert('Success.');
-			$.each(data, function(key,value) {
-				var $options = {'size' : 120, 'crop' : true};
-				var $image_file = 'gs://${manasmith-221002.appspot.com}/'+value.id+'_'+value.variation+'.png';
-				var $image_url = CloudStorageTools::getImageServingUrl('+$image_file+', '+$options+');
-				
-				$('#content').append('<img src='+$image_url);
-			});
-		},
-		error: function(data, errorThrown){
-			alert('Request failed: '+errorThrown);
-		}
-	});
-});
+require_once 'dbconnect.php';
+	$query = $dbconnect->prepare("select * from adventurers");
+	$query->execute();
+	$jsonData = $query->fetchAll(PDO::FETCH_ASSOC);
+	$json = json_encode($jsonData);
+//	echo $jsonData;
+	$dbconnect = null;
 
-</script>
+echo '<div id="content">';
 
-<div id="content">
-	
-test
-	
-</div>
+foreach($json->data as $mydata)
+
+    {
+         echo $mydata->name . "\n";
+         foreach($mydata->values as $values)
+         {
+              echo $values->value . "\n";
+         }
+    }  
+
+echo '</div>';
 
 <?php
 include 'footer.php'

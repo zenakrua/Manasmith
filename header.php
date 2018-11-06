@@ -10,7 +10,6 @@ error_reporting(E_ALL);
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" media="all"/>
 	<link rel="stylesheet" type="text/css" href="css/main.css" media="screen"/>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-	<script type="text/javascript" src="functions.js"></script>
 </head>
 
 <body>

@@ -15,7 +15,7 @@ $(document).ready(function() {
 				$options = ['size' => 120, 'crop' => true];
 				$image_file = "gs://${manasmith-221002.appspot.com}/"+value.id+"_"+value.variation+".png";
 				$image_url = CloudStorageTools::getImageServingUrl($image_file, $options);
-				$("#content").append("<img src="+$image_url);
+				$("#content").append(value.name+"<img src="+$image_url);
 			});
 		},
 		error: function(data, errorThrown){

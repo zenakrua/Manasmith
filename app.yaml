@@ -14,6 +14,10 @@ handlers:
   secure: always
   static_dir: css
   
+- url: /scripts
+  secure: always
+  static_dir: scripts
+  
 # Serve images as static resources.
 - url: /(.+\.(gif|png|jpg))$
   static_files: \1

@@ -12,8 +12,13 @@ $(document).ready(function() {
 		success: function(data) {
 //			alert('Success.');
 			$.each(data, function(key,value) {
-				var $name = value.name;
-				$("#content").append($name);
+				$("#content").append("<table>"
+						    	+"<tr>"
+						    		+"<th>"
+						     			+value.name
+						     		+"</th>"
+						    	+"</tr>"
+						+"</table>");
 			});
 		},
 		error: function(data, errorThrown){

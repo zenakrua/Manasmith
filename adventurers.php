@@ -11,21 +11,16 @@ require_once 'dbconnect.php';
 
 echo '<div id="content">';
 
-$options = ['size' => 400, 'crop' => true];
-$image_file = "gs://manasmith-221002.appspot.com/images/adventurers/portraits/110029_1.png";
-$image_url = CloudStorageTools::getImageServingUrl($image_file, $options);
-
-echo $image_url;
-
 foreach($adventurers as $adventurer){
 
 	$options = ['size' => 400, 'crop' => true];
 	$image_file = 'gs://${manasmith-221002.appspot.com}/'.$adventurer['id'].'_'.$adventurer['variation'].'.jpg';
+	var_dump($image_file);
 //	$image_url = CloudStorageTools::getImageServingUrl($image_file, $options);
 //	$image_url = 'img';
 
-//	echo '<table class="adventurer"><tr><th>'.$adventurer['name'].'</th></tr><tr><td><img src="'.$image_url.'"></td></tr></table>';
-	echo '<table class="adventurer"><tr><th>'.$adventurer['name'].'</th></tr><tr><td><img src="gs://${manasmith-221002.appspot.com}/images/adventurers/portraits/'.$adventurer['id'].'_'.$adventurer['variation'].'.png"></td></tr></table>';
+	echo '<table class="adventurer"><tr><th>'.$adventurer['name'].'</th></tr><tr><td><img src="'.$image_url.'"></td></tr></table>';
+//	echo '<table class="adventurer"><tr><th>'.$adventurer['name'].'</th></tr><tr><td><img src="gs://${manasmith-221002.appspot.com}/images/adventurers/portraits/'.$adventurer['id'].'_'.$adventurer['variation'].'.png"></td></tr></table>';
 
 }
 	

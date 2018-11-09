@@ -31,3 +31,5 @@ use google\appengine\api\cloud_storage\CloudStorageTools;
 		<a href="https://admin.shardsmith.com">Admin</a>
 			
 	</header>
+	
+	<content>

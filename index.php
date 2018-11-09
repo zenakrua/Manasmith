@@ -1,9 +1,7 @@
 <?php
 
-include 'header.php';
-
 if ($_SERVER['REQUEST_URI']=='/') {
-	include 'index.php';
+	include 'home.php';
 } elseif ($_SERVER['REQUEST_URI']=='/adventurers/') {
 	include 'adventurers.php';
 } elseif ($_SERVER['REQUEST_URI']=='/mana-circles/') {
@@ -18,16 +16,4 @@ if ($_SERVER['REQUEST_URI']=='/') {
 	include '404.php';
 }
 	
-?>
-
-<div id="collection">
-
-BIG FUCKING MOOD
-
-test
-	
-</div>
-
-<?php
-include 'footer.php'
 ?>

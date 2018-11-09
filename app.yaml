@@ -10,8 +10,9 @@ env_variables:
 
 handlers:
 
-- url: /static
-  static_dir: public
+- url: /css
+  secure: always
+  static_dir: css
   
 - url: /.*
   secure: always

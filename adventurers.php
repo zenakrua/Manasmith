@@ -18,13 +18,7 @@ $dbconnect = null;
 
 foreach($adventurers->data as $adventurer){
 	
-	var_dump($adventurer);
-	
-	foreach($adventurer->values as $values){
-		
-        	echo $values->name;
-		
-	}
+	echo $adventurer['name'];
 	
 }
 	

@@ -1,5 +1,7 @@
 <?php
 
+include 'header.php';
+
 if ($_SERVER['REQUEST_URI']=='/') {
 	include 'home.php';
 } elseif ($_SERVER['REQUEST_URI']=='/adventurers/') {
@@ -16,4 +18,6 @@ if ($_SERVER['REQUEST_URI']=='/') {
 	include '404.php';
 }
 	
+include 'footer.php';
+
 ?>

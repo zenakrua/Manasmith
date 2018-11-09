@@ -14,11 +14,15 @@ $dbconnect = null;
 
 //echo $image_url;
 
-foreach($adventurers->data as $adventurer)
-
-    {
-         echo $adventurer->value.name . "\n";
-    }
+foreach($adventurers->data as $adventurer){
+	
+	foreach($adventurer->values as $values){
+		
+        	echo $values->name;
+		
+	}
+	
+}
 	
 ?>
 

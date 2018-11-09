@@ -18,15 +18,15 @@ use google\appengine\api\cloud_storage\CloudStorageTools;
 	
 		<a href="/">Home</a>
 		
-		<a href="/adventurers.php">Adventurers</a>
+		<a href="/adventurers/">Adventurers</a>
 		
-		<a href="/mana-circles.php">Mana Circles</a>
+		<a href="/mana-circles/">Mana Circles</a>
 		
-		<a href="/weapons.php">Weapons</a>
+		<a href="/weapons/">Weapons</a>
 		
-		<a href="/wyrmprints.php">Wyrmprints</a>
+		<a href="/wyrmprints/">Wyrmprints</a>
 		
-		<a href="/dragons.php">Dragons</a>
+		<a href="/dragons/">Dragons</a>
 		
 		<a href="https://admin.shardsmith.com">Admin</a>
 			

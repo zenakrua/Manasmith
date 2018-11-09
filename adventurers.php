@@ -16,12 +16,11 @@ $dbconnect = null;
 
 foreach($adventurers->data as $adventurer){
 	
-//	foreach($adventurer->values as $values){
+	foreach($adventurer->values as $values){
 		
-//        	echo $values->name;
-		echo $adventurer->name;
+        	echo $values->name;
 		
-//	}
+	}
 	
 }
 	

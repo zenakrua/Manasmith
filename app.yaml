@@ -1,4 +1,4 @@
-runtime: php55
+runtime: php72
 api_version: 1
 threadsafe: true
 
@@ -20,10 +20,10 @@ handlers:
   secure: always
   static_dir: css
   
-- url: /
-  secure: always
-  script: index.php
+#- url: /
+#  secure: always
+#  script: index.php
   
 # Serve php scripts.
-- url: /(.+\.php)$
-  script: \1
+#- url: /(.+\.php)$
+#  script: \1

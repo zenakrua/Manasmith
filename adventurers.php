@@ -14,7 +14,11 @@ $dbconnect = null;
 
 //echo $image_url;
 
+var_dump($adventurers);
+
 foreach($adventurers->data as $adventurer){
+	
+//	var_dump($adventurer);
 	
 	foreach($adventurer->values as $values){
 		
@@ -25,4 +29,3 @@ foreach($adventurers->data as $adventurer){
 }
 	
 ?>
-

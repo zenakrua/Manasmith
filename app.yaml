@@ -20,10 +20,10 @@ handlers:
   secure: always
   static_dir: css
   
-#- url: /
-#  secure: always
-#  script: index.php
+- url: /
+  secure: always
+  script: index.php
   
-# Serve php scripts.
-#- url: /(.+\.php)$
-#  script: \1
+ Serve php scripts.
+- url: /(.+\.php)$
+  script: \1

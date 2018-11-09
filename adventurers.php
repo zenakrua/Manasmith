@@ -17,7 +17,7 @@ require_once 'dbconnect.php';
 foreach($jsonData->data as $mydata)
 
     {
-         echo $mydata->name . "\n"
+         echo $mydata->name . "\n";
     }
 	
 ?>

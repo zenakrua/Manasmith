@@ -3,8 +3,8 @@
 require_once 'dbconnect.php';
 $query = $dbconnect->prepare("select * from adventurers");
 $query->execute();
-$jsonData = $query->fetchAll(PDO::FETCH_ASSOC);
-$adventurers = json_encode($jsonData);
+$adventurers = $query->fetchAll(PDO::FETCH_ASSOC);
+//$adventurers = json_encode($jsonData);
 //echo $json;
 $dbconnect = null;
 
@@ -16,11 +16,12 @@ $dbconnect = null;
 
 foreach($adventurers->data as $adventurer){
 	
-	foreach($adventurer->values as $values){
+//	foreach($adventurer->values as $values){
 		
-        	echo $values->name;
+//        	echo $values->name;
+		echo $adventurer->name;
 		
-	}
+//	}
 	
 }
 	

@@ -14,11 +14,11 @@ require_once 'dbconnect.php';
 
 //echo $image_url;
 
-//foreach($jsonData->data as $mydata)
+foreach($jsonData->data as $mydata)
 
-//    {
-//         echo $mydata->name . "\n"
-//    }
+    {
+         echo $mydata->name . "\n"
+    }
 	
 ?>
 

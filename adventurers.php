@@ -4,8 +4,8 @@ require_once 'dbconnect.php';
 	$query = $dbconnect->prepare("select * from adventurers");
 	$query->execute();
 	$jsonData = $query->fetchAll(PDO::FETCH_ASSOC);
-	$json = json_encode($jsonData);
-	echo $json;
+	$adventurers = json_encode($jsonData);
+//	echo $json;
 	$dbconnect = null;
 
 //$options = ['size' => 400, 'crop' => true];
@@ -14,10 +14,10 @@ require_once 'dbconnect.php';
 
 //echo $image_url;
 
-foreach($jsonData->data as $mydata)
+foreach($adventurers->data as $adventurer)
 
     {
-         echo $mydata->name . "\n";
+         echo $adventurer->value.name . "\n";
     }
 	
 ?>

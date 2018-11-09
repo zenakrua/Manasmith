@@ -19,11 +19,3 @@ handlers:
 - url: /css
   secure: always
   static_dir: css
-  
-- url: /
-  secure: always
-  script: index.php
-  
- Serve php scripts.
-- url: /(.+\.php)$
-  script: \1

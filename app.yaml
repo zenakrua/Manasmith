@@ -11,11 +11,11 @@ env_variables:
 handlers:
 
 # Serve images as static resources.
-- url: /(.+\.(gif|png|jpg))$
-  static_files: \1
-  upload: .+\.(gif|png|jpg)$
+#- url: /(.+\.(gif|png|jpg))$
+#  static_files: \1
+#  upload: .+\.(gif|png|jpg)$
 #  application_readable: true
 
-- url: /css
-  secure: always
-  static_dir: css
+#- url: /css
+#  secure: always
+#  static_dir: css

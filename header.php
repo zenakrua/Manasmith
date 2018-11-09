@@ -8,8 +8,8 @@ use google\appengine\api\cloud_storage\CloudStorageTools;
 <html lang="en">
 
 <head>
-	<link rel="stylesheet" type="text/css" href="css/normalize.css" media="all"/>
-	<link rel="stylesheet" type="text/css" href="css/main.css" media="screen"/>
+	<link rel="stylesheet" type="text/css" href="/css/normalize.css" media="all"/>
+	<link rel="stylesheet" type="text/css" href="/css/main.css" media="screen"/>
 </head>
 
 <body>

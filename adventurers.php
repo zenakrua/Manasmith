@@ -18,8 +18,12 @@ $dbconnect = null;
 
 foreach($adventurers->data as $adventurer){
 	
-	echo $adventurer['name'];
+         foreach($adventurer->values as $values){
+		 
+              echo $values->name . "\n";
+		 
+         }
 	
-}
+    }  
 	
 ?>

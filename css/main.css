@@ -1,1 +1,5 @@
 @import url("aqua-dark.css");
+
+table.adventurer {
+    display: inline-block;
+}

@@ -1,5 +1,5 @@
 <?php
-use google\appengine\api\cloud_storage\CloudStorageTools;
+//use google\appengine\api\cloud_storage\CloudStorageTools;
 
 require_once 'dbconnect.php';
 $query = $dbconnect->prepare("select * from adventurers order by element asc, rarity desc, name asc, variation asc");

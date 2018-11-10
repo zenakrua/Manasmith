@@ -16,8 +16,8 @@ foreach($adventurers as $adventurer){
 	$image_url = 'gs://manasmith-221002.appspot.com/images/adventurers/portraits/'.$adventurer['id'].'_'.$adventurer['variation'].'.png';
 	//	var_dump($image_file);
 //	$image_url = CloudStorageTools::getImageServingUrl($image_file, $options);
-	var_dump($image_url);
-	echo $image_url;
+//	var_dump($image_url);
+//	echo $image_url;
 //	$image_url = 'img';
 
 //	echo $adventurer['name'];

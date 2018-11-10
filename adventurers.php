@@ -13,14 +13,16 @@ echo '<div id="content">';
 
 foreach($adventurers as $adventurer){
 
-	$options = ['size' => 400, 'crop' => true];
-	$image_file = 'gs://${manasmith-221002.appspot.com}/'.$adventurer['id'].'_'.$adventurer['variation'].'.png';
+//	$options = ['size' => 400, 'crop' => true];
+//	$image_file = 'gs://${manasmith-221002.appspot.com}/'.$adventurer['id'].'_'.$adventurer['variation'].'.png';
 //	var_dump($image_file);
-	$image_url = CloudStorageTools::getImageServingUrl($image_file, $options);
-	var_dump($image_url);
+//	$image_url = CloudStorageTools::getImageServingUrl($image_file, $options);
+//	var_dump($image_url);
 //	$image_url = 'img';
 
-	echo '<table class="adventurer"><tr><th>'.$adventurer['name'].'</th></tr><tr><td><img src="'.$image_url.'"></td></tr></table>';
+	echo $adventurer['name'];
+
+//	echo '<table class="adventurer"><tr><th>'.$adventurer['name'].'</th></tr><tr><td><img src="'.$image_url.'"></td></tr></table>';
 //	echo '<table class="adventurer"><tr><th>'.$adventurer['name'].'</th></tr><tr><td><img src="gs://${manasmith-221002.appspot.com}/images/adventurers/portraits/'.$adventurer['id'].'_'.$adventurer['variation'].'.png"></td></tr></table>';
 
 }

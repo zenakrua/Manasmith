@@ -1,15 +1,13 @@
 <?php
 
 require_once 'dbconnect.php';
-	$query = $dbconnect->prepare("select * from adventurers order by element asc, rarity desc, name asc, variation asc");
-	$query->execute();
-	$adventurers = $query->fetchAll(PDO::FETCH_ASSOC);
-//	$list = json_encode($jsonData);
-//	var_dump($jsonData);
-//	echo $list;
-	$dbconnect = null;
-
-echo '<div id="content">';
+$query = $dbconnect->prepare("select * from adventurers order by element asc, rarity desc, name asc, variation asc");
+$query->execute();
+$adventurers = $query->fetchAll(PDO::FETCH_ASSOC);
+//$list = json_encode($jsonData);
+//var_dump($jsonData);
+//echo $list;
+$dbconnect = null;
 
 foreach($adventurers as $adventurer){
 
@@ -20,9 +18,9 @@ foreach($adventurers as $adventurer){
 //	var_dump($image_url);
 //	$image_url = 'img';
 
-	echo $adventurer['name'];
+//	echo $adventurer['name'];
 
-//	echo '<table class="adventurer"><tr><th>'.$adventurer['name'].'</th></tr><tr><td><img src="'.$image_url.'"></td></tr></table>';
+	echo '<table class="adventurer"><tr><th>'.$adventurer['name'].'</th></tr><tr><td>test</td></tr></table>';
 //	echo '<table class="adventurer"><tr><th>'.$adventurer['name'].'</th></tr><tr><td><img src="gs://${manasmith-221002.appspot.com}/images/adventurers/portraits/'.$adventurer['id'].'_'.$adventurer['variation'].'.png"></td></tr></table>';
 
 }

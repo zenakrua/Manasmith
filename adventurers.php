@@ -9,6 +9,9 @@ $adventurers = $query->fetchAll(PDO::FETCH_ASSOC);
 //echo $list;
 $dbconnect = null;
 
+include_once APPPATH . '/vendor/autoload.php';
+use google\appengine\api\cloud_storage\CloudStorageTools;
+
 foreach($adventurers as $adventurer){
 
 //	$options = ['size' => 400, 'crop' => true];

@@ -1,7 +1,5 @@
 <?php
 
-use google\appengine\api\cloud_storage\CloudStorageTools;
-
 include 'header.php';
 
 if ($_SERVER['REQUEST_URI']=='/') {

@@ -9,7 +9,7 @@ $adventurers = $query->fetchAll(PDO::FETCH_ASSOC);
 //echo $list;
 $dbconnect = null;
 
-include_once APPPATH . '/vendor/autoload.php';
+require_once 'google/appengine/api/cloud_storage/CloudStorageTools.php';
 use google\appengine\api\cloud_storage\CloudStorageTools;
 
 foreach($adventurers as $adventurer){

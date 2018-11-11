@@ -11,4 +11,12 @@ $contents = file_get_contents('gs://manasmith-221002.appspot.com/test.txt');
 
 echo $contents;
 
+use google\appengine\api\cloud_storage\CloudStorageTools;
+
+$options = ['size' => 400, 'crop' => true];
+$image_file = "gs://${my_bucket}/image.jpg";
+$image_url = CloudStorageTools::getImageServingUrl($image_file, $options);
+
+echo $image_url;
+
 ?>

@@ -11,6 +11,7 @@ $contents = file_get_contents('gs://manasmith-221002.appspot.com/test.txt');
 
 echo $contents;
 
+require_once 'google/appengine/api/cloud_storage/CloudStorageTools.php';
 use google\appengine\api\cloud_storage\CloudStorageTools;
 
 $options = ['size' => 400, 'crop' => true];

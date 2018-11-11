@@ -3,7 +3,6 @@
 <html lang="en">
 
 <head>
-	<base href="/">
 	<link rel="stylesheet" type="text/css" href="/css/normalize.css" media="all"/>
 	<link rel="stylesheet" type="text/css" href="/css/main.css" media="screen"/>
 </head>

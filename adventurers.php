@@ -12,6 +12,8 @@ $dbconnect = null;
 //include_once APPPATH . '/vendor/autoload.php';
 //use google\appengine\api\cloud_storage\CloudStorageTools;
 
+echo '<img src="http://storage.googleapis.com/manasmith-221002.appspot.com/images/adventurers/portraits/110011_1.png" />';
+
 foreach($adventurers as $adventurer){
 
 //	$options = ['size' => 400, 'crop' => true];
@@ -25,7 +27,7 @@ foreach($adventurers as $adventurer){
 
 //	echo $adventurer['name'];
 
-	echo '<table class="adventurer"><tr><th>'.$adventurer['name'].'</th></tr><tr><td><img src="http://storage.googleapis.com/manasmith-221002.appspot.com/images/adventurers/portraits/'.$adventurer['id'].'_'.$adventurer['variation'].'.png" /></td></tr></table>';
+	echo '<table class="adventurer"><tr><th>'.$adventurer['name'].'</th></tr></table>';
 //	echo '<table class="adventurer"><tr><th>'.$adventurer['name'].'</th></tr><tr><td><img src="gs://${manasmith-221002.appspot.com}/images/adventurers/portraits/'.$adventurer['id'].'_'.$adventurer['variation'].'.png"></td></tr></table>';
 
 }

@@ -8,7 +8,9 @@ $dbconnect = null;
 
 foreach($adventurers as $adventurer){
 
-	echo '<table class="adventurer"><tr><th>'.$adventurer['name'].'</th></tr><tr><td><img src="https://storage.cloud.google.com/manasmith-221002.appspot.com/images/adventurers/portraits/'.$adventurer['id'].'_'.$adventurer['variation'].'.png" /></td></tr></table>';
+	$image_url = 'https://storage.cloud.google.com/manasmith-221002.appspot.com/images/adventurers/portraits/'.$adventurer['id'].'_'.$adventurer['variation'].'.png';
+
+	echo '<table class="adventurer"><tr><th>'.$adventurer['name'].'</th></tr><tr><td><img src="'.$image_url.'" /></td></tr></table>';
 
 }
 	

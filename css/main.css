@@ -9,15 +9,15 @@ td.icon {
     width: 160px;
 }
 
-td.3 {
+td.\3 {
     border: 3px solid brown;
 }
 
-td.4 {
-    border: 3px solid gray;
+td.\4 {
+    border: 3px solid silver;
 }
 
-td.5 {
+td.\5 {
     border: 3px solid gold;
 }
 

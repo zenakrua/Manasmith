@@ -1,56 +1,76 @@
 @import url("aqua-dark.css");
 
+content {
+    margin: auto;
+}
+    
 table.adventurer {
     display: inline-block;
+    width: 160px;
+    border-spacing: 5px;
 }
 
-th.collected1 {
+th, td{
+    outline: 1px solid rgba(255,255,255,.5);
+}
+
+tr.icon td{
+    box-shadow: inset 0 0 0 4px rgba(255,255,255,.5);
+    width: 148px;
+    height: 148px;
+}
+
+table.Flame tr {
+    background-color: #BC3232;
+}
+
+table.Wind tr {
+    background-color: #32BC70;
+}
+
+table.Water tr {
+    background-color: #3277BC;
+}
+
+table.Light tr {
+    background-color: #BCA132;
+}
+
+table.Shadow tr {
+    background-color: #682480;
+}
+
+table.collected1 tr.header {
     background: green;
     color: greenyellow;
 }
 
-td.icon {
-    height: 160px;
-    width: 160px;
-    text-align: center;
-    vertical-align: middle;
+table.rank3 {
+    background: linear-gradient(top,rgb(239, 162, 140),rgb(222, 142, 123) 49%,rgb(189, 113, 90) 50%,rgb(156, 85, 66));
+    background: -webkit-linear-gradient(top,rgb(239, 162, 140),rgb(222, 142, 123) 49%,rgb(189, 113, 90) 50%,rgb(156, 85, 66));
+    background: -moz-linear-gradient(top,rgb(239, 162, 140),rgb(222, 142, 123) 49%,rgb(189, 113, 90) 50%,rgb(156, 85, 66));
+    background: -ms-linear-gradient(top,rgb(239, 162, 140),rgb(222, 142, 123) 49%,rgb(189, 113, 90) 50%,rgb(156, 85, 66));
+    background: -o-linear-gradient(top,rgb(239, 162, 140),rgb(222, 142, 123) 49%,rgb(189, 113, 90) 50%,rgb(156, 85, 66));
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,.5),3px 3px rgba(0,0,0,.5);
+    outline: 1px solid rgb(165, 81, 66);
 }
 
-td.icon img {
-
+table.rank4 {
+    background: linear-gradient(top,rgb(165, 199, 214),rgb(181, 215, 222) 49%,rgb(99, 134, 148) 50%,rgb(132, 178, 214));
+    background: -webkit-linear-gradient(top,rgb(165, 199, 214),rgb(181, 215, 222) 49%,rgb(99, 134, 148) 50%,rgb(132, 178, 214));
+    background: -moz-linear-gradient(top,rgb(165, 199, 214),rgb(181, 215, 222) 49%,rgb(99, 134, 148) 50%,rgb(132, 178, 214));
+    background: -ms-linear-gradient(top,rgb(165, 199, 214),rgb(181, 215, 222) 49%,rgb(99, 134, 148) 50%,rgb(132, 178, 214));
+    background: -o-linear-gradient(top,rgb(165, 199, 214),rgb(181, 215, 222) 49%,rgb(99, 134, 148) 50%,rgb(132, 178, 214));
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,.5),3px 3px rgba(0,0,0,.5);
+    outline: 1px solid rgb(99, 142, 165);
 }
 
-td.rank3 {
-    background: #EFA28C;
-    background: linear-gradient(top, rgb(239, 162, 140), rgb(222, 142, 123), rgb(189, 113, 90), rgb(156, 85, 66));
-}
-
-td.rank4 {
-    background:#A5C7D6;
-    background: linear-gradient(top, rgb(165, 199, 214), rgb(181, 215, 222), rgb(99, 134, 148), rgb(132, 178, 214));
-}
-
-td.rank5 {
-    background: #F7B631;
-    background: linear-gradient(top, rgb(247, 182, 49), rgb(255, 219, 123), rgb(189, 109, 24), rgb(239, 146, 41));
-}
-
-td.Flame img {
-    background: #BC3232;
-}
-
-td.Wind img {
-    background: #32BC70;
-}
-
-td.Water img {
-    background: #3277BC;
-}
-
-td.Light img {
-    background: #BCA132;
-}
-
-td.Shadow img {
-    background: #682480;
+table.rank5 {
+    background: linear-gradient(top,rgb(247, 182, 49),rgb(255, 219, 123) 49%,rgb(189, 109, 24) 50%,rgb(239, 146, 41));
+    background: -webkit-linear-gradient(top,rgb(247, 182, 49),rgb(255, 219, 123) 49%,rgb(189, 109, 24) 50%,rgb(239, 146, 41));
+    background: -moz-linear-gradient(top,rgb(247, 182, 49),rgb(255, 219, 123) 49%,rgb(189, 109, 24) 50%,rgb(239, 146, 41));
+    background: -ms-linear-gradient(top,rgb(247, 182, 49),rgb(255, 219, 123) 49%,rgb(189, 109, 24) 50%,rgb(239, 146, 41));
+    background: -o-linear-gradient(top,rgb(247, 182, 49),rgb(255, 219, 123) 49%,rgb(189, 109, 24) 50%,rgb(239, 146, 41));
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,.5),3px 3px rgba(0,0,0,.5);
+    outline: 1px solid rgb(173, 130, 8, .75);
 }

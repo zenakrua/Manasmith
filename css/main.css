@@ -9,34 +9,34 @@ td.icon {
     width: 160px;
 }
 
-td.\3 {
+td.rank3 {
     border: 3px solid brown;
 }
 
-td.\4 {
+td.rank4 {
     border: 3px solid silver;
 }
 
-td.\5 {
+td.rank5 {
     border: 3px solid gold;
 }
 
-td.Fire {
-    background: red;
+td.Flame {
+    background: #BC3232;
 }
 
 td.Wind {
-    background: green;
+    background: #32BC70;
 }
 
 td.Water {
-    background: blue;
+    background: #3277BC;
 }
 
 td.Light {
-    background: yellow;
+    background: #BCA132;
 }
 
 td.Shadow {
-    background: purple;
+    background: #682480;
 }

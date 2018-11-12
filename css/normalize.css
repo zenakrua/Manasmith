@@ -26,6 +26,12 @@ body {
   margin: 0;
 }
 
+/* Remove padding on table elements in Chrome */
+
+table, tbody, thead, tfoot, th, tr, td {
+  padding: 0px;
+}
+
 /**
  * Add the correct display in IE 9-.
  */

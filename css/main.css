@@ -7,7 +7,7 @@ content {
 table.adventurer {
     display: inline-block;
     width: 160px;
-    border-spacing: 5px;
+    border-spacing: 7px;
 }
 
 th, td{

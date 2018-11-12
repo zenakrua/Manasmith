@@ -15,7 +15,7 @@ require_once '../google-cloud-sdk/platform/google_appengine/google/appengine/api
 use google\appengine\api\cloud_storage\CloudStorageTools;
 
 $options = ['size' => 400, 'crop' => true];
-$image_file = "gs://${my_bucket}/image.jpg";
+$image_file = "gs://manasmith-221002.appspot.com/images/adventurers/portraits/110011_1.png";
 $image_url = CloudStorageTools::getImageServingUrl($image_file, $options);
 
 echo $image_url;

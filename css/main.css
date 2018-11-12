@@ -10,38 +10,40 @@ th.collected1 {
 }
 
 td.icon {
-    height: 160px;
-    width: 160px;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    vertical-align: middle;
 }
 
 td.rank3 {
-    border: 3px solid brown;
+    background: brown;
 }
 
 td.rank4 {
-    border: 3px solid silver;
+    background:silver;
 }
 
 td.rank5 {
-    border: 3px solid gold;
+    background: gold;
 }
 
-td.Flame {
+td.Flame img {
     background: #BC3232;
 }
 
-td.Wind {
+td.Wind img {
     background: #32BC70;
 }
 
-td.Water {
+td.Water img {
     background: #3277BC;
 }
 
-td.Light {
+td.Light img {
     background: #BCA132;
 }
 
-td.Shadow {
+td.Shadow img {
     background: #682480;
 }

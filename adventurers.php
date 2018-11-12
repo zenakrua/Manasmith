@@ -10,7 +10,7 @@ foreach($adventurers as $adventurer){
 
 	$image_url = 'https://storage.cloud.google.com/manasmith-221002.appspot.com/images/adventurers/icons/'.$adventurer['id'].'_'.$adventurer['variation'].'.png';
 
-	echo '<table class="adventurer"><tr><th>'.$adventurer['name'].'</th></tr><tr><td class="icon '.$adventurer['element'].' rank'.$adventurer['newrank'].'"><img src="'.$image_url.'" /></td></tr></table>';
+	echo '<table class="adventurer"><tr><th class="'.$adventurer['collected'].'">'.$adventurer['name'].'</th></tr><tr><td class="icon '.$adventurer['element'].' rank'.$adventurer['newrank'].'"><img src="'.$image_url.'" /></td></tr></table>';
 
 }
 	

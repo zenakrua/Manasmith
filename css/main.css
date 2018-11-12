@@ -4,6 +4,11 @@ table.adventurer {
     display: inline-block;
 }
 
+th.yes {
+    background: green;
+    color: greenyellow;
+}
+
 td.icon {
     height: 160px;
     width: 160px;

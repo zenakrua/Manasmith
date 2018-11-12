@@ -3,3 +3,40 @@
 table.adventurer {
     display: inline-block;
 }
+
+td.icon {
+    height: 160px;
+    width: 160px;
+}
+
+td.3 {
+    border: 3px solid brown;
+}
+
+td.4 {
+    border: 3px solid gray;
+}
+
+td.5 {
+    border: 3px solid gold;
+}
+
+td.Fire {
+    background: red;
+}
+
+td.Wind {
+    background: green;
+}
+
+td.Water {
+    background: blue;
+}
+
+td.Light {
+    background: yellow;
+}
+
+td.Shadow {
+    background: purple;
+}

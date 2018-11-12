@@ -16,16 +16,26 @@ td.icon {
     vertical-align: middle;
 }
 
+td.icon img {
+    
+}
+
 td.rank3 {
-    background: brown;
+    background: #EFA28C;
+    background: linear-gradient(top, rgb(239, 162, 140), rgb(222, 142, 123), rgb(189, 113, 90), rgb(156, 85, 66));
+    box-shadow: rgba(135, 135, 135, 0.58) 0px 0px 0px 4px inset;
 }
 
 td.rank4 {
-    background:silver;
+    background:#A5C7D6;
+    background: linear-gradient(top, rgb(165, 199, 214), rgb(181, 215, 222), rgb(99, 134, 148), rgb(132, 178, 214));
+    box-shadow: rgba(135, 135, 135, 0.58) 0px 0px 0px 4px inset;
 }
 
 td.rank5 {
-    background: gold;
+    background: #F7B631;
+    background: linear-gradient(top, rgb(247, 182, 49), rgb(255, 219, 123), rgb(189, 109, 24), rgb(239, 146, 41));
+    box-shadow: rgba(135, 135, 135, 0.58) 0px 0px 0px 4px inset;
 }
 
 td.Flame img {

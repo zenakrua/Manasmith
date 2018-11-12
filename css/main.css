@@ -4,7 +4,7 @@ table.adventurer {
     display: inline-block;
 }
 
-th.yes {
+th.collected1 {
     background: green;
     color: greenyellow;
 }

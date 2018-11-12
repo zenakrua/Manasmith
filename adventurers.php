@@ -1,7 +1,7 @@
 <?php
 
 require_once 'dbconnect.php';
-$query = $dbconnect->prepare("select * from adventurers join checklist on adventurers.id = checklist.id and adventurers.variation = checklist.variation order by element asc, rarity desc, name asc, adventurers.variation asc");
+$query = $dbconnect->prepare("select * from adventurers join checklist on adventurers.id = checklist.id and adventurers.variation = checklist.variation order by element asc, rarity desc, name asc, variation asc");
 $query->execute();
 $adventurers = $query->fetchAll(PDO::FETCH_ASSOC);
 $dbconnect = null;

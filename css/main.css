@@ -13,7 +13,7 @@ content {
 table.adventurer {
     display: inline-block;
     border-spacing: 7px;
-    transform: scale(0.80);
+    transform: scale(0.75);
 }
 
 tr.icon td{

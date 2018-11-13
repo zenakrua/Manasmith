@@ -16,7 +16,7 @@ table.adventurer {
     transform: scale(0.75);
 }
 
-tr.icon td{
+tr.icon td {
     width: 160px;
     height: 160px;
 }

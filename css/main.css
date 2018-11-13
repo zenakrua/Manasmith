@@ -1,12 +1,15 @@
 @import url("aqua-dark.css");
 
 content {
+    display: block;
+    width: 50%;
     margin: auto;
 }
     
 table.adventurer {
     display: inline-block;
     border-spacing: 7px;
+    transform: scale(0.80);
 }
 
 tr.icon td{
@@ -58,11 +61,6 @@ table.Shadow tr.icon {
     background: url('https://storage.cloud.google.com/manasmith-221002.appspot.com/images/bg_character_shadow-160.png'), linear-gradient(#BD3CD6,#521884);
 }
 
-table.collected1 tr.header {
-    text-shadow: 0px 0px 5px green;
-    color: greenyellow;
-}
-
 table.rank3 {
     background: linear-gradient(rgb(239, 162, 140),rgb(208, 111, 92) 30%,rgb(222, 142, 123) 49%,rgb(189, 113, 90) 50%,rgb(189, 113, 99),rgb(208, 111, 92) 83%, rgb(156, 85, 66));
     box-shadow: inset 0 0 0 1px rgba(255,255,255,.5),3px 3px rgba(0,0,0,.5);
@@ -109,4 +107,8 @@ table.rank5 th {
 table.rank5 td{
     outline: 1px solid rgba(255,255,0,.3);
     box-shadow: 0 0 1px 2px rgba(255,255,0,.3),inset 0 0 0 4px rgba(255,255,255,.5);
+}
+
+table.collected0 {
+    filter: grayscale(90%);
 }

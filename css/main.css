@@ -60,7 +60,7 @@ table.Shadow tr.icon {
 }
 
 table.collected1 tr.header {
-    text-shadow: 0px 3px 2px green;
+    text-shadow: 0px 0px 5px green;
     color: greenyellow;
 }
 

@@ -1,7 +1,5 @@
 @import url("aqua-dark.css");
 
-@import url("aqua-dark.css");
-
 content {
     margin: auto;
 }
@@ -51,7 +49,7 @@ table.Flame tr.icon {
 }
 
 table.Wind tr.icon {
-    background: url('https://storage.cloud.google.com/manasmith-221002.appspot.com/images/bg_character_wind-160.png'), linear-gradient(#00DB73,#189231);
+    background: url('https://storage.cloud.google.com/manasmith-221002.appspot.com/images/bg_character_wind-160.png'), linear-gradient(#39D394,#188E42);
 }
 
 table.Water tr.icon {
@@ -59,7 +57,7 @@ table.Water tr.icon {
 }
 
 table.Light tr.icon {
-    background: url('https://storage.cloud.google.com/manasmith-221002.appspot.com/images/bg_character_light-160.png'), linear-gradient(#D6C739,#917B23);
+    background: url('https://storage.cloud.google.com/manasmith-221002.appspot.com/images/bg_character_light-160.png'), linear-gradient(#D6C739,#947518);
 }
 
 table.Shadow tr.icon {

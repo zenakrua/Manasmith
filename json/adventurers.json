@@ -1,0 +1,802 @@
+[
+  {
+    "Name": "Naveed",
+    "Level": 0,
+    "Rarity": 5,
+    "Element": "Flame",
+    "Weapon": "Sword",
+    "Class": "Attack"
+  },
+  {
+    "Name": "Mikoto",
+    "Level": 0,
+    "Rarity": 5,
+    "Element": "Flame",
+    "Weapon": "Blade",
+    "Class": "Attack"
+  },
+  {
+    "Name": "Ezelith",
+    "Level": 0,
+    "Rarity": 5,
+    "Element": "Flame",
+    "Weapon": "Dagger",
+    "Class": "Support"
+  },
+  {
+    "Name": "Gala Sarisse",
+    "Level": 0,
+    "Rarity": 5,
+    "Element": "Flame",
+    "Weapon": "Bow",
+    "Class": "Support"
+  },
+  {
+    "Name": "Valentine's Hildegarde",
+    "Level": 0,
+    "Rarity": 5,
+    "Element": "Flame",
+    "Weapon": "Staff",
+    "Class": "Healing"
+  },
+  {
+    "Name": "Xander",
+    "Level": 0,
+    "Rarity": 5,
+    "Element": "Water",
+    "Weapon": "Sword",
+    "Class": "Attack"
+  },
+  {
+    "Name": "Dragonyule Cleo",
+    "Level": 0,
+    "Rarity": 5,
+    "Element": "Water",
+    "Weapon": "Dagger",
+    "Class": "Support"
+  },
+  {
+    "Name": "Xainfried",
+    "Level": 0,
+    "Rarity": 5,
+    "Element": "Water",
+    "Weapon": "Lance",
+    "Class": "Support"
+  },
+  {
+    "Name": "Lily",
+    "Level": 0,
+    "Rarity": 5,
+    "Element": "Water",
+    "Weapon": "Wand",
+    "Class": "Attack"
+  },
+  {
+    "Name": "Lin You",
+    "Level": 0,
+    "Rarity": 5,
+    "Element": "Wind",
+    "Weapon": "Axe",
+    "Class": "Attack"
+  },
+  {
+    "Name": "Hawk",
+    "Level": 0,
+    "Rarity": 5,
+    "Element": "Wind",
+    "Weapon": "Bow",
+    "Class": "Attack"
+  },
+  {
+    "Name": "Louise",
+    "Level": 0,
+    "Rarity": 5,
+    "Element": "Wind",
+    "Weapon": "Bow",
+    "Class": "Support"
+  },
+  {
+    "Name": "Maribelle",
+    "Level": 0,
+    "Rarity": 5,
+    "Element": "Wind",
+    "Weapon": "Wand",
+    "Class": "Attack"
+  },
+  {
+    "Name": "Albert",
+    "Level": 0,
+    "Rarity": 5,
+    "Element": "Light",
+    "Weapon": "Sword",
+    "Class": "Attack"
+  },
+  {
+    "Name": "Julietta",
+    "Level": 0,
+    "Rarity": 5,
+    "Element": "Light",
+    "Weapon": "Axe",
+    "Class": "Defense"
+  },
+  {
+    "Name": "Annelie",
+    "Level": 0,
+    "Rarity": 5,
+    "Element": "Light",
+    "Weapon": "Lance",
+    "Class": "Support"
+  },
+  {
+    "Name": "Halloween Elisanne",
+    "Level": 0,
+    "Rarity": 5,
+    "Element": "Light",
+    "Weapon": "Lance",
+    "Class": "Support"
+  },
+  {
+    "Name": "Lucretia",
+    "Level": 0,
+    "Rarity": 5,
+    "Element": "Light",
+    "Weapon": "Wand",
+    "Class": "Attack"
+  },
+  {
+    "Name": "Hildegarde",
+    "Level": 0,
+    "Rarity": 5,
+    "Element": "Light",
+    "Weapon": "Staff",
+    "Class": "Healing"
+  },
+  {
+    "Name": "Ieyasu",
+    "Level": 0,
+    "Rarity": 5,
+    "Element": "Shadow",
+    "Weapon": "Blade",
+    "Class": "Attack"
+  },
+  {
+    "Name": "Nefaria",
+    "Level": 0,
+    "Rarity": 5,
+    "Element": "Shadow",
+    "Weapon": "Bow",
+    "Class": "Support"
+  },
+  {
+    "Name": "Karl",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Flame",
+    "Weapon": "Sword",
+    "Class": "Support"
+  },
+  {
+    "Name": "Euden",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Flame",
+    "Weapon": "Sword",
+    "Class": "Attack"
+  },
+  {
+    "Name": "Melsa",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Flame",
+    "Weapon": "Dagger",
+    "Class": "Support"
+  },
+  {
+    "Name": "Vanessa",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Flame",
+    "Weapon": "Axe",
+    "Class": "Attack"
+  },
+  {
+    "Name": "Valentine's Ezelith",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Flame",
+    "Weapon": "Bow",
+    "Class": "Support"
+  },
+  {
+    "Name": "Sinoa",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Flame",
+    "Weapon": "Wand",
+    "Class": "Support"
+  },
+  {
+    "Name": "Verica",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Flame",
+    "Weapon": "Staff",
+    "Class": "Healing"
+  },
+  {
+    "Name": "Celliera",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Water",
+    "Weapon": "Blade",
+    "Class": "Attack"
+  },
+  {
+    "Name": "Orsem",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Water",
+    "Weapon": "Dagger",
+    "Class": "Attack"
+  },
+  {
+    "Name": "Luther",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Water",
+    "Weapon": "Dagger",
+    "Class": "Support"
+  },
+  {
+    "Name": "Karina",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Water",
+    "Weapon": "Axe",
+    "Class": "Defense"
+  },
+  {
+    "Name": "Elisanne",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Water",
+    "Weapon": "Lance",
+    "Class": "Support"
+  },
+  {
+    "Name": "Dragonyule Nefaria",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Water",
+    "Weapon": "Bow",
+    "Class": "Support"
+  },
+  {
+    "Name": "Dragonyule Xander",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Water",
+    "Weapon": "Wand",
+    "Class": "Attack"
+  },
+  {
+    "Name": "Thaniel",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Water",
+    "Weapon": "Staff",
+    "Class": "Healing"
+  },
+  {
+    "Name": "Ku Hai",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Wind",
+    "Weapon": "Sword",
+    "Class": "Attack"
+  },
+  {
+    "Name": "Addis",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Wind",
+    "Weapon": "Blade",
+    "Class": "Attack"
+  },
+  {
+    "Name": "Musashi",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Wind",
+    "Weapon": "Blade",
+    "Class": "Attack"
+  },
+  {
+    "Name": "Su Fang",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Wind",
+    "Weapon": "Dagger",
+    "Class": "Attack"
+  },
+  {
+    "Name": "Ranzal",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Wind",
+    "Weapon": "Axe",
+    "Class": "Defense"
+  },
+  {
+    "Name": "Pia",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Wind",
+    "Weapon": "Lance",
+    "Class": "Defense"
+  },
+  {
+    "Name": "Aeleen",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Wind",
+    "Weapon": "Lance",
+    "Class": "Support"
+  },
+  {
+    "Name": "Eleonora",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Wind",
+    "Weapon": "Bow",
+    "Class": "Attack"
+  },
+  {
+    "Name": "Lowen",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Wind",
+    "Weapon": "Staff",
+    "Class": "Healing"
+  },
+  {
+    "Name": "Odetta",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Light",
+    "Weapon": "Sword",
+    "Class": "Attack"
+  },
+  {
+    "Name": "Fritz",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Light",
+    "Weapon": "Dagger",
+    "Class": "Support"
+  },
+  {
+    "Name": "Ryozen",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Light",
+    "Weapon": "Lance",
+    "Class": "Defense"
+  },
+  {
+    "Name": "Elias",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Light",
+    "Weapon": "Bow",
+    "Class": "Defense"
+  },
+  {
+    "Name": "Rawn",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Light",
+    "Weapon": "Bow",
+    "Class": "Support"
+  },
+  {
+    "Name": "Luca",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Light",
+    "Weapon": "Bow",
+    "Class": "Support"
+  },
+  {
+    "Name": "Amane",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Light",
+    "Weapon": "Wand",
+    "Class": "Attack"
+  },
+  {
+    "Name": "Vixel",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Light",
+    "Weapon": "Staff",
+    "Class": "Attack"
+  },
+  {
+    "Name": "Felicia",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Light",
+    "Weapon": "Staff",
+    "Class": "Healing"
+  },
+  {
+    "Name": "Halloween Althemia",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Light",
+    "Weapon": "Staff",
+    "Class": "Healing"
+  },
+  {
+    "Name": "Berserker",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Shadow",
+    "Weapon": "Sword",
+    "Class": "Defense"
+  },
+  {
+    "Name": "Orion",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Shadow",
+    "Weapon": "Dagger",
+    "Class": "Support"
+  },
+  {
+    "Name": "Sazanka",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Shadow",
+    "Weapon": "Axe",
+    "Class": "Defense"
+  },
+  {
+    "Name": "Botan",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Shadow",
+    "Weapon": "Lance",
+    "Class": "Defense"
+  },
+  {
+    "Name": "Kleimann",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Shadow",
+    "Weapon": "Wand",
+    "Class": "Support"
+  },
+  {
+    "Name": "Cleo",
+    "Level": 0,
+    "Rarity": 4,
+    "Element": "Shadow",
+    "Weapon": "Staff",
+    "Class": "Healing"
+  },
+  {
+    "Name": "Marty",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Flame",
+    "Weapon": "Sword",
+    "Class": "Defense"
+  },
+  {
+    "Name": "Valentine's Orion",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Flame",
+    "Weapon": "Sword",
+    "Class": "Support"
+  },
+  {
+    "Name": "Aoi",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Flame",
+    "Weapon": "Blade",
+    "Class": "Attack"
+  },
+  {
+    "Name": "Renelle",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Flame",
+    "Weapon": "Dagger",
+    "Class": "Support"
+  },
+  {
+    "Name": "Alain",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Flame",
+    "Weapon": "Lance",
+    "Class": "Defense"
+  },
+  {
+    "Name": "Joe",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Flame",
+    "Weapon": "Bow",
+    "Class": "Attack"
+  },
+  {
+    "Name": "Xania",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Flame",
+    "Weapon": "Wand",
+    "Class": "Attack"
+  },
+  {
+    "Name": "Aurien",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Flame",
+    "Weapon": "Staff",
+    "Class": "Healing"
+  },
+  {
+    "Name": "Zardin",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Water",
+    "Weapon": "Sword",
+    "Class": "Defense"
+  },
+  {
+    "Name": "Jurota",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Water",
+    "Weapon": "Blade",
+    "Class": "Attack"
+  },
+  {
+    "Name": "Pietro",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Water",
+    "Weapon": "Axe",
+    "Class": "Defense"
+  },
+  {
+    "Name": "Rex",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Water",
+    "Weapon": "Axe",
+    "Class": "Attack"
+  },
+  {
+    "Name": "Jakob",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Water",
+    "Weapon": "Lance",
+    "Class": "Defense"
+  },
+  {
+    "Name": "Cibella",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Water",
+    "Weapon": "Lance",
+    "Class": "Defense"
+  },
+  {
+    "Name": "Waike",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Water",
+    "Weapon": "Bow",
+    "Class": "Support"
+  },
+  {
+    "Name": "Ricardt",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Water",
+    "Weapon": "Staff",
+    "Class": "Healing"
+  },
+  {
+    "Name": "Melody",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Wind",
+    "Weapon": "Blade",
+    "Class": "Support"
+  },
+  {
+    "Name": "Francesca",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Wind",
+    "Weapon": "Dagger",
+    "Class": "Support"
+  },
+  {
+    "Name": "Johanna",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Wind",
+    "Weapon": "Axe",
+    "Class": "Defense"
+  },
+  {
+    "Name": "Philia",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Wind",
+    "Weapon": "Bow",
+    "Class": "Attack"
+  },
+  {
+    "Name": "Nicolas",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Wind",
+    "Weapon": "Wand",
+    "Class": "Attack"
+  },
+  {
+    "Name": "Sophie",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Wind",
+    "Weapon": "Staff",
+    "Class": "Healing"
+  },
+  {
+    "Name": "Raemond",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Light",
+    "Weapon": "Sword",
+    "Class": "Attack"
+  },
+  {
+    "Name": "Halloween Edward",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Light",
+    "Weapon": "Blade",
+    "Class": "Attack"
+  },
+  {
+    "Name": "Irfan",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Light",
+    "Weapon": "Dagger",
+    "Class": "Support"
+  },
+  {
+    "Name": "Linus",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Light",
+    "Weapon": "Axe",
+    "Class": "Defense"
+  },
+  {
+    "Name": "Malka",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Light",
+    "Weapon": "Lance",
+    "Class": "Support"
+  },
+  {
+    "Name": "Malora",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Light",
+    "Weapon": "Bow",
+    "Class": "Support"
+  },
+  {
+    "Name": "Xiao Lei",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Light",
+    "Weapon": "Wand",
+    "Class": "Support"
+  },
+  {
+    "Name": "Estelle",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Light",
+    "Weapon": "Staff",
+    "Class": "Healing"
+  },
+  {
+    "Name": "Hope",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Light",
+    "Weapon": "Staff",
+    "Class": "Healing"
+  },
+  {
+    "Name": "Rodrigo",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Shadow",
+    "Weapon": "Sword",
+    "Class": "Attack"
+  },
+  {
+    "Name": "Taro",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Shadow",
+    "Weapon": "Blade",
+    "Class": "Attack"
+  },
+  {
+    "Name": "Vida",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Shadow",
+    "Weapon": "Dagger",
+    "Class": "Support"
+  },
+  {
+    "Name": "Vice",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Shadow",
+    "Weapon": "Dagger",
+    "Class": "Support"
+  },
+  {
+    "Name": "Erik",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Shadow",
+    "Weapon": "Axe",
+    "Class": "Attack"
+  },
+  {
+    "Name": "Zace",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Shadow",
+    "Weapon": "Lance",
+    "Class": "Attack"
+  },
+  {
+    "Name": "Althemia",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Shadow",
+    "Weapon": "Wand",
+    "Class": "Support"
+  },
+  {
+    "Name": "Edward",
+    "Level": 0,
+    "Rarity": 3,
+    "Element": "Shadow",
+    "Weapon": "Staff",
+    "Class": "Healing"
+  }
+]

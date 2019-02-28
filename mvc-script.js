@@ -1,3 +1,9 @@
+function main(){
+  var model = new Model();
+  var controller = new Controller(model);
+  var view = new View(controller);
+}
+
 function View(controller){
     this.controller = controller;
     this.heading = document.getElementById('heading');
@@ -32,10 +38,4 @@ function Controller(model){
     self.model.heading = 'World';
     target.innerText = self.getModelHeading();
   }
-}
-
-function main(){
-  var model = new Model();
-  var controller = new Controller(model);
-  var view = new View(controller);
 }

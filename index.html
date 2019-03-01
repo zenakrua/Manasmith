@@ -27,6 +27,20 @@
 			
 	</header>
 	
+	
+<p>Click the button to display the path name of the current URL.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = location.pathname;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+	
 	<content>
 
 	</content>
@@ -54,22 +68,22 @@ function fetchData(url) {
 }
 	
 switch (location.pathname) {
-	case "":
+	case "/":
 		fetchData('home.html');
        		break;
-	case "adventurers/":
+	case "/adventurers/":
 		fetchData('adventurers.html');
        		break;
-	case "mana-circles/":
+	case "/mana-circles/":
 		fetchData('mana-circles.html');
        		break;
-	case "weapons/":
+	case "/weapons/":
 		fetchData('weapons.html');
        		break;
-	case "wyrmprints/":
+	case "/wyrmprints/":
 		fetchData('wyrmprints.html');
        		break;
-	case "dragons/":
+	case "/dragons/":
 		fetchData('dragons.html');
        		break;
 	default:

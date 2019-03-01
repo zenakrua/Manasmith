@@ -1,23 +1,30 @@
-<?php
-
-include 'header.php';
-
-if ($_SERVER['REQUEST_URI']=='/') {
-	include 'home.php';
-} elseif ($_SERVER['REQUEST_URI']=='/adventurers/') {
-	include 'adventurers.php';
-} elseif ($_SERVER['REQUEST_URI']=='/mana-circles/') {
-	include 'mana-circles.php';
-} elseif ($_SERVER['REQUEST_URI']=='/weapons/') {
-	include 'weapons.php';
-} elseif ($_SERVER['REQUEST_URI']=='/wyrmprints/') {
-	include 'wyrmprints.php';
-} elseif ($_SERVER['REQUEST_URI']=='/dragons/') {
-	include 'dragons.php';
-} else {
-	include '404.php';
+<script>
+	
+include 'header.html';
+	
+switch (location.pathname) {
+	case "/":
+		include 'home.html';
+       		break;
+	case "/adventurers/":
+		include 'adventurers.html';
+       		break;
+	case "/mana-circles/":
+		include 'mana-circles.html';
+       		break;
+	case "/weapons/":
+		include 'weapons.html';
+       		break;
+	case "/wyrmprints/":
+		include 'wyrmprints.html';
+       		break;
+	case "/dragons/":
+		include 'dragons.html';
+       		break;
+	default:
+		include '404.html';
 }
 	
-include 'footer.php';
+include 'footer.html';
 
-?>
+</script>

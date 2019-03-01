@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", function(event) { 
+	
 function fetchContent(url) {
 	var xhttp;
 	xhttp = new XMLHttpRequest();
@@ -38,3 +40,5 @@ function includeContent() {
 	}
 
 }
+
+});

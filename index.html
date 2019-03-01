@@ -5,6 +5,7 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" media="all"/>
 	<link rel="stylesheet" type="text/css" href="css/main.css" media="screen"/>
+	<script type="text/javascript" src="mvc-script.js">
 </head>
 
 <body>
@@ -36,47 +37,6 @@
 		footer
 	
 	</footer>
-	
-	<script>
-	
-function fetchData(url) {
-	var xhttp;
-	xhttp = new XMLHttpRequest();
-	xhttp.responseType = "text";
-	xhttp.onreadystatechange = function() {
-		if (this.readyState == 4 && this.status == 200) {
-			document.getElementById("content").insertAdjacentHTML("beforeend",xhttp.responseText);
-		}
-	};
-	xhttp.open("GET", url, true);
-	xhttp.send();
-	return;
-}
-	
-switch (location.pathname) {
-	case "/":
-		fetchData('home.html');
-       		break;
-	case "/adventurers/":
-		fetchData('adventurers.html');
-       		break;
-	case "/mana-circles/":
-		fetchData('mana-circles.html');
-       		break;
-	case "/weapons/":
-		fetchData('weapons.html');
-       		break;
-	case "/wyrmprints/":
-		fetchData('wyrmprints.html');
-       		break;
-	case "/dragons/":
-		fetchData('dragons.html');
-       		break;
-	default:
-		fetchData('404.html');
-}
-
-</script>
 
 </body>
 

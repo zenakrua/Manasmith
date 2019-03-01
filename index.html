@@ -10,7 +10,8 @@
 		
 <script>
 	
-	switch (location.pathname) {
+document.addEventListener("DOMContentLoaded", function(event) { 
+    switch (location.pathname) {
 		case "/manasmith/":
 			fetchContent('home.html');
 			break;
@@ -32,6 +33,7 @@
 		default:
 			fetchContent('404.html');
 	}
+});
 	
 </script>
 

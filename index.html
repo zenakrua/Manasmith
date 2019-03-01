@@ -30,7 +30,15 @@
 	
 	<content>
 
-<script>
+	</content>
+
+	<footer>
+
+		footer
+	
+	</footer>
+	
+	<script>
 	
 function fetchData(url) {
 	var xhttp;
@@ -38,7 +46,7 @@ function fetchData(url) {
 	xhttp.responseType = "document";
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
-			document.getElementById("html").insertAdjacentHTML("beforeend",xhttp.responseText);
+			document.getElementById("content").insertAdjacentHTML("beforeend",xhttp.responseText);
 		}
 	};
 	xhttp.open("GET", url, true);
@@ -70,14 +78,6 @@ switch (location.pathname) {
 }
 
 </script>
-		
-	</content>
-
-	<footer>
-
-		footer
-	
-	</footer>
 
 </body>
 

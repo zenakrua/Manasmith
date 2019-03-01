@@ -5,8 +5,35 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" media="all"/>
 	<link rel="stylesheet" type="text/css" href="css/main.css" media="screen"/>
-	<script type="text/javascript" src="mvc-script.js">
+	<script type="text/javascript" src="mvc-script.js"></script>
 </head>
+		
+<script>
+	
+	switch (location.pathname) {
+		case "/":
+			fetchContent('home.html');
+			break;
+		case "/adventurers/":
+			fetchContent('adventurers.html');
+			break;
+		case "/mana-circles/":
+			fetchContent('mana-circles.html');
+			break;
+		case "/weapons/":
+			fetchContent('weapons.html');
+			break;
+		case "/wyrmprints/":
+			fetchContent('wyrmprints.html');
+			break;
+		case "/dragons/":
+			fetchContent('dragons.html');
+			break;
+		default:
+			fetchContent('404.html');
+	}
+	
+</script>
 
 <body>
 

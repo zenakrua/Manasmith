@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		xhttp.responseType = "text";
 		xhttp.onreadystatechange = function() {
 			if (this.readyState == 4 && this.status == 200) {
-				document.getElementsByTagName("content").insertAdjacentHTML("beforeend",xhttp.responseText);
+				document.getElementsByTagName("content")[0].insertAdjacentHTML("beforeend",xhttp.responseText);
 			}
 		};
 		xhttp.open("GET", url, true);

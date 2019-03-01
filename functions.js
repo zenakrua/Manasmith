@@ -1,44 +1,39 @@
-document.addEventListener("DOMContentLoaded", function(event) { 
-	
-function fetchContent(url) {
-	var xhttp;
-	xhttp = new XMLHttpRequest();
-	xhttp.responseType = "text";
-	xhttp.onreadystatechange = function() {
-		if (this.readyState == 4 && this.status == 200) {
-			document.getElementById("content").insertAdjacentHTML("beforeend",xhttp.responseText);
-		}
-	};
-	xhttp.open("GET", url, true);
-	xhttp.send();
-	return;
-}
+document.addEventListener("DOMContentLoaded", function(event) {
 
-function includeContent() {
+	function fetchContent(url) {
+		var xhttp;
+		xhttp = new XMLHttpRequest();
+		xhttp.responseType = "text";
+		xhttp.onreadystatechange = function() {
+			if (this.readyState == 4 && this.status == 200) {
+				document.getElementsByTagName("content")[0].insertAdjacentHTML("beforeend",xhttp.responseText);
+			}
+		};
+		xhttp.open("GET", url, true);
+		xhttp.send();
+		return;
+	};
 	
 	switch (location.pathname) {
-		case "/":
+		case "/manasmith/":
 			fetchContent('home.html');
 			break;
-		case "/adventurers/":
+		case "/manasmith/adventurers/":
 			fetchContent('adventurers.html');
 			break;
-		case "/mana-circles/":
+		case "/manasmith/mana-circles/":
 			fetchContent('mana-circles.html');
 			break;
-		case "/weapons/":
+		case "/manasmith/weapons/":
 			fetchContent('weapons.html');
 			break;
-		case "/wyrmprints/":
+		case "/manasmith/wyrmprints/":
 			fetchContent('wyrmprints.html');
 			break;
-		case "/dragons/":
+		case "/manasmith/dragons/":
 			fetchContent('dragons.html');
 			break;
 		default:
 			fetchContent('404.html');
-	}
-
-}
-
+	};
 });

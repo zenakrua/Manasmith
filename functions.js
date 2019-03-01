@@ -1,4 +1,18 @@
 document.addEventListener("DOMContentLoaded", function(event) {
+	
+	function fetchData(url) {
+		var xhttp;
+		xhttp = new XMLHttpRequest();
+		xhttp.responseType = "json";
+		xhttp.onreadystatechange = function() {
+			if (this.readyState == 4 && this.status == 200) {
+				document.getElementsByTagName("content")[0].insertAdjacentHTML("beforeend",xhttp.responseText);
+			}
+		};
+		xhttp.open("GET", url, true);
+		xhttp.send();
+		return;
+	};
 
 	function fetchContent(url) {
 		var xhttp;

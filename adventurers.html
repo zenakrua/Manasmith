@@ -21,12 +21,12 @@
 					document.getElementsByTagName("adventurers")[0].insertAdjacentHTML("beforeend",xhttp.responseText);
 				}
 			};
-			xhttp.open("GET", url, true);
+			xhttp.open("GET", "json/adventurers.json", true);
 			xhttp.send();
 			return;
 		};
 	});
 		
-	fetchData("json/adventurers.json");
+//	fetchData("json/adventurers.json");
 
 </script>

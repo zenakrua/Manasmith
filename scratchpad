@@ -1,0 +1,64 @@
+<script>
+
+	xhttp = new XMLHttpRequest();
+	xhttp.responseType = "text";
+	xhttp.onreadystatechange = function () {
+		if (xhttp.readyState === 4 && xhttp.status === 200) {
+			document.getElementsByTagName("html")[0].insertAdjacentHTML("beforeend", xhttp.responseText);
+		}
+	};
+	xhttp.open("GET", "header.html", true);
+	xhttp.send();
+
+	xhttp = new XMLHttpRequest();
+	xhttp.responseType = "text";
+	xhttp.onreadystatechange = function () {
+		if (xhttp.readyState === 4 && xhttp.status === 200) {
+			document.getElementsByTagName("html")[0].insertAdjacentHTML("beforeend", xhttp.responseText);
+		}
+	};
+	xhttp.open("GET", "footer.html", true);
+	xhttp.send();
+
+	document.addEventListener("DOMContentLoaded", function (event) {
+
+		var xhttp;
+		var url;
+
+		switch (location.pathname) {
+			case "/":
+				url = "home.html";
+				break;
+			case "/adventurers/":
+				url = "adventurers.html";
+				break;
+			case "/mana-circles/":
+				url = "mana-circles.html";
+				break;
+			case "/weapons/":
+				url = "weapons.html";
+				break;
+			case "/wyrmprints/":
+				url = "wyrmprints.html";
+				break;
+			case "/dragons/":
+				url = "dragons.html";
+				break;
+			default:
+				url = "404.html";
+		}
+
+		ec
+
+		xhttp = new XMLHttpRequest();
+		xhttp.responseType = "text";
+		xhttp.onreadystatechange = function () {
+			if (xhttp.readyState === 4 && xhttp.status === 200) {
+				document.getElementsByTagName("content")[0].insertAdjacentHTML("beforeend", xhttp.responseText);
+			}
+		};
+		xhttp.open("GET", url, true);
+		xhttp.send();
+	});
+
+</script>

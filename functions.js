@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 				url = "adventurers.html";
 				break;
 			case "manacircles":
-				url = "mana-circles.html";
+				url = "manacircles.html";
 				break;
 			case "weapons":
 				url = "weapons.html";

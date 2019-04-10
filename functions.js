@@ -1,26 +1,33 @@
 document.addEventListener("DOMContentLoaded", function (event) {
 
-	function fetchContent() {
-		var xhttp;
-		var content = document.getElementsByTagName("content")[0];
+	document.getElementById("home").addEventListener("click", fetchContent);
+	document.getElementById("adventurers").addEventListener("click", fetchContent);
+	document.getElementById("manacircles").addEventListener("click", fetchContent);
+	document.getElementById("weapons").addEventListener("click", fetchContent);
+	document.getElementById("wyrmprints").addEventListener("click", fetchContent);
+	document.getElementById("dragons").addEventListener("click", fetchContent);
 
-		switch (location.pathname) {
-			case "/":
+	function fetchContent(value) {
+		var xhttp;
+		var url;
+
+		switch (value) {
+			case "home":
 				url = "home.html";
 				break;
-			case "/adventurers/":
+			case "adventurers":
 				url = "adventurers.html";
 				break;
-			case "/mana-circles/":
+			case "manacircles":
 				url = "mana-circles.html";
 				break;
-			case "/weapons/":
+			case "weapons":
 				url = "weapons.html";
 				break;
-			case "/wyrmprints/":
+			case "wyrmprints":
 				url = "wyrmprints.html";
 				break;
-			case "/dragons/":
+			case "dragons":
 				url = "dragons.html";
 				break;
 			default:
@@ -31,12 +38,11 @@ document.addEventListener("DOMContentLoaded", function (event) {
 		xhttp.responseType = "text";
 		xhttp.onreadystatechange = function () {
 			if (xhttp.readyState === 4 && xhttp.status === 200) {
-				document.getElementsByTagName("content")[0].insertAdjacentHTML("beforeend", xhttp.responseText);
+				document.getElementsByTagName("content")[0].innerHTML = xhttp.responseText;
 			}
 		};
 		xhttp.open("GET", url, true);
 		xhttp.send();
-		return;
 	}
 
 });

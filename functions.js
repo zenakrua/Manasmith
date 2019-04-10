@@ -1,6 +1,11 @@
 document.addEventListener("DOMContentLoaded", function (event) {
 
-	document.getElementsByClassName("nav").addEventListener("click", fetchContent);
+	document.getElementById("home").addEventListener("click", fetchContent);
+	document.getElementById("adventurers").addEventListener("click", fetchContent);	
+ 	document.getElementById("manacircles").addEventListener("click", fetchContent);	
+	document.getElementById("weapons").addEventListener("click", fetchContent);	
+	document.getElementById("wyrmprints").addEventListener("click", fetchContent);	
+	document.getElementById("dragons").addEventListener("click", fetchContent);
 	
 	function fetchContent(value) {
 		var xhttp;

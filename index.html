@@ -30,12 +30,10 @@
 
 	<script>
 		document.addEventListener("DOMContentLoaded", function (event) {
-			document.getElementById("home").addEventListener("click", fetchContent);
-			document.getElementById("adventurers").addEventListener("click", fetchContent);
-			document.getElementById("manacircles").addEventListener("click", fetchContent);
-			document.getElementById("weapons").addEventListener("click", fetchContent);
-			document.getElementById("wyrmprints").addEventListener("click", fetchContent);
-			document.getElementById("dragons").addEventListener("click", fetchContent);
+			var nav = document.getElementsByClassName("nav");
+			for (i = 0; i < nav.length; i++) {
+				nav[i].addEventListener("click", fetchContent);
+			}
 			function fetchContent(value) {
 				var xhttp;
 				var url;

@@ -30,10 +30,10 @@ document.addEventListener("DOMContentLoaded", function (event) {
 		}
 
 		xhttp = new XMLHttpRequest();
-		xhttp.responseType = "text";
+		xhttp.responseType = "json";
 		xhttp.onreadystatechange = function () {
 			if (xhttp.readyState === 4 && xhttp.status === 200) {
-				document.getElementsByTagName("content")[0].innerHTML = xhttp.responseText;
+				document.getElementsByTagName("content")[0].innerHTML = xhttp.response;
 			}
 		};
 		xhttp.open("GET", url, true);

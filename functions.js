@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 			} else {
 				fetchContent("content","error.html");
 			}
+		}
 		xhttp.open("GET", content, true);
 		xhttp.send();
 	}

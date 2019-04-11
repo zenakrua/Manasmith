@@ -8,10 +8,11 @@ document.addEventListener("DOMContentLoaded", function (event) {
 		xhttp.onreadystatechange = function () {
 			if (xhttp.readyState === 4 && xhttp.status === 200) {
 				url = content;
+				document.getElementsByTagName(section)[0].innerHTML = xhttp.responseText;
 			} else {
 				url = "404.html";
+				document.getElementsByTagName(section)[0].innerHTML = xhttp.responseText;
 			}
-			document.getElementsByTagName(section)[0].innerHTML = xhttp.responseText;
 		};
 		xhttp.open("GET", url, true);
 		xhttp.send();

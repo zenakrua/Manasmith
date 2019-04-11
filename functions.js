@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function (event) {
 	
-	function fetchContent(val) {
+	function fetchContent(section,content) {
 		
 		var xhttp;
 		xhttp = new XMLHttpRequest();
@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 			
 			if (xhttp.readyState === 4 && xhttp.status === 200) {
 				
-				document.getElementsByTagName("content")[0].innerHTML = xhttp.responseText;
+				document.getElementsByTagName(section)[0].innerHTML = xhttp.responseText;
 				
 			}
 		};
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 		xhttp.send();
 	}
 	
-	fetchContent("home.html");
+	fetchContent("content","home.html");
 	
 	var nav = document.getElementsByClassName("nav");
 	for (i = 0; i < nav.length; i++) {

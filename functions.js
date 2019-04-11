@@ -15,6 +15,10 @@ function fetchContent(section,content) {
 
 document.addEventListener("DOMContentLoaded", function (event) {
 	
+	fetchContent("header","header.html");
+	fetchContent("content","home.html");
+	fetchContent("footer","footer.html");
+	
 	var nav = document.getElementsByClassName("nav");
 	for (i = 0; i < nav.length; i++) {
 		nav[i].addEventListener("click", function() {

@@ -8,29 +8,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
 	}
 	function fetchContent(val) {
 		var xhttp;
-		var url;
-		switch (val) {
-			case "home":
-				url = "home.html";
-				break;
-			case "adventurers":
-				url = "adventurers.html";
-				break;
-			case "manacircles":
-				url = "manacircles.html";
-				break;
-			case "weapons":
-				url = "weapons.html";
-				break;
-			case "wyrmprints":
-				url = "wyrmprints.html";
-				break;
-			case "dragons":
-				url = "dragons.html";
-				break;
-			default:
-				url = "404.html";
-		}
 		xhttp = new XMLHttpRequest();
 		xhttp.responseType = "text";
 		xhttp.onreadystatechange = function () {
@@ -38,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 				document.getElementsByTagName("content")[0].innerHTML = xhttp.responseText;
 			}
 		};
-		xhttp.open("GET", val + ".html", true);
+		xhttp.open("GET", val, true);
 		xhttp.send();
 	}
 });

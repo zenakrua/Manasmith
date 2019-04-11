@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 				document.getElementsByTagName("content")[0].innerHTML = xhttp.responseText;
 			}
 		};
-		xhttp.open("GET", url, true);
+		xhttp.open("GET", val + ".html", true);
 		xhttp.send();
 	}
 });

@@ -32,12 +32,15 @@
 		document.addEventListener("DOMContentLoaded", function (event) {
 			var nav = document.getElementsByClassName("nav");
 			for (i = 0; i < nav.length; i++) {
-				nav[i].addEventListener("click", fetchContent);
+				nav[i].addEventListener("click", function() {
+					var val = this.value;
+					fetchContent(val)
+				});
 			}
-			function fetchContent(value) {
+			function fetchContent(val) {
 				var xhttp;
 				var url;
-				switch (value) {
+				switch (val) {
 					case "home":
 						url = "home.html";
 						break;

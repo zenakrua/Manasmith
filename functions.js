@@ -2,14 +2,18 @@ document.addEventListener("DOMContentLoaded", function (event) {
 	
 	function fetchContent(section,content) {
 		var xhttp;
+		var url;
 		xhttp = new XMLHttpRequest();
 		xhttp.responseType = "text";
 		xhttp.onreadystatechange = function () {
 			if (xhttp.readyState === 4 && xhttp.status === 200) {
-				document.getElementsByTagName(section)[0].innerHTML = xhttp.responseText;
+				url = content;
+			} else {
+				url = "404.html";
 			}
+			document.getElementsByTagName(section)[0].innerHTML = xhttp.responseText;
 		};
-		xhttp.open("GET", content, true);
+		xhttp.open("GET", url, true);
 		xhttp.send();
 	}
 	

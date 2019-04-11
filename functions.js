@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 		xhttp.onreadystatechange = function () {
 			if (xhttp.readyState === 4 && xhttp.status === 200) {
 				document.getElementsByTagName(section)[0].innerHTML = xhttp.responseText;
-			} else {
+			} else if (xhttp.readyState === 4 && xhttp.status === 404) {
 				document.getElementsByTagName(section)[0].innerHTML = "BOOM GOES THE WYRMITE";
 			}
 		}

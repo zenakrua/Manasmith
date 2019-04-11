@@ -1,23 +1,19 @@
-document.addEventListener("DOMContentLoaded", function (event) {
-	
-	function fetchContent(section,content) {
-		var xhttp;
-		xhttp = new XMLHttpRequest();
-		xhttp.responseType = "text";
-		xhttp.onreadystatechange = function () {
-			if (xhttp.readyState === 4 && xhttp.status === 200) {
-				document.getElementsByTagName(section)[0].innerHTML = xhttp.responseText;
-			} else if (xhttp.readyState === 4 && xhttp.status === 404) {
-				document.getElementsByTagName(section)[0].innerHTML = "BOOM GOES THE WYRMITE";
-			}
+function fetchContent(section,content) {
+	var xhttp;
+	xhttp = new XMLHttpRequest();
+	xhttp.responseType = "text";
+	xhttp.onreadystatechange = function () {
+		if (xhttp.readyState === 4 && xhttp.status === 200) {
+			document.getElementsByTagName(section)[0].innerHTML = xhttp.responseText;
+		} else if (xhttp.readyState === 4 && xhttp.status === 404) {
+			document.getElementsByTagName(section)[0].innerHTML = "BOOM GOES THE WYRMITE";
 		}
-		xhttp.open("GET", content, true);
-		xhttp.send();
 	}
-	
-	fetchContent("header","header.html");
-	fetchContent("content","home.html");
-	fetchContent("footer","footer.html");
+	xhttp.open("GET", content, true);
+	xhttp.send();
+}
+
+document.addEventListener("DOMContentLoaded", function (event) {
 	
 	var nav = document.getElementsByClassName("nav");
 	for (i = 0; i < nav.length; i++) {

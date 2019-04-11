@@ -1,17 +1,15 @@
 document.addEventListener("DOMContentLoaded", function (event) {
-
-	document.getElementById("home").addEventListener("click", fetchContent);
-	document.getElementById("adventurers").addEventListener("click", fetchContent);	
- 	document.getElementById("manacircles").addEventListener("click", fetchContent);	
-	document.getElementById("weapons").addEventListener("click", fetchContent);	
-	document.getElementById("wyrmprints").addEventListener("click", fetchContent);	
-	document.getElementById("dragons").addEventListener("click", fetchContent);
-	
-	function fetchContent(value) {
+	var nav = document.getElementsByClassName("nav");
+	for (i = 0; i < nav.length; i++) {
+		nav[i].addEventListener("click", function() {
+			var val = this.value;
+			fetchContent(val)
+		});
+	}
+	function fetchContent(val) {
 		var xhttp;
 		var url;
-
-		switch (value) {
+		switch (val) {
 			case "home":
 				url = "home.html";
 				break;
@@ -33,16 +31,14 @@ document.addEventListener("DOMContentLoaded", function (event) {
 			default:
 				url = "404.html";
 		}
-
 		xhttp = new XMLHttpRequest();
-		xhttp.responseType = "json";
+		xhttp.responseType = "text";
 		xhttp.onreadystatechange = function () {
 			if (xhttp.readyState === 4 && xhttp.status === 200) {
-				document.getElementsByTagName("content")[0].innerHTML = xhttp.response;
+				document.getElementsByTagName("content")[0].innerHTML = xhttp.responseText;
 			}
 		};
 		xhttp.open("GET", url, true);
 		xhttp.send();
 	}
-
 });

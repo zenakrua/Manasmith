@@ -6,11 +6,11 @@ document.addEventListener("DOMContentLoaded", function (event) {
 		xhttp.responseType = "text";
 		xhttp.onreadystatechange = function () {
 			if (xhttp.readyState === 4 && xhttp.status === 200) {
-				var url = content;
+				document.getElementsByTagName(section)[0].innerHTML = xhttp.responseText;
+			} else {
+				fetchContent("content","error.html");
 			}
-			document.getElementsByTagName(section)[0].innerHTML = content + url + xhttp.responseText;
-		};
-		xhttp.open("GET", url, true);
+		xhttp.open("GET", content, true);
 		xhttp.send();
 	}
 	

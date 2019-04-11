@@ -3,15 +3,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
 	function fetchContent(section,content) {
 		
 		var xhttp;
-		var url;
-		switch (content) {
-			case content:
-				url = content;
-				break;
-			default:
-				url = "404.html";
-		}
-		
 		xhttp = new XMLHttpRequest();
 		xhttp.responseType = "text";
 		xhttp.onreadystatechange = function () {
@@ -22,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 				
 			}
 		};
-		xhttp.open("GET", url, true);
+		xhttp.open("GET", content, true);
 		xhttp.send();
 	}
 	

@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
 	function fetchContent(section,content) {
 		
 		var xhttp;
+		var url;
 		switch (content) {
-			var url;
 			case content:
 				url = content;
 				break;

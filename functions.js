@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function (event) {
 	
-	function fetchContent(val) {
+	function fetchContent(section,content) {
 		
 		var xhttp;
 		xhttp = new XMLHttpRequest();
@@ -9,23 +9,25 @@ document.addEventListener("DOMContentLoaded", function (event) {
 			
 			if (xhttp.readyState === 4 && xhttp.status === 200) {
 				
-				document.getElementsByTagName("content")[0].innerHTML = xhttp.responseText;
+				document.getElementsByTagName(section)[0].innerHTML = xhttp.responseText;
 				
 			}
 		};
-		xhttp.open("GET", val, true);
+		xhttp.open("GET", content, true);
 		xhttp.send();
 	}
 	
-	fetchContent("home.html");
+	fetchContent("header","header.html");
+	fetchContent("content","home.html");
+	fetchContent("footer","footer.html");
 	
 	var nav = document.getElementsByClassName("nav");
 	for (i = 0; i < nav.length; i++) {
 		
 		nav[i].addEventListener("click", function() {
 			
-			var val = this.value;
-			fetchContent(val)
+			var page = this.value;
+			fetchContent("content",page)
 			
 		});
 		

@@ -1,13 +1,17 @@
 <adventurers></adventurers>
 
 <script>
+	
 	var xhttp;
 
 	xhttp = new XMLHttpRequest();
-	xhttp.responseType = "text";
+	xhttp.responseType = "json";
 	xhttp.onreadystatechange = function () {
 		if (this.readyState === 4 && this.status === 200) {
-			document.getElementsByTagName("adventurers")[0].insertAdjacentHTML("beforeend", xhttp.responseText);
+			var adventurers = "";
+			for (i = 0; i < xhttp.response.length; i++) {
+				document.getElementsByTagName("adventurers")[0].innerHTML = adventurers += xhttp.response.Name[i];
+			};
 		}
 	};
 	xhttp.open("GET", "data/adventurers.json", true);

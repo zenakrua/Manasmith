@@ -9,7 +9,7 @@
 	xhttp.onreadystatechange = function () {
 		if (this.readyState === 4 && this.status === 200) {
 			var adventurers = "";
-			var rawData = JSON.parse(this.response);
+			var rawData = JSON.parse(xhttp.response);
 			document.write(rawData);
 			for (i = 0; i < rawData.length; i++) {
 				document.getElementsByTagName("adventurers")[0].innerHTML = adventurers += rawData[i].Name;

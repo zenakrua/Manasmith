@@ -5,7 +5,7 @@ function fetchContent(section,content) {
 	xhttp.onreadystatechange = function () {
 		if (xhttp.readyState === 4 && xhttp.status === 200) {
 			var rawData = xhttp.response;
-			fetchData(rawData);
+			fetchData(rawData,content);
 		} else if (xhttp.readyState === 4 && xhttp.status === 404) {
 			document.getElementsByTagName(section)[0].innerHTML = "BOOM GOES THE WYRMITE";
 		}
@@ -14,7 +14,7 @@ function fetchContent(section,content) {
 	xhttp.send();
 }
 
-function fetchData(rawData) {
+function fetchData(rawData,content) {
 	switch(content){
 		case "data/adventurers.json":
 			fetchAdventurers(section,rawData);

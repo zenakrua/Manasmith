@@ -37,7 +37,7 @@ function fetchAdventurers(section,rawData) {
 		var data = "";
 		for (i = 0; i < rawData.length; i++) {
 			document.getElementsByTagName(section)[0].innerHTML = data
-				+= "<table class=\"adventurer\"" + " " + rawData[i].Element + " " + rawData[i].Rarity + " " + "\"collected0\">"
+				+= "<table class=\"adventurer" + " " + rawData[i].Element + " " + rawData[i].Rarity + " " + "collected0\">"
 					+ "<tr class='header'>"
 						+ "<th>" + rawData[i].Name + "</th>"
 					+ "</tr>"

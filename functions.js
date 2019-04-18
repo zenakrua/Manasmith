@@ -9,7 +9,7 @@ function fetchContent(section,content) {
 				fetchAdventurers;
 				break;
 			  default:
-				document.getElementsByTagName("section")[0].innerHTML = "No data.";
+				document.getElementsByTagName(section)[0].innerHTML = "No data.";
 			}
 		} else if (xhttp.readyState === 4 && xhttp.status === 404) {
 			document.getElementsByTagName(section)[0].innerHTML = "BOOM GOES THE WYRMITE";

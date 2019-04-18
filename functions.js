@@ -1,10 +1,10 @@
 function fetchContent(section,content) {
 	var xhttp;
 	xhttp = new XMLHttpRequest();
-	xhttp.responseType = "text";
+	xhttp.responseType = "json";
 	xhttp.onreadystatechange = function () {
 		if (xhttp.readyState === 4 && xhttp.status === 200) {
-			document.getElementsByTagName(section)[0].innerHTML = xhttp.responseText;
+			document.getElementsByTagName(section)[0].innerHTML = xhttp.response;
 		} else if (xhttp.readyState === 4 && xhttp.status === 404) {
 			document.getElementsByTagName(section)[0].innerHTML = "BOOM GOES THE WYRMITE";
 		}

@@ -5,7 +5,7 @@ function fetchContent(section,content) {
 	xhttp.onreadystatechange = function () {
 		if (xhttp.readyState === 4 && xhttp.status === 200) {
 			var rawData = xhttp.response;
-			fetchData(rawData,content);
+			fetchData(rawData,section,content);
 		} else if (xhttp.readyState === 4 && xhttp.status === 404) {
 			document.getElementsByTagName(section)[0].innerHTML = "BOOM GOES THE WYRMITE";
 		}
@@ -14,7 +14,7 @@ function fetchContent(section,content) {
 	xhttp.send();
 }
 
-function fetchData(rawData,content) {
+function fetchData(rawData,section,content) {
 	switch(content){
 		case "data/adventurers.json":
 			fetchAdventurers(section,rawData);
@@ -61,6 +61,7 @@ function fetchDragons(section,rawData) {
 		}
 }
 
+// When a navigation button is clicked, get json data based on which button and dump it into the content html element.
 document.addEventListener("DOMContentLoaded", function (event) {
 	
 	var nav = document.getElementsByClassName("nav");

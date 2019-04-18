@@ -4,9 +4,10 @@ function fetchContent(section,content) {
 	xhttp.responseType = "json";
 	xhttp.onreadystatechange = function () {
 		if (xhttp.readyState === 4 && xhttp.status === 200) {
+			var rawData = xhttp.response;
 			switch(content){
 			  case "data/adventurers.json":
-				fetchAdventurers;
+				fetchAdventurers(section,rawData);
 				break;
 			  default:
 				document.getElementsByTagName(section)[0].innerHTML = "No data.";
@@ -19,8 +20,7 @@ function fetchContent(section,content) {
 	xhttp.send();
 }
 
-function fetchAdventurers() {
-	var rawData = xhttp.response;
+function fetchAdventurers(section,rawData) {
 		var data = "";
 		for (i = 0; i < rawData.length; i++) {
 			document.getElementsByTagName(section)[0].innerHTML = data += rawData[i].Name;

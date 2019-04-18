@@ -4,10 +4,12 @@ function fetchContent(section,content) {
 	xhttp.responseType = "json";
 	xhttp.onreadystatechange = function () {
 		if (xhttp.readyState === 4 && xhttp.status === 200) {
-			var rawData = xhttp.response;
-			var data = "";
-			for (i = 0; i < rawData.length; i++) {
-				document.getElementsByTagName(section)[0].innerHTML = data += rawData[i].Name;
+			switch(content){
+			  case "data/adventurers.json":
+				fetchAdventurers;
+				break;
+			  default:
+				document.getElementsByTagName("section")[0].innerHTML = "No data.";
 			}
 		} else if (xhttp.readyState === 4 && xhttp.status === 404) {
 			document.getElementsByTagName(section)[0].innerHTML = "BOOM GOES THE WYRMITE";
@@ -15,6 +17,14 @@ function fetchContent(section,content) {
 	}
 	xhttp.open("GET", content, true);
 	xhttp.send();
+}
+
+function fetchAdventurers() {
+	var rawData = xhttp.response;
+		var data = "";
+		for (i = 0; i < rawData.length; i++) {
+			document.getElementsByTagName(section)[0].innerHTML = data += rawData[i].Name;
+		}
 }
 
 document.addEventListener("DOMContentLoaded", function (event) {

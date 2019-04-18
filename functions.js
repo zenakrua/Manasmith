@@ -36,7 +36,15 @@ function fetchData(rawData,section,content) {
 function fetchAdventurers(section,rawData) {
 		var data = "";
 		for (i = 0; i < rawData.length; i++) {
-			document.getElementsByTagName(section)[0].innerHTML = data += rawData[i].Name;
+			document.getElementsByTagName(section)[0].innerHTML = data
+				+= "<table class=\"adventurer" +  rawData[i].Element  + rawData[i].Rarity + "collected0\">"
+					+ "<tr class=\"header\">"
+						+ "<th>" + rawData[i].Name + "</th>"
+					+ "</tr>"
+					+ "<tr class=\"icon\">"
+						+ "<td style=\"background: url('https://storage.cloud.google.com/manasmith-221002.appspot.com/images/adventurers/icons/110266_01.png') no-repeat center\"></td>"
+					+ "</tr>"
+				+ "</table>";
 		}
 }
 

@@ -4,7 +4,11 @@ function fetchContent(section,content) {
 	xhttp.responseType = "json";
 	xhttp.onreadystatechange = function () {
 		if (xhttp.readyState === 4 && xhttp.status === 200) {
-			document.getElementsByTagName(section)[0].innerHTML = xhttp.response;
+			var rawData = xhttp.response;
+			var data = "";
+			for (i = 0; i < rawData.length; i++) {
+				document.getElementsByTagName(section)[0].innerHTML = data += rawData[i].Name;
+			}
 		} else if (xhttp.readyState === 4 && xhttp.status === 404) {
 			document.getElementsByTagName(section)[0].innerHTML = "BOOM GOES THE WYRMITE";
 		}

@@ -3,7 +3,8 @@ Adventurers = [
     "ID": 110266,
     "Variation": 1,
     "Level": "",
-    "Rank": ""
+    "Rank": "",
+    "Acquired":1
   },
   {
     "ID": 110010,

@@ -15,48 +15,36 @@ function fetchContent(section,content) {
 }
 
 function fetchData(rawData,section,content) {
-	var xhttp;
-	xhttp = new XMLHttpRequest();
-	xhttp.responseType = "json";
-	xhttp.onreadystatechange = function () {
-		if (xhttp.readyState === 4 && xhttp.status === 200) {
-			var checklistData = xhttp.response;
-			switch(content){
-				case "data/adventurers.json":
-					fetchAdventurers(section,rawData,checklistData);
-					break;
-				case "data/weapons.json":
-					fetchWeapons(section,rawData,checklistData);
-				break;
-				case "data/wyrmprints.json":
-					fetchWyrmprints(section,rawData,checklistData);
-				break;
-				case "data/dragons.json":
-					fetchDragons(section,rawData,checklistData);
-				break;
-				default:
-					document.getElementsByTagName(section)[0].innerHTML = "No data.";
-			}
-		}
+	switch(content){
+		case "data/adventurers.json":
+			fetchAdventurers(section,rawData);
+			break;
+		case "data/weapons.json":
+			fetchWeapons(section,rawData);
+		break;
+		case "data/wyrmprints.json":
+			fetchWyrmprints(section,rawData);
+		break;
+		case "data/dragons.json":
+			fetchDragons(section,rawData);
+		break;
+		default:
+			document.getElementsByTagName(section)[0].innerHTML = "No data.";
 	}
-	xhttp.open("GET", "data/checklist.json", true);
-	xhttp.send();
 }
 
-function fetchAdventurers(section,rawData,checklistData) {
+function fetchAdventurers(section,rawData) {
 		var data = "";
 		for (i = 0; i < rawData.length; i++) {
-			for (rawData[i].ID === checklistData.Adventurers[i].ID) {
-				document.getElementsByTagName(section)[0].innerHTML = data
-					+= "<table class=\"adventurer" + " " + rawData[i].Element + " " + rawData[i].Rarity + " " + "collected" + checklistData.Adventurers[i].Collected + "\">"
-						+ "<tr class='header'>"
-							+ "<th>" + rawData[i].Name + "</th>"
-						+ "</tr>"
-						+ "<tr class=\"icon\">"
-							+ "<td style=\"background: url('https://storage.cloud.google.com/manasmith-221002.appspot.com/images/adventurers/icons/110266_01.png') no-repeat center\"></td>"
-						+ "</tr>"
-					+ "</table>";
-			}
+			document.getElementsByTagName(section)[0].innerHTML = data
+				+= "<table class=\"adventurer" + " " + rawData[i].Element + " " + rawData[i].Rarity + " " + "collected0\">"
+					+ "<tr class='header'>"
+						+ "<th>" + rawData[i].Name + "</th>"
+					+ "</tr>"
+					+ "<tr class=\"icon\">"
+						+ "<td style=\"background: url('https://storage.cloud.google.com/manasmith-221002.appspot.com/images/adventurers/icons/110266_01.png') no-repeat center\"></td>"
+					+ "</tr>"
+				+ "</table>";
 		}
 }
 

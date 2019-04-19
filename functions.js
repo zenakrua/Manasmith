@@ -42,7 +42,7 @@ function fetchAdventurers(section,rawData) {
 						+ "<th>" + rawData[i].Name + "</th>"
 					+ "</tr>"
 					+ "<tr class=\"icon\">"
-						+ "<td style=\"background: url('images/" + rawData[i].ID + "_" + rawData[i].Rarity + ".png') no-repeat center\"></td>"
+						+ "<td style=\"background: url('images/" + rawData[i].ID + "_" + rawData[i].Variation + ".png') no-repeat center\"></td>"
 					+ "</tr>"
 				+ "</table>";
 		}

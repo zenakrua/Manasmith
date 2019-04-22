@@ -738,6 +738,12 @@ Adventurers = [
 
 ManaCircles = [
   {
+    "ID": 110266,
+    "Circle": 1,
+    "Node": 1,
+    "Unlocked": 1
+  },
+  {
   }
 ]
 

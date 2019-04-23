@@ -34,7 +34,6 @@ function fetchData(rawData,section,content) {
 }
 
 function fetchAdventurers(section,rawData) {
-		fetchChecklist;
 		var data = "";
 		for (i = 0; i < rawData.length; i++) {
 			document.getElementsByTagName(section)[0].innerHTML = data
@@ -67,6 +66,13 @@ function fetchDragons(section,rawData) {
 		var data = "";
 		for (i = 0; i < rawData.length; i++) {
 			document.getElementsByTagName(section)[0].innerHTML = data += rawData[i].Name;
+		}
+}
+
+function fetchChecklist(section,rawData) {
+		var data = "";
+		for (i = 0; i < rawData.length; i++) {
+			document.getElementsByTagName(section)[0].innerHTML = data += rawData.Adventurers[i].ID;
 		}
 }
 

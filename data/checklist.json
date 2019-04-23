@@ -1,4 +1,4 @@
-Adventurers = [
+Adventurers =
   {
     "ID": 110266,
     "Variation": 1,
@@ -734,7 +734,6 @@ Adventurers = [
     "Rank": 0,
     "Collected": 0
   }
-]
 
 ManaCircles = [
   {

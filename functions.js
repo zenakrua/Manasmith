@@ -72,8 +72,10 @@ function fetchDragons(section,rawData) {
 }
 
 function fetchChecklist(section,rawData) {
-		document.getElementsByTagName(section)[0].innerHTML = rawData;
-}
+var data = "";
+		for (i = 0; i < rawData.length; i++) {
+			document.getElementsByTagName(section)[0].innerHTML = data += rawData;
+		}}
 
 // When a navigation button is clicked, get json data based on which button and dump it into the content html element.
 document.addEventListener("DOMContentLoaded", function (event) {

@@ -22,6 +22,7 @@ function fetchChecklist() {
 		if (xhttp.readyState === 4 && xhttp.status === 200) {
 			var checklist = xhttp.response;
 			fetchData(rawData,section,content);
+		}
 	}
 	xhttp.open("GET", "data/checklist.json", true);
 	xhttp.send();

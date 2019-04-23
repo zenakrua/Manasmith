@@ -1,5 +1,5 @@
 {
-  Adventurers:
+  "Adventurers":
   [
     {
       "ID": 110266,
@@ -739,7 +739,7 @@
   ]
 },
 {
-    ManaCircles:
+    "ManaCircles":
   [
     {
       "ID": 110266,

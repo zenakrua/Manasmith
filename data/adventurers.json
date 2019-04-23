@@ -236,6 +236,15 @@
     "Weapon": "Sword"
   },
   {
+    "ID": 110318,
+    "Variation": "01",
+    "Rarity": "r05",
+    "Name": "Sylas",
+    "Class": "Support",
+    "Element": "Wind",
+    "Weapon": "Lance"
+  },
+  {
     "ID": 110267,
     "Variation": "01",
     "Rarity": "r05",
@@ -378,6 +387,15 @@
     "Class": "Support",
     "Element": "Flame",
     "Weapon": "Dagger"
+  },
+  {
+    "ID": 110056,
+    "Variation": "01",
+    "Rarity": "r04",
+    "Name": "Yue",
+    "Class": "Defense",
+    "Element": "Flame",
+    "Weapon": "Axe"
   },
   {
     "ID": 110007,
@@ -682,6 +700,15 @@
     "Rarity": "r04",
     "Name": "Orion",
     "Class": "Support",
+    "Element": "Shadow",
+    "Weapon": "Dagger"
+  },
+  {
+    "ID": 100005,
+    "Variation": "01",
+    "Rarity": "r04",
+    "Name": "Alex",
+    "Class": "Attack",
     "Element": "Shadow",
     "Weapon": "Dagger"
   },

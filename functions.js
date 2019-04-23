@@ -14,6 +14,19 @@ function fetchContent(section,content) {
 	xhttp.send();
 }
 
+function fetchChecklist() {
+	var xhttp;
+	xhttp = new XMLHttpRequest();
+	xhttp.responseType = "json";
+	xhttp.onreadystatechange = function () {
+		if (xhttp.readyState === 4 && xhttp.status === 200) {
+			var checklist = xhttp.response;
+			fetchData(rawData,section,content);
+	}
+	xhttp.open("GET", "data/checklist.json", true);
+	xhttp.send();
+}
+
 function fetchData(rawData,section,content) {
 	switch(content){
 		case "data/adventurers.json":
@@ -34,10 +47,11 @@ function fetchData(rawData,section,content) {
 }
 
 function fetchAdventurers(section,rawData) {
+		fetchChecklist;
 		var data = "";
 		for (i = 0; i < rawData.length; i++) {
 			document.getElementsByTagName(section)[0].innerHTML = data
-				+= "<table class=\"adventurer" + " " + rawData[i].Element + " " + rawData[i].Rarity + " " + "collected0\">"
+				+= "<table class=\"adventurer" + " " + rawData[i].Element + " " + rawData[i].Rarity + " " + "collected" + checklist.Adventurers[i].Collected + "\">"
 					+ "<tr class='header'>"
 						+ "<th>" + rawData[i].Name + "</th>"
 					+ "</tr>"

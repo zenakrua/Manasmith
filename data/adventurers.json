@@ -1100,34 +1100,34 @@
 		"Weapon": "Staff"
 	},
 	{
-		"ID":,
+		"ID": 110327,
 		"Variation": "01",
 		"Rarity": "r05",
-		"Name": "Alphonse",
-		"Class": "",
-		"Element": "",
-		"Weapon": ""
+		"Name": "Alfonse",
+		"Class": "Attack",
+		"Element": "Light",
+		"Weapon": "Sword"
 	},
 	{
-		"ID":,
+		"ID": 110291,
 		"Variation": "01",
 		"Rarity": "r05",
 		"Name": "Marth",
-		"Class": "",
-		"Element": "",
-		"Weapon": ""
+		"Class": "Attack",
+		"Element": "Fire",
+		"Weapon": "Sword"
 	},
 	{
-		"ID":,
+		"ID": 110328,
 		"Variation": "01",
 		"Rarity": "r05",
 		"Name": "Fjorm",
-		"Class": "",
-		"Element": "",
-		"Weapon": ""
+		"Class": "Attack",
+		"Element": "Water",
+		"Weapon": "Lance"
 	},
 	{
-		"ID":,
+		"ID": 110333,
 		"Variation": "01",
 		"Rarity": "r05",
 		"Name": "Veronica",

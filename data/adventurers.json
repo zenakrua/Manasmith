@@ -1100,7 +1100,7 @@
 		"Weapon": "Staff"
 	},
 	{
-		"ID":000000,
+		"ID":,
 		"Variation": "01",
 		"Rarity": "r05",
 		"Name": "Alphonse",
@@ -1109,7 +1109,7 @@
 		"Weapon": ""
 	},
 	{
-		"ID":000001,
+		"ID":,
 		"Variation": "01",
 		"Rarity": "r05",
 		"Name": "Marth",
@@ -1118,7 +1118,7 @@
 		"Weapon": ""
 	},
 	{
-		"ID":000002,
+		"ID":,
 		"Variation": "01",
 		"Rarity": "r05",
 		"Name": "Fjorm",
@@ -1127,7 +1127,7 @@
 		"Weapon": ""
 	},
 	{
-		"ID":000003,
+		"ID":,
 		"Variation": "01",
 		"Rarity": "r05",
 		"Name": "Veronica",

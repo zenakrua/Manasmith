@@ -11,58 +11,60 @@ document.addEventListener("DOMContentLoaded", function (event) {
 	
 });
 
-function fetchContent(section,content) {
-	document.getElementById("head").insertAdjacentHTML("beforeend","<script src=\"" + content + "\"></script>");
-	switch(content){
-		case "data/adventurers.js":
-			fetchAdventurers(section,adventurers);
+function fetchContent(section,checklist) {
+	var imported = document.createElement('script');
+	imported.src = "data/" + checklist + ".js";
+	document.head.appendChild(imported);		
+	switch(checklist){
+		case "adventurers":
+			fetchAdventurers(section,checklist);
 			break;
 		case "data/weapons.js":
-			fetchWeapons(section,weapons);
+			fetchWeapons(section,checklist);
 		break;
 		case "data/wyrmprints.js":
-			fetchWyrmprints(section,wyrmprints);
+			fetchWyrmprints(section,checklist);
 		break;
 		case "data/dragons.js":
-			fetchDragons(section,dragons);
+			fetchDragons(section,checklist);
 		break;
 		default:
 			document.getElementsByTagName(section)[0].innerHTML = "No data.";
 	}
 }
 
-function fetchAdventurers(section,adventurers) {
+function adventurers(section,checklist) {
 		var data = "";
-		for (i = 0; i < adventurers.length; i++) {
+		for (i = 0; i < checklist.length; i++) {
 			document.getElementsByTagName(section)[0].innerHTML = data
-				+= "<table class=\"adventurer" + " " + adventurers[i].Element + " " + adventurers[i].Rarity + " " + "collected0\">"
+				+= "<table class=\"adventurer" + " " + checklist[i].Element + " " + checklist[i].Rarity + " " + "collected0\">"
 					+ "<tr class='header'>"
-						+ "<th>" + adventurers[i].Name + "</th>"
+						+ "<th>" + checklist[i].Name + "</th>"
 					+ "</tr>"
 					+ "<tr class=\"icon\">"
-						+ "<td style=\"background: url('images/" + adventurers[i].ID + "_" + adventurers[i].Variation + ".png') no-repeat center\"></td>"
+						+ "<td style=\"background: url('images/" + checklist[i].ID + "_" + checklist[i].Variation + ".png') no-repeat center\"></td>"
 					+ "</tr>"
 				+ "</table>";
 		}
 }
 
-function fetchWeapons(section,weapons) {
+function weapons(section,checklist) {
 		var data = "";
-		for (i = 0; i < weapons.length; i++) {
-			document.getElementsByTagName(section)[0].innerHTML = data += weapons[i].Name;
+		for (i = 0; i < checklist.length; i++) {
+			document.getElementsByTagName(section)[0].innerHTML = data += checklist[i].Name;
 		}
 }
 
-function fetchWyrmprints(section,wyrmprints) {
+function wyrmprints(section,checklist) {
 		var data = "";
-		for (i = 0; i < wyrmprints.length; i++) {
-			document.getElementsByTagName(section)[0].innerHTML = data += wyrmprints[i].Name;
+		for (i = 0; i < checklist.length; i++) {
+			document.getElementsByTagName(section)[0].innerHTML = data += checklist[i].Name;
 		}
 }
 
-function fetchDragons(section,dragons) {
+function dragons(section,checklist) {
 		var data = "";
-		for (i = 0; i < dragons.length; i++) {
-			document.getElementsByTagName(section)[0].innerHTML = data += dragons[i].Name;
+		for (i = 0; i < checklist.length; i++) {
+			document.getElementsByTagName(section)[0].innerHTML = data += checklist[i].Name;
 		}
 }

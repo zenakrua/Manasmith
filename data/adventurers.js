@@ -1,4 +1,4 @@
-[
+var adventurers = [
 	{
 		"ID": 110266,
 		"Variation": "01",

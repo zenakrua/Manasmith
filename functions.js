@@ -1,20 +1,6 @@
 function fetchContent(section,content) {
-	var xhttp;
-	xhttp = new XMLHttpRequest();
-	xhttp.responseType = "json";
-	xhttp.onreadystatechange = function () {
-		if (xhttp.readyState === 4 && xhttp.status === 200) {
-			var rawData = xhttp.response;
-			fetchData(rawData,section,content);
-		} else if (xhttp.readyState === 4 && xhttp.status === 404) {
-			document.getElementsByTagName(section)[0].innerHTML = "BOOM GOES THE WYRMITE";
-		}
-	}
-	xhttp.open("GET", content, true);
-	xhttp.send();
-}
-function fetchData(rawData,section,content) {
 	switch(content){
+		var rawData = adventurers;
 		case "data/adventurers.json":
 			fetchAdventurers(section,rawData);
 			break;

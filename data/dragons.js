@@ -1,4 +1,4 @@
-[
+var dragons = [
   {
     "ID": 210016,
     "Variation": 1,

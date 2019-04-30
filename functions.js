@@ -7,19 +7,19 @@ document.addEventListener("DOMContentLoaded", function (event) {
 			var content = this.value;
 			switch(content){
 				case "adventurers":
-					fetchAdventurers(section);
+					fetchAdventurers("content");
 					break;
 				case "weapons":
-					fetchWeapons(section);
+					fetchWeapons("content");
 				break;
 				case "wyrmprints":
-					fetchWyrmprints(section);
+					fetchWyrmprints("content");
 				break;
 				case "dragons":
-					fetchDragons(section);
+					fetchDragons("content");
 				break;
 				default:
-					document.getElementsByTagName(section)[0].innerHTML = "No data.";
+					document.getElementsByTagName("content")[0].innerHTML = "No data.";
 			}
 		});
 	}

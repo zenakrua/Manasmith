@@ -28,6 +28,9 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 function fetchAdventurers(section) {
 		var data = "";
+		adventurers = adventurers.sort(function (a, b) {
+			return a.ID.localeCompare( b.ID );
+		});
 		for (i = 0; i < adventurers.length; i++) {
 			document.getElementsByTagName(section)[0].innerHTML = data
 				+= "<table class=\"adventurer" + " " + adventurers[i].Element + " " + adventurers[i].Rarity + " " + "collected" + adventurers[i].Collected + "\">"

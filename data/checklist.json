@@ -1660,6 +1660,7 @@ var adventurers = [
 		"Name": "Marth",
 		"Class": "Attack",
 		"Element": "Flame",
+		"ElementID": "1",
 		"Weapon": "Sword",
 		"WeaponID": "1",
 		"Level": "0",

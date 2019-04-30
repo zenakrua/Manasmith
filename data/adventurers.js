@@ -1,4 +1,4 @@
-var adventurers = [
+var adventurersData = [
 	{
 		"ID": 110266,
 		"Variation": "01",

@@ -5,56 +5,38 @@ document.addEventListener("DOMContentLoaded", function (event) {
 	for (i = 0; i < nav.length; i++) {
 		nav[i].addEventListener("click", function () {
 			var val = this.value;
-			fetchContent("content", val)
+			var rawData;
+			switch(content){
+				case "adventurers":
+					fetchAdventurers(section);
+					break;
+				case "weapons":
+					fetchWeapons(section);
+				break;
+				case "wyrmprints":
+					fetchWyrmprints(section);
+				break;
+				case "dragons":
+					fetchDragons(section);
+				break;
+				default:
+					document.getElementsByTagName(section)[0].innerHTML = "No data.";
+			}
 		});
 	}
 
 });
 
-function fetchContent(section, content) {
-	var xhttp;
-	xhttp = new XMLHttpRequest();
-	xhttp.responseType = "json";
-	xhttp.onreadystatechange = function () {
-		if (xhttp.readyState === 4 && xhttp.status === 200) {
-			var rawData = xhttp.response;
-			fetchData(rawData,section,content);
-		} else if (xhttp.readyState === 4 && xhttp.status === 404) {
-			document.getElementsByTagName(section)[0].innerHTML = "BOOM GOES THE WYRMITE";
-		}
-	}
-	xhttp.open("GET", "data/" + content + ".json", true);
-	xhttp.send();
-}
-function fetchData(rawData,section,content) {
-	switch(content){
-		case "adventurers":
-			fetchAdventurers(section,rawData);
-			break;
-		case "weapons":
-			fetchWeapons(section,rawData);
-		break;
-		case "wyrmprints":
-			fetchWyrmprints(section,rawData);
-		break;
-		case "dragons":
-			fetchDragons(section,rawData);
-		break;
-		default:
-			document.getElementsByTagName(section)[0].innerHTML = "No data.";
-	}
-}
-
-function fetchAdventurers(section,rawData) {
+function fetchAdventurers(section) {
 		var data = "";
-		for (i = 0; i < rawData.length; i++) {
+		for (i = 0; i < adventurers.length; i++) {
 			document.getElementsByTagName(section)[0].innerHTML = data
-				+= "<table class=\"adventurer" + " " + rawData[i].Element + " " + rawData[i].Rarity + " " + "collected" + adventurers[i].Collected + "\">"
+				+= "<table class=\"adventurer" + " " + adventurers[i].Element + " " + adventurers[i].Rarity + " " + "collected" + adventurers[i].Collected + "\">"
 					+ "<tr class='header'>"
-						+ "<th>" + rawData[i].Name + "</th>"
+						+ "<th>" + adventurers[i].Name + "</th>"
 					+ "</tr>"
 					+ "<tr class=\"icon\">"
-						+ "<td style=\"background: url('images/" + rawData[i].ID + "_" + rawData[i].Variation + ".png') no-repeat center\"></td>"
+						+ "<td style=\"background: url('images/" + adventurers[i].ID + "_" + adventurers[i].Variation + ".png') no-repeat center\"></td>"
 					+ "</tr>"
 				+ "</table>";
 		}

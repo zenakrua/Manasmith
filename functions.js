@@ -47,7 +47,7 @@ function fetchManaCircles(id) {
 				if (subcontent.hasChildNodes()) {
 					subcontent.removeChild(subcontent.childNodes[0]);
 				}
-				subcontent.innerHTML("<div>" + id + "</div>");
+				subcontent.innerHTML = "<div>" + id + "</div>";
 			}
 		}
 }

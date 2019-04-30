@@ -33,14 +33,13 @@ function fetchAdventurers() {
 		});
 		for (i = 0; i < adventurers.length; i++) {
 			document.getElementsByTagName("content")[0].innerHTML = data
-				+= "<table class=\"adventurer" + " " + adventurers[i].Element + " " + adventurers[i].Rarity + " " + "collected" + adventurers[i].Collected + "\">"
-					+ "<tr class='header'>"
-						+ "<th>" + adventurers[i].Name + "</th>"
-					+ "</tr>"
-					+ "<tr class=\"icon\">"
-						+ "<td style=\"background: url('images/" + adventurers[i].ID + "_" + adventurers[i].Variation + ".png') no-repeat center\" onclick=\"fetchManaCircles(" + adventurers[i].ID + ");\"></td>"
-					+ "</tr>"
-				+ "</table>";
+				+= "<p class=\"adventurer" + " " + adventurers[i].Element + " " + adventurers[i].Rarity + " " + "collected" + adventurers[i].Collected + "\">"
+					+ "<span class='header'>"
+						 + adventurers[i].Name
+					+ "</span>"
+					+ "<span class=\"icon\" style=\"background: url('images/" + adventurers[i].ID + "_" + adventurers[i].Variation + ".png') no-repeat center\" onclick=\"fetchManaCircles(" + adventurers[i].ID + ");\">"
+					+ "</span>"
+				+ "</p>";
 		}
 }
 

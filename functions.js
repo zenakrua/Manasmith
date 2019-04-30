@@ -12,8 +12,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
 });
 
 function fetchContent(section, val) {
-	var json = document.createElement("script");
-	json.setAttribute("ID", "data");
 	var imported = document.getElementById("data");
 	if (!imported.src) {
 		imported.src = "data/" + val + ".js";

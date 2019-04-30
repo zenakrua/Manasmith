@@ -50,7 +50,7 @@ function fetchManaCircles(id) {
 			if (adventurers[i].ID == id) {
 				var subcontent = document.getElementsByTagName("subcontent")[0];
 				if (subcontent.hasChildNodes()) {
-					subcontent.removeChild(subcontent.childNode[0]);
+					subcontent.removeChild(subcontent.childNodes[0]);
 				}
 				subcontent.insertAdjacentHTML("beforeend","<div>" + id + "</div>");
 			}

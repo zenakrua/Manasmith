@@ -35,9 +35,10 @@ function fetchAdventurers(section) {
 			document.getElementsByTagName(section)[0].innerHTML = data
 				+= "<p class=\"adventurer" + " " + adventurers[i].Element + " " + adventurers[i].Rarity + " " + "collected" + adventurers[i].Collected + "\">"
 					+ "<span class='header'>"
-						+ adventurers[i].Name
+						+ "<span>" + adventurers[i].Name + "</span>"
 					+ "</span>"
-					+ "<span style=\"background: url('images/" + adventurers[i].ID + "_" + adventurers[i].Variation + ".png') no-repeat center\">"
+					+ "<span class=\"icon\">"
+						+ "<span style=\"background: url('images/" + adventurers[i].ID + "_" + adventurers[i].Variation + ".png') no-repeat center\"></span>"
 					+ "</span>"
 				+ "</p>";
 		}

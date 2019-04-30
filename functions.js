@@ -33,14 +33,14 @@ function fetchAdventurers(section) {
 		});
 		for (i = 0; i < adventurers.length; i++) {
 			document.getElementsByTagName(section)[0].innerHTML = data
-				+= "<p class=\"adventurer" + " " + adventurers[i].Element + " " + adventurers[i].Rarity + " " + "collected" + adventurers[i].Collected + "\">"
-					+ "<span class='header'>"
-						+ "<span>" + adventurers[i].Name + "</span>"
-					+ "</span>"
-					+ "<span class=\"icon\">"
-						+ "<span style=\"background: url('images/" + adventurers[i].ID + "_" + adventurers[i].Variation + ".png') no-repeat center\"></span>"
-					+ "</span>"
-				+ "</p>";
+				+= "<table class=\"adventurer" + " " + adventurers[i].Element + " " + adventurers[i].Rarity + " " + "collected" + adventurers[i].Collected + "\">"
+					+ "<tr class='header'>"
+						+ "<th>" + adventurers[i].Name + "</th>"
+					+ "</tr>"
+					+ "<tr class=\"icon\">"
+						+ "<td style=\"background: url('images/" + adventurers[i].ID + "_" + adventurers[i].Variation + ".png') no-repeat center\"></td>"
+					+ "</tr>"
+				+ "</table>";
 		}
 }
 

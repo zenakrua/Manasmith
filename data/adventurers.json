@@ -164,7 +164,10 @@
 		"Name": "Gala Sarisse",
 		"Class": "Support",
 		"Element": "Flame",
-		"Weapon": "Bow"
+		"Weapon": "Bow",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110043,
@@ -173,7 +176,10 @@
 		"Name": "Valentine's Hildegarde",
 		"Class": "Healing",
 		"Element": "Flame",
-		"Weapon": "Staff"
+		"Weapon": "Staff",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110022,
@@ -182,7 +188,10 @@
 		"Name": "Xander",
 		"Class": "Attack",
 		"Element": "Water",
-		"Weapon": "Sword"
+		"Weapon": "Sword",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 100004,
@@ -191,7 +200,10 @@
 		"Name": "Dragonyule Cleo",
 		"Class": "Support",
 		"Element": "Water",
-		"Weapon": "Dagger"
+		"Weapon": "Dagger",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110021,
@@ -200,7 +212,10 @@
 		"Name": "Xainfried",
 		"Class": "Support",
 		"Element": "Water",
-		"Weapon": "Lance"
+		"Weapon": "Lance",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110317,
@@ -209,7 +224,10 @@
 		"Name": "Laranoa",
 		"Class": "Support",
 		"Element": "Water",
-		"Weapon": "Bow"
+		"Weapon": "Bow",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110252,
@@ -218,7 +236,10 @@
 		"Name": "Lily",
 		"Class": "Attack",
 		"Element": "Water",
-		"Weapon": "Wand"
+		"Weapon": "Wand",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 100003,
@@ -227,7 +248,10 @@
 		"Name": "Gala Ranzal",
 		"Class": "Attack",
 		"Element": "Wind",
-		"Weapon": "Axe"
+		"Weapon": "Axe",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110268,
@@ -236,7 +260,10 @@
 		"Name": "Lin You",
 		"Class": "Attack",
 		"Element": "Wind",
-		"Weapon": "Sword"
+		"Weapon": "Sword",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110318,
@@ -245,7 +272,10 @@
 		"Name": "Sylas",
 		"Class": "Support",
 		"Element": "Wind",
-		"Weapon": "Lance"
+		"Weapon": "Lance",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110267,
@@ -254,7 +284,10 @@
 		"Name": "Hawk",
 		"Class": "Attack",
 		"Element": "Wind",
-		"Weapon": "Bow"
+		"Weapon": "Bow",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110256,
@@ -263,7 +296,10 @@
 		"Name": "Louise",
 		"Class": "Support",
 		"Element": "Wind",
-		"Weapon": "Bow"
+		"Weapon": "Bow",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110032,
@@ -272,7 +308,10 @@
 		"Name": "Maribelle",
 		"Class": "Attack",
 		"Element": "Wind",
-		"Weapon": "Wand"
+		"Weapon": "Wand",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110274,
@@ -281,7 +320,10 @@
 		"Name": "Albert",
 		"Class": "Attack",
 		"Element": "Light",
-		"Weapon": "Sword"
+		"Weapon": "Sword",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110042,
@@ -290,7 +332,10 @@
 		"Name": "Julietta",
 		"Class": "Defense",
 		"Element": "Light",
-		"Weapon": "Axe"
+		"Weapon": "Axe",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110275,
@@ -299,7 +344,10 @@
 		"Name": "Annelie",
 		"Class": "Support",
 		"Element": "Light",
-		"Weapon": "Lance"
+		"Weapon": "Lance",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 100002,
@@ -308,7 +356,10 @@
 		"Name": "Halloween Elisanne",
 		"Class": "Support",
 		"Element": "Light",
-		"Weapon": "Lance"
+		"Weapon": "Lance",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110305,
@@ -317,7 +368,10 @@
 		"Name": "Lucretia",
 		"Class": "Attack",
 		"Element": "Light",
-		"Weapon": "Wand"
+		"Weapon": "Wand",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110043,
@@ -326,7 +380,10 @@
 		"Name": "Hildegarde",
 		"Class": "Healing",
 		"Element": "Light",
-		"Weapon": "Staff"
+		"Weapon": "Staff",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110313,
@@ -335,7 +392,10 @@
 		"Name": "Ieyasu",
 		"Class": "Attack",
 		"Element": "Shadow",
-		"Weapon": "Blade"
+		"Weapon": "Blade",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110281,
@@ -344,7 +404,10 @@
 		"Name": "Curran",
 		"Class": "Attack",
 		"Element": "Shadow",
-		"Weapon": "Axe"
+		"Weapon": "Axe",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110053,
@@ -353,7 +416,10 @@
 		"Name": "Nefaria",
 		"Class": "Support",
 		"Element": "Shadow",
-		"Weapon": "Bow"
+		"Weapon": "Bow",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110280,
@@ -362,7 +428,10 @@
 		"Name": "Heinwald",
 		"Class": "Healing",
 		"Element": "Shadow",
-		"Weapon": "Staff"
+		"Weapon": "Staff",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110008,
@@ -371,7 +440,10 @@
 		"Name": "Karl",
 		"Class": "Support",
 		"Element": "Flame",
-		"Weapon": "Sword"
+		"Weapon": "Sword",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 100001,
@@ -380,7 +452,10 @@
 		"Name": "Euden",
 		"Class": "Attack",
 		"Element": "Flame",
-		"Weapon": "Sword"
+		"Weapon": "Sword",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110270,
@@ -389,7 +464,10 @@
 		"Name": "Melsa",
 		"Class": "Support",
 		"Element": "Flame",
-		"Weapon": "Dagger"
+		"Weapon": "Dagger",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110056,
@@ -398,7 +476,10 @@
 		"Name": "Yue",
 		"Class": "Defense",
 		"Element": "Flame",
-		"Weapon": "Axe"
+		"Weapon": "Axe",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110007,
@@ -407,7 +488,10 @@
 		"Name": "Vanessa",
 		"Class": "Attack",
 		"Element": "Flame",
-		"Weapon": "Axe"
+		"Weapon": "Axe",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110011,
@@ -416,7 +500,10 @@
 		"Name": "Valentine's Ezelith",
 		"Class": "Support",
 		"Element": "Flame",
-		"Weapon": "Bow"
+		"Weapon": "Bow",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110009,
@@ -425,7 +512,10 @@
 		"Name": "Sinoa",
 		"Class": "Support",
 		"Element": "Flame",
-		"Weapon": "Wand"
+		"Weapon": "Wand",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110269,
@@ -434,7 +524,10 @@
 		"Name": "Verica",
 		"Class": "Healing",
 		"Element": "Flame",
-		"Weapon": "Staff"
+		"Weapon": "Staff",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110255,
@@ -443,7 +536,10 @@
 		"Name": "Celliera",
 		"Class": "Attack",
 		"Element": "Water",
-		"Weapon": "Blade"
+		"Weapon": "Blade",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110253,
@@ -452,7 +548,10 @@
 		"Name": "Orsem",
 		"Class": "Attack",
 		"Element": "Water",
-		"Weapon": "Dagger"
+		"Weapon": "Dagger",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110020,
@@ -461,7 +560,10 @@
 		"Name": "Luther",
 		"Class": "Support",
 		"Element": "Water",
-		"Weapon": "Dagger"
+		"Weapon": "Dagger",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110018,
@@ -470,7 +572,10 @@
 		"Name": "Karina",
 		"Class": "Defense",
 		"Element": "Water",
-		"Weapon": "Axe"
+		"Weapon": "Axe",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 100002,
@@ -479,7 +584,10 @@
 		"Name": "Elisanne",
 		"Class": "Support",
 		"Element": "Water",
-		"Weapon": "Lance"
+		"Weapon": "Lance",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110053,
@@ -488,7 +596,10 @@
 		"Name": "Dragonyule Nefaria",
 		"Class": "Support",
 		"Element": "Water",
-		"Weapon": "Bow"
+		"Weapon": "Bow",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110022,
@@ -497,7 +608,10 @@
 		"Name": "Dragonyule Xander",
 		"Class": "Attack",
 		"Element": "Water",
-		"Weapon": "Wand"
+		"Weapon": "Wand",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110019,
@@ -506,7 +620,10 @@
 		"Name": "Thaniel",
 		"Class": "Healing",
 		"Element": "Water",
-		"Weapon": "Staff"
+		"Weapon": "Staff",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110315,
@@ -515,7 +632,10 @@
 		"Name": "Ku Hai",
 		"Class": "Attack",
 		"Element": "Wind",
-		"Weapon": "Sword"
+		"Weapon": "Sword",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110310,
@@ -524,7 +644,10 @@
 		"Name": "Addis",
 		"Class": "Attack",
 		"Element": "Wind",
-		"Weapon": "Blade"
+		"Weapon": "Blade",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110030,
@@ -533,7 +656,10 @@
 		"Name": "Musashi",
 		"Class": "Attack",
 		"Element": "Wind",
-		"Weapon": "Blade"
+		"Weapon": "Blade",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110314,
@@ -542,7 +668,10 @@
 		"Name": "Su Fang",
 		"Class": "Attack",
 		"Element": "Wind",
-		"Weapon": "Dagger"
+		"Weapon": "Dagger",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 100003,
@@ -551,7 +680,10 @@
 		"Name": "Ranzal",
 		"Class": "Defense",
 		"Element": "Wind",
-		"Weapon": "Axe"
+		"Weapon": "Axe",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110302,
@@ -560,7 +692,10 @@
 		"Name": "Pia",
 		"Class": "Defense",
 		"Element": "Wind",
-		"Weapon": "Lance"
+		"Weapon": "Lance",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110029,
@@ -569,7 +704,10 @@
 		"Name": "Aeleen",
 		"Class": "Support",
 		"Element": "Wind",
-		"Weapon": "Lance"
+		"Weapon": "Lance",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110031,
@@ -578,7 +716,10 @@
 		"Name": "Eleonora",
 		"Class": "Attack",
 		"Element": "Wind",
-		"Weapon": "Bow"
+		"Weapon": "Bow",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110257,
@@ -587,7 +728,10 @@
 		"Name": "Lowen",
 		"Class": "Healing",
 		"Element": "Wind",
-		"Weapon": "Staff"
+		"Weapon": "Staff",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110301,
@@ -596,7 +740,10 @@
 		"Name": "Odetta",
 		"Class": "Attack",
 		"Element": "Light",
-		"Weapon": "Sword"
+		"Weapon": "Sword",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110319,
@@ -605,7 +752,10 @@
 		"Name": "Fleur",
 		"Class": "Attack",
 		"Element": "Light",
-		"Weapon": "Dagger"
+		"Weapon": "Dagger",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110276,
@@ -614,7 +764,10 @@
 		"Name": "Fritz",
 		"Class": "Support",
 		"Element": "Light",
-		"Weapon": "Dagger"
+		"Weapon": "Dagger",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110039,
@@ -623,7 +776,10 @@
 		"Name": "Ryozen",
 		"Class": "Defense",
 		"Element": "Light",
-		"Weapon": "Lance"
+		"Weapon": "Lance",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110303,
@@ -632,7 +788,10 @@
 		"Name": "Elias",
 		"Class": "Defense",
 		"Element": "Light",
-		"Weapon": "Bow"
+		"Weapon": "Bow",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110040,
@@ -641,7 +800,10 @@
 		"Name": "Rawn",
 		"Class": "Support",
 		"Element": "Light",
-		"Weapon": "Bow"
+		"Weapon": "Bow",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 100006,
@@ -650,7 +812,10 @@
 		"Name": "Luca",
 		"Class": "Support",
 		"Element": "Light",
-		"Weapon": "Bow"
+		"Weapon": "Bow",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110041,
@@ -659,7 +824,10 @@
 		"Name": "Amane",
 		"Class": "Attack",
 		"Element": "Light",
-		"Weapon": "Wand"
+		"Weapon": "Wand",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110304,
@@ -668,7 +836,10 @@
 		"Name": "Vixel",
 		"Class": "Attack",
 		"Element": "Light",
-		"Weapon": "Staff"
+		"Weapon": "Staff",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110277,
@@ -677,7 +848,10 @@
 		"Name": "Felicia",
 		"Class": "Healing",
 		"Element": "Light",
-		"Weapon": "Staff"
+		"Weapon": "Staff",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110047,
@@ -686,7 +860,10 @@
 		"Name": "Halloween Althemia",
 		"Class": "Healing",
 		"Element": "Light",
-		"Weapon": "Staff"
+		"Weapon": "Staff",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110050,
@@ -695,7 +872,10 @@
 		"Name": "Berserker",
 		"Class": "Defense",
 		"Element": "Shadow",
-		"Weapon": "Sword"
+		"Weapon": "Sword",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110052,
@@ -704,7 +884,10 @@
 		"Name": "Orion",
 		"Class": "Support",
 		"Element": "Shadow",
-		"Weapon": "Dagger"
+		"Weapon": "Dagger",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 100005,
@@ -713,7 +896,10 @@
 		"Name": "Alex",
 		"Class": "Attack",
 		"Element": "Shadow",
-		"Weapon": "Dagger"
+		"Weapon": "Dagger",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110311,
@@ -722,7 +908,10 @@
 		"Name": "Sazanka",
 		"Class": "Defense",
 		"Element": "Shadow",
-		"Weapon": "Axe"
+		"Weapon": "Axe",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110312,
@@ -731,7 +920,10 @@
 		"Name": "Botan",
 		"Class": "Defense",
 		"Element": "Shadow",
-		"Weapon": "Lance"
+		"Weapon": "Lance",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110051,
@@ -740,7 +932,10 @@
 		"Name": "Kleimann",
 		"Class": "Support",
 		"Element": "Shadow",
-		"Weapon": "Wand"
+		"Weapon": "Wand",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 100004,
@@ -749,7 +944,10 @@
 		"Name": "Cleo",
 		"Class": "Healing",
 		"Element": "Shadow",
-		"Weapon": "Staff"
+		"Weapon": "Staff",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110261,
@@ -758,7 +956,10 @@
 		"Name": "Marty",
 		"Class": "Defense",
 		"Element": "Flame",
-		"Weapon": "Sword"
+		"Weapon": "Sword",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110052,
@@ -767,7 +968,10 @@
 		"Name": "Valentine's Orion",
 		"Class": "Support",
 		"Element": "Flame",
-		"Weapon": "Sword"
+		"Weapon": "Sword",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110002,
@@ -776,7 +980,10 @@
 		"Name": "Aoi",
 		"Class": "Attack",
 		"Element": "Flame",
-		"Weapon": "Blade"
+		"Weapon": "Blade",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110005,
@@ -785,7 +992,10 @@
 		"Name": "Renelle",
 		"Class": "Support",
 		"Element": "Flame",
-		"Weapon": "Dagger"
+		"Weapon": "Dagger",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110001,
@@ -794,7 +1004,10 @@
 		"Name": "Alain",
 		"Class": "Defense",
 		"Element": "Flame",
-		"Weapon": "Lance"
+		"Weapon": "Lance",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110003,
@@ -803,7 +1016,10 @@
 		"Name": "Joe",
 		"Class": "Attack",
 		"Element": "Flame",
-		"Weapon": "Bow"
+		"Weapon": "Bow",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110004,
@@ -812,7 +1028,10 @@
 		"Name": "Xania",
 		"Class": "Attack",
 		"Element": "Flame",
-		"Weapon": "Wand"
+		"Weapon": "Wand",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110006,
@@ -821,7 +1040,10 @@
 		"Name": "Aurien",
 		"Class": "Healing",
 		"Element": "Flame",
-		"Weapon": "Staff"
+		"Weapon": "Staff",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110015,
@@ -830,7 +1052,10 @@
 		"Name": "Zardin",
 		"Class": "Defense",
 		"Element": "Water",
-		"Weapon": "Sword"
+		"Weapon": "Sword",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110016,
@@ -839,7 +1064,10 @@
 		"Name": "Jurota",
 		"Class": "Attack",
 		"Element": "Water",
-		"Weapon": "Blade"
+		"Weapon": "Blade",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110258,
@@ -848,7 +1076,10 @@
 		"Name": "Pietro",
 		"Class": "Defense",
 		"Element": "Water",
-		"Weapon": "Axe"
+		"Weapon": "Axe",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110012,
@@ -857,7 +1088,10 @@
 		"Name": "Rex",
 		"Class": "Attack",
 		"Element": "Water",
-		"Weapon": "Axe"
+		"Weapon": "Axe",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110058,
@@ -866,7 +1100,10 @@
 		"Name": "Jakob",
 		"Class": "Defense",
 		"Element": "Water",
-		"Weapon": "Lance"
+		"Weapon": "Lance",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110014,
@@ -875,7 +1112,10 @@
 		"Name": "Cibella",
 		"Class": "Defense",
 		"Element": "Water",
-		"Weapon": "Lance"
+		"Weapon": "Lance",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110013,
@@ -884,7 +1124,10 @@
 		"Name": "Waike",
 		"Class": "Support",
 		"Element": "Water",
-		"Weapon": "Bow"
+		"Weapon": "Bow",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110017,
@@ -893,7 +1136,10 @@
 		"Name": "Ricardt",
 		"Class": "Healing",
 		"Element": "Water",
-		"Weapon": "Staff"
+		"Weapon": "Staff",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110027,
@@ -902,7 +1148,10 @@
 		"Name": "Melody",
 		"Class": "Support",
 		"Element": "Wind",
-		"Weapon": "Blade"
+		"Weapon": "Blade",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110026,
@@ -911,7 +1160,10 @@
 		"Name": "Francesca",
 		"Class": "Support",
 		"Element": "Wind",
-		"Weapon": "Dagger"
+		"Weapon": "Dagger",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110023,
@@ -920,7 +1172,10 @@
 		"Name": "Johanna",
 		"Class": "Defense",
 		"Element": "Wind",
-		"Weapon": "Axe"
+		"Weapon": "Axe",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110028,
@@ -929,7 +1184,10 @@
 		"Name": "Philia",
 		"Class": "Attack",
 		"Element": "Wind",
-		"Weapon": "Bow"
+		"Weapon": "Bow",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110025,
@@ -938,7 +1196,10 @@
 		"Name": "Nicolas",
 		"Class": "Attack",
 		"Element": "Wind",
-		"Weapon": "Wand"
+		"Weapon": "Wand",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110024,
@@ -947,7 +1208,10 @@
 		"Name": "Sophie",
 		"Class": "Healing",
 		"Element": "Wind",
-		"Weapon": "Staff"
+		"Weapon": "Staff",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110035,
@@ -956,7 +1220,10 @@
 		"Name": "Raemond",
 		"Class": "Attack",
 		"Element": "Light",
-		"Weapon": "Sword"
+		"Weapon": "Sword",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110049,
@@ -965,7 +1232,10 @@
 		"Name": "Halloween Edward",
 		"Class": "Attack",
 		"Element": "Light",
-		"Weapon": "Blade"
+		"Weapon": "Blade",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110037,
@@ -974,7 +1244,10 @@
 		"Name": "Irfan",
 		"Class": "Support",
 		"Element": "Light",
-		"Weapon": "Dagger"
+		"Weapon": "Dagger",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110033,
@@ -983,7 +1256,10 @@
 		"Name": "Linus",
 		"Class": "Defense",
 		"Element": "Light",
-		"Weapon": "Axe"
+		"Weapon": "Axe",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110034,
@@ -992,7 +1268,10 @@
 		"Name": "Malka",
 		"Class": "Support",
 		"Element": "Light",
-		"Weapon": "Lance"
+		"Weapon": "Lance",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110036,
@@ -1001,7 +1280,10 @@
 		"Name": "Malora",
 		"Class": "Support",
 		"Element": "Light",
-		"Weapon": "Bow"
+		"Weapon": "Bow",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110316,
@@ -1010,7 +1292,10 @@
 		"Name": "Xiao Lei",
 		"Class": "Support",
 		"Element": "Light",
-		"Weapon": "Wand"
+		"Weapon": "Wand",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110063,
@@ -1019,7 +1304,10 @@
 		"Name": "Estelle",
 		"Class": "Healing",
 		"Element": "Light",
-		"Weapon": "Staff"
+		"Weapon": "Staff",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110038,
@@ -1028,7 +1316,10 @@
 		"Name": "Hope",
 		"Class": "Healing",
 		"Element": "Light",
-		"Weapon": "Staff"
+		"Weapon": "Staff",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110046,
@@ -1037,7 +1328,10 @@
 		"Name": "Rodrigo",
 		"Class": "Attack",
 		"Element": "Shadow",
-		"Weapon": "Sword"
+		"Weapon": "Sword",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110044,
@@ -1046,7 +1340,10 @@
 		"Name": "Taro",
 		"Class": "Attack",
 		"Element": "Shadow",
-		"Weapon": "Blade"
+		"Weapon": "Blade",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110067,
@@ -1055,7 +1352,10 @@
 		"Name": "Vida",
 		"Class": "Support",
 		"Element": "Shadow",
-		"Weapon": "Dagger"
+		"Weapon": "Dagger",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110048,
@@ -1064,7 +1364,10 @@
 		"Name": "Vice",
 		"Class": "Support",
 		"Element": "Shadow",
-		"Weapon": "Dagger"
+		"Weapon": "Dagger",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110045,
@@ -1073,7 +1376,10 @@
 		"Name": "Erik",
 		"Class": "Attack",
 		"Element": "Shadow",
-		"Weapon": "Axe"
+		"Weapon": "Axe",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110254,
@@ -1082,7 +1388,10 @@
 		"Name": "Zace",
 		"Class": "Attack",
 		"Element": "Shadow",
-		"Weapon": "Lance"
+		"Weapon": "Lance",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110047,
@@ -1091,7 +1400,10 @@
 		"Name": "Althemia",
 		"Class": "Support",
 		"Element": "Shadow",
-		"Weapon": "Wand"
+		"Weapon": "Wand",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110049,
@@ -1100,7 +1412,10 @@
 		"Name": "Edward",
 		"Class": "Healing",
 		"Element": "Shadow",
-		"Weapon": "Staff"
+		"Weapon": "Staff",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110327,
@@ -1109,7 +1424,10 @@
 		"Name": "Alfonse",
 		"Class": "Attack",
 		"Element": "Light",
-		"Weapon": "Sword"
+		"Weapon": "Sword",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110291,
@@ -1118,7 +1436,10 @@
 		"Name": "Marth",
 		"Class": "Attack",
 		"Element": "Fire",
-		"Weapon": "Sword"
+		"Weapon": "Sword",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110328,
@@ -1127,7 +1448,10 @@
 		"Name": "Fjorm",
 		"Class": "Attack",
 		"Element": "Water",
-		"Weapon": "Lance"
+		"Weapon": "Lance",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	},
 	{
 		"ID": 110333,
@@ -1136,6 +1460,9 @@
 		"Name": "Veronica",
 		"Class": "Attack",
 		"Element": "Shadow",
-		"Weapon": "Wand"
+		"Weapon": "Wand",
+		"Level": 0,
+		"Rank": 0,
+		"Collected": 0,
 	}
 ]

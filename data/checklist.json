@@ -149,7 +149,7 @@ var adventurers = [
 		"Weapon": "Blade",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110011,
@@ -161,7 +161,7 @@ var adventurers = [
 		"Weapon": "Dagger",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 1,
+		"Collected": 0
 	},
 	{
 		"ID": 100029,
@@ -173,7 +173,7 @@ var adventurers = [
 		"Weapon": "Bow",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110043,
@@ -185,7 +185,7 @@ var adventurers = [
 		"Weapon": "Staff",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110022,
@@ -197,7 +197,7 @@ var adventurers = [
 		"Weapon": "Sword",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 100004,
@@ -209,7 +209,7 @@ var adventurers = [
 		"Weapon": "Dagger",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110021,
@@ -221,7 +221,7 @@ var adventurers = [
 		"Weapon": "Lance",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110317,
@@ -233,7 +233,7 @@ var adventurers = [
 		"Weapon": "Bow",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110252,
@@ -245,7 +245,7 @@ var adventurers = [
 		"Weapon": "Wand",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 100003,
@@ -257,7 +257,7 @@ var adventurers = [
 		"Weapon": "Axe",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110268,
@@ -269,7 +269,7 @@ var adventurers = [
 		"Weapon": "Sword",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110318,
@@ -281,7 +281,7 @@ var adventurers = [
 		"Weapon": "Lance",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110267,
@@ -293,7 +293,7 @@ var adventurers = [
 		"Weapon": "Bow",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110256,
@@ -305,7 +305,7 @@ var adventurers = [
 		"Weapon": "Bow",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110032,
@@ -317,7 +317,7 @@ var adventurers = [
 		"Weapon": "Wand",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110274,
@@ -329,7 +329,7 @@ var adventurers = [
 		"Weapon": "Sword",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110042,
@@ -341,7 +341,7 @@ var adventurers = [
 		"Weapon": "Axe",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110275,
@@ -353,7 +353,7 @@ var adventurers = [
 		"Weapon": "Lance",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 100002,
@@ -365,7 +365,7 @@ var adventurers = [
 		"Weapon": "Lance",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110305,
@@ -377,7 +377,7 @@ var adventurers = [
 		"Weapon": "Wand",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110043,
@@ -389,7 +389,7 @@ var adventurers = [
 		"Weapon": "Staff",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110313,
@@ -401,7 +401,7 @@ var adventurers = [
 		"Weapon": "Blade",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110281,
@@ -413,7 +413,7 @@ var adventurers = [
 		"Weapon": "Axe",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110053,
@@ -425,7 +425,7 @@ var adventurers = [
 		"Weapon": "Bow",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110280,
@@ -437,7 +437,7 @@ var adventurers = [
 		"Weapon": "Staff",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110008,
@@ -449,7 +449,7 @@ var adventurers = [
 		"Weapon": "Sword",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 100001,
@@ -461,7 +461,7 @@ var adventurers = [
 		"Weapon": "Sword",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110270,
@@ -473,7 +473,7 @@ var adventurers = [
 		"Weapon": "Dagger",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110056,
@@ -485,7 +485,7 @@ var adventurers = [
 		"Weapon": "Axe",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110007,
@@ -497,7 +497,7 @@ var adventurers = [
 		"Weapon": "Axe",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110011,
@@ -509,7 +509,7 @@ var adventurers = [
 		"Weapon": "Bow",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110009,
@@ -521,7 +521,7 @@ var adventurers = [
 		"Weapon": "Wand",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110269,
@@ -533,7 +533,7 @@ var adventurers = [
 		"Weapon": "Staff",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110255,
@@ -545,7 +545,7 @@ var adventurers = [
 		"Weapon": "Blade",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110253,
@@ -557,7 +557,7 @@ var adventurers = [
 		"Weapon": "Dagger",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110020,
@@ -569,7 +569,7 @@ var adventurers = [
 		"Weapon": "Dagger",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110018,
@@ -581,7 +581,7 @@ var adventurers = [
 		"Weapon": "Axe",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 100002,
@@ -593,7 +593,7 @@ var adventurers = [
 		"Weapon": "Lance",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110053,
@@ -605,7 +605,7 @@ var adventurers = [
 		"Weapon": "Bow",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110022,
@@ -617,7 +617,7 @@ var adventurers = [
 		"Weapon": "Wand",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110019,
@@ -629,7 +629,7 @@ var adventurers = [
 		"Weapon": "Staff",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110315,
@@ -641,7 +641,7 @@ var adventurers = [
 		"Weapon": "Sword",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110310,
@@ -653,7 +653,7 @@ var adventurers = [
 		"Weapon": "Blade",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110030,
@@ -665,7 +665,7 @@ var adventurers = [
 		"Weapon": "Blade",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110314,
@@ -677,7 +677,7 @@ var adventurers = [
 		"Weapon": "Dagger",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 100003,
@@ -689,7 +689,7 @@ var adventurers = [
 		"Weapon": "Axe",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110302,
@@ -701,7 +701,7 @@ var adventurers = [
 		"Weapon": "Lance",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110029,
@@ -713,7 +713,7 @@ var adventurers = [
 		"Weapon": "Lance",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110031,
@@ -725,7 +725,7 @@ var adventurers = [
 		"Weapon": "Bow",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110257,
@@ -737,7 +737,7 @@ var adventurers = [
 		"Weapon": "Staff",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110301,
@@ -749,7 +749,7 @@ var adventurers = [
 		"Weapon": "Sword",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110319,
@@ -761,7 +761,7 @@ var adventurers = [
 		"Weapon": "Dagger",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110276,
@@ -773,7 +773,7 @@ var adventurers = [
 		"Weapon": "Dagger",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110039,
@@ -785,7 +785,7 @@ var adventurers = [
 		"Weapon": "Lance",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110303,
@@ -797,7 +797,7 @@ var adventurers = [
 		"Weapon": "Bow",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110040,
@@ -809,7 +809,7 @@ var adventurers = [
 		"Weapon": "Bow",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 100006,
@@ -821,7 +821,7 @@ var adventurers = [
 		"Weapon": "Bow",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110041,
@@ -833,7 +833,7 @@ var adventurers = [
 		"Weapon": "Wand",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110304,
@@ -845,7 +845,7 @@ var adventurers = [
 		"Weapon": "Staff",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110277,
@@ -857,7 +857,7 @@ var adventurers = [
 		"Weapon": "Staff",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110047,
@@ -869,7 +869,7 @@ var adventurers = [
 		"Weapon": "Staff",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110050,
@@ -881,7 +881,7 @@ var adventurers = [
 		"Weapon": "Sword",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110052,
@@ -893,7 +893,7 @@ var adventurers = [
 		"Weapon": "Dagger",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 100005,
@@ -905,7 +905,7 @@ var adventurers = [
 		"Weapon": "Dagger",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110311,
@@ -917,7 +917,7 @@ var adventurers = [
 		"Weapon": "Axe",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110312,
@@ -929,7 +929,7 @@ var adventurers = [
 		"Weapon": "Lance",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110051,
@@ -941,7 +941,7 @@ var adventurers = [
 		"Weapon": "Wand",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 100004,
@@ -953,7 +953,7 @@ var adventurers = [
 		"Weapon": "Staff",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110261,
@@ -965,7 +965,7 @@ var adventurers = [
 		"Weapon": "Sword",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110052,
@@ -977,7 +977,7 @@ var adventurers = [
 		"Weapon": "Sword",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110002,
@@ -989,7 +989,7 @@ var adventurers = [
 		"Weapon": "Blade",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110005,
@@ -1001,7 +1001,7 @@ var adventurers = [
 		"Weapon": "Dagger",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110001,
@@ -1013,7 +1013,7 @@ var adventurers = [
 		"Weapon": "Lance",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110003,
@@ -1025,7 +1025,7 @@ var adventurers = [
 		"Weapon": "Bow",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110004,
@@ -1037,7 +1037,7 @@ var adventurers = [
 		"Weapon": "Wand",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110006,
@@ -1049,7 +1049,7 @@ var adventurers = [
 		"Weapon": "Staff",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110015,
@@ -1061,7 +1061,7 @@ var adventurers = [
 		"Weapon": "Sword",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110016,
@@ -1073,7 +1073,7 @@ var adventurers = [
 		"Weapon": "Blade",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110258,
@@ -1085,7 +1085,7 @@ var adventurers = [
 		"Weapon": "Axe",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110012,
@@ -1097,7 +1097,7 @@ var adventurers = [
 		"Weapon": "Axe",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110058,
@@ -1109,7 +1109,7 @@ var adventurers = [
 		"Weapon": "Lance",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110014,
@@ -1121,7 +1121,7 @@ var adventurers = [
 		"Weapon": "Lance",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110013,
@@ -1133,7 +1133,7 @@ var adventurers = [
 		"Weapon": "Bow",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110017,
@@ -1145,7 +1145,7 @@ var adventurers = [
 		"Weapon": "Staff",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110027,
@@ -1157,7 +1157,7 @@ var adventurers = [
 		"Weapon": "Blade",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110026,
@@ -1169,7 +1169,7 @@ var adventurers = [
 		"Weapon": "Dagger",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110023,
@@ -1181,7 +1181,7 @@ var adventurers = [
 		"Weapon": "Axe",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110028,
@@ -1193,7 +1193,7 @@ var adventurers = [
 		"Weapon": "Bow",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110025,
@@ -1205,7 +1205,7 @@ var adventurers = [
 		"Weapon": "Wand",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110024,
@@ -1217,7 +1217,7 @@ var adventurers = [
 		"Weapon": "Staff",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110035,
@@ -1229,7 +1229,7 @@ var adventurers = [
 		"Weapon": "Sword",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110049,
@@ -1241,7 +1241,7 @@ var adventurers = [
 		"Weapon": "Blade",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110037,
@@ -1253,7 +1253,7 @@ var adventurers = [
 		"Weapon": "Dagger",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110033,
@@ -1265,7 +1265,7 @@ var adventurers = [
 		"Weapon": "Axe",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110034,
@@ -1277,7 +1277,7 @@ var adventurers = [
 		"Weapon": "Lance",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110036,
@@ -1289,7 +1289,7 @@ var adventurers = [
 		"Weapon": "Bow",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110316,
@@ -1301,7 +1301,7 @@ var adventurers = [
 		"Weapon": "Wand",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110063,
@@ -1313,7 +1313,7 @@ var adventurers = [
 		"Weapon": "Staff",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110038,
@@ -1325,7 +1325,7 @@ var adventurers = [
 		"Weapon": "Staff",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110046,
@@ -1337,7 +1337,7 @@ var adventurers = [
 		"Weapon": "Sword",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110044,
@@ -1349,7 +1349,7 @@ var adventurers = [
 		"Weapon": "Blade",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110067,
@@ -1361,7 +1361,7 @@ var adventurers = [
 		"Weapon": "Dagger",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110048,
@@ -1373,7 +1373,7 @@ var adventurers = [
 		"Weapon": "Dagger",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110045,
@@ -1385,7 +1385,7 @@ var adventurers = [
 		"Weapon": "Axe",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110254,
@@ -1397,7 +1397,7 @@ var adventurers = [
 		"Weapon": "Lance",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110047,
@@ -1409,7 +1409,7 @@ var adventurers = [
 		"Weapon": "Wand",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110049,
@@ -1421,7 +1421,7 @@ var adventurers = [
 		"Weapon": "Staff",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110327,
@@ -1433,7 +1433,7 @@ var adventurers = [
 		"Weapon": "Sword",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110291,
@@ -1445,7 +1445,7 @@ var adventurers = [
 		"Weapon": "Sword",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110328,
@@ -1457,7 +1457,7 @@ var adventurers = [
 		"Weapon": "Lance",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	},
 	{
 		"ID": 110333,
@@ -1469,6 +1469,6 @@ var adventurers = [
 		"Weapon": "Wand",
 		"Level": 0,
 		"Rank": 0,
-		"Collected": 0,
+		"Collected": 0
 	}
-];
+]

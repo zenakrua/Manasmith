@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 function fetchAdventurers(section) {
 		var data = "";
 		adventurers = adventurers.sort(function (a, b) {
-			return a.ElementID - b.ElementID || a.WeaponID - b.WeaponID || b.Rarity - a.Rarity || a.Name - b.Name;
+			return a.ElementID - b.ElementID || a.WeaponID - b.WeaponID || b.Rarity - a.Rarity || b.ID - a.ID || a.Name - b.Name;
 		});
 		for (i = 0; i < adventurers.length; i++) {
 			document.getElementsByTagName(section)[0].innerHTML = data

@@ -11,66 +11,72 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 });
 
-function fetchContent(section, val) {
-	var imported = document.getElementById("data");
-	if (!imported.src) {
-		imported.src = "data/" + val + ".js";
-	} else {
-		imported.removeAttribute("src");
-		imported.src = "data/" + val + ".js";
+function fetchContent(section, content) {
+	var xhttp;
+	xhttp = new XMLHttpRequest();
+	xhttp.responseType = "json";
+	xhttp.onreadystatechange = function () {
+		if (xhttp.readyState === 4 && xhttp.status === 200) {
+			var rawData = xhttp.response;
+			fetchData(rawData,section,content);
+		} else if (xhttp.readyState === 4 && xhttp.status === 404) {
+			document.getElementsByTagName(section)[0].innerHTML = "BOOM GOES THE WYRMITE";
+		}
 	}
-	
-	switch (val) {
+	xhttp.open("GET", "data/" + content + ".json", true);
+	xhttp.send();
+}
+function fetchData(rawData,section,content) {
+	switch(content){
 		case "adventurers":
-			fetchAdventurers(section);
+			fetchAdventurers(section,rawData);
 			break;
-		case "data/weapons.js":
-			fetchWeapons(section);
-			break;
-		case "data/wyrmprints.js":
-			fetchWyrmprints(section);
-			break;
-		case "data/dragons.js":
-			fetchDragons(section);
-			break;
+		case "weapons":
+			fetchWeapons(section,rawData);
+		break;
+		case "wyrmprints":
+			fetchWyrmprints(section,rawData);
+		break;
+		case "dragons":
+			fetchDragons(section,rawData);
+		break;
 		default:
 			document.getElementsByTagName(section)[0].innerHTML = "No data.";
 	}
 }
 
-function fetchAdventurers(section) {
-	var data = "";
-	for (i = 0; i < adventurers.length; i++) {
-		document.getElementsByTagName(section)[0].innerHTML = data
-			+= "<table class=\"adventurer" + " " + adventurersData[i].Element + " " + adventurersData[i].Rarity + " " + "collected" + adventurers[i].Collected + "\">"
-			+ "<tr class='header'>"
-		+ "<th>" + adventurersData[i].Name + "</th>"
-			+ "</tr>"
-			+ "<tr class=\"icon\">"
-		+ "<td style=\"background: url('images/" + adventurersData[i].ID + "_" + adventurersData[i].Variation + ".png') no-repeat center\"></td>"
-			+ "</tr>"
-			+ "</table>"
-		;
-	}
+function fetchAdventurers(section,rawData) {
+		var data = "";
+		for (i = 0; i < rawData.length; i++) {
+			document.getElementsByTagName(section)[0].innerHTML = data
+				+= "<table class=\"adventurer" + " " + rawData[i].Element + " " + rawData[i].Rarity + " " + "collected" + adventurers[i].Collected + "\">"
+					+ "<tr class='header'>"
+						+ "<th>" + rawData[i].Name + "</th>"
+					+ "</tr>"
+					+ "<tr class=\"icon\">"
+						+ "<td style=\"background: url('images/" + rawData[i].ID + "_" + rawData[i].Variation + ".png') no-repeat center\"></td>"
+					+ "</tr>"
+				+ "</table>";
+		}
 }
 
-function fetchWeapons(section) {
-	var data = "";
-	for (i = 0; i < checklist.length; i++) {
-		document.getElementsByTagName(section)[0].innerHTML = data += checklist[i].Name;
-	}
+function fetchWeapons(section,rawData) {
+		var data = "";
+		for (i = 0; i < rawData.length; i++) {
+			document.getElementsByTagName(section)[0].innerHTML = data += rawData[i].Name;
+		}
 }
 
-function fetchWyrmprints(section) {
-	var data = "";
-	for (i = 0; i < checklist.length; i++) {
-		document.getElementsByTagName(section)[0].innerHTML = data += checklist[i].Name;
-	}
+function fetchWyrmprints(section,rawData) {
+		var data = "";
+		for (i = 0; i < rawData.length; i++) {
+			document.getElementsByTagName(section)[0].innerHTML = data += rawData[i].Name;
+		}
 }
 
-function fetchDragons(section) {
-	var data = "";
-	for (i = 0; i < checklist.length; i++) {
-		document.getElementsByTagName(section)[0].innerHTML = data += checklist[i].Name;
-	}
+function fetchDragons(section,rawData) {
+		var data = "";
+		for (i = 0; i < rawData.length; i++) {
+			document.getElementsByTagName(section)[0].innerHTML = data += rawData[i].Name;
+		}
 }

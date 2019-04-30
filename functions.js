@@ -48,7 +48,7 @@ function fetchManaCircles(id) {
 		var data = "";
 		for (i = 0; i < adventurers.length; i++) {
 			if (adventurers[i].ID == id) {
-				document.getElementsByTagName("content")[0].addAdjacentHTML("beforeend","<div>" + id + "</div>");
+				document.getElementsByTagName("content")[0].insertAdjacentHTML("beforeend","<div>" + id + "</div>");
 			}
 		}
 }

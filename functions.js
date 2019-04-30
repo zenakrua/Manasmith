@@ -26,41 +26,50 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 });
 
-function fetchAdventurers(section) {
+function fetchAdventurers() {
 		var data = "";
 		adventurers = adventurers.sort(function (a, b) {
 			return a.ElementID - b.ElementID || a.WeaponID - b.WeaponID || b.Rarity - a.Rarity || b.ID - a.ID || a.Name - b.Name;
 		});
 		for (i = 0; i < adventurers.length; i++) {
-			document.getElementsByTagName(section)[0].innerHTML = data
+			document.getElementsByTagName("content")[0].innerHTML = data
 				+= "<table class=\"adventurer" + " " + adventurers[i].Element + " " + adventurers[i].Rarity + " " + "collected" + adventurers[i].Collected + "\">"
 					+ "<tr class='header'>"
 						+ "<th>" + adventurers[i].Name + "</th>"
 					+ "</tr>"
 					+ "<tr class=\"icon\">"
-						+ "<td style=\"background: url('images/" + adventurers[i].ID + "_" + adventurers[i].Variation + ".png') no-repeat center\"></td>"
+						+ "<td style=\"background: url('images/" + adventurers[i].ID + "_" + adventurers[i].Variation + ".png') no-repeat center\" onclick=\"fetchManaCircles(" + adventurers[i].ID + ");\"></td>"
 					+ "</tr>"
 				+ "</table>";
 		}
 }
 
-function fetchWeapons(section,rawData) {
+function fetchManaCircles(id) {
 		var data = "";
-		for (i = 0; i < rawData.length; i++) {
-			document.getElementsByTagName(section)[0].innerHTML = data += rawData[i].Name;
+		for (i = 0; i < manaCircles.length; i++) {
+			if (adventurers[i].ID == id) {
+				document.getElementsByTagName("content")[0].addAdjacentHTML("beforeend","<div>" + id + "</div>");
+			}
 		}
 }
 
-function fetchWyrmprints(section,rawData) {
+function fetchWeapons() {
 		var data = "";
 		for (i = 0; i < rawData.length; i++) {
-			document.getElementsByTagName(section)[0].innerHTML = data += rawData[i].Name;
+			document.getElementsByTagName("content")[0].innerHTML = data += rawData[i].Name;
 		}
 }
 
-function fetchDragons(section,rawData) {
+function fetchWyrmprints() {
 		var data = "";
 		for (i = 0; i < rawData.length; i++) {
-			document.getElementsByTagName(section)[0].innerHTML = data += rawData[i].Name;
+			document.getElementsByTagName("content")[0].innerHTML = data += rawData[i].Name;
+		}
+}
+
+function fetchDragons() {
+		var data = "";
+		for (i = 0; i < rawData.length; i++) {
+			document.getElementsByTagName("content")[0].innerHTML = data += rawData[i].Name;
 		}
 }

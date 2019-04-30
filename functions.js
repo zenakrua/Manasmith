@@ -4,8 +4,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 	var nav = document.getElementsByClassName("nav");
 	for (i = 0; i < nav.length; i++) {
 		nav[i].addEventListener("click", function () {
-			var val = this.value;
-			var rawData;
+			var content = this.value;
 			switch(content){
 				case "adventurers":
 					fetchAdventurers(section);

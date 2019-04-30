@@ -1659,7 +1659,7 @@ var adventurers = [
 		"Rarity": "r05",
 		"Name": "Marth",
 		"Class": "Attack",
-		"Element": "Fire",
+		"Element": "Flame",
 		"Weapon": "Sword",
 		"WeaponID": "1",
 		"Level": "0",

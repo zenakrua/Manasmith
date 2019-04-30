@@ -9,114 +9,43 @@ content {
     width: 50%;
     margin: auto;
 }
-    
-table.adventurer {
-    display: inline-block;
-    border-spacing: 7px;
-    transform: scale(0.75);
-}
 
-tr.icon td {
-    width: 160px;
-    height: 160px;
-}
-
-tr.header {
+.header {
     text-shadow: 1px 1px rgba(0,0,0,.5);
 }
 
-tr.header th {
-    padding: 2px;
-}
-
-table.Flame tr.header {
+.Flame {
     background: linear-gradient(#BC3232,#912323);
 }
 
-table.Flame tr.icon {
-    background: url('https://storage.cloud.google.com/manasmith-221002.appspot.com/images/bg_character_flame-160.png'), linear-gradient(#BC3232,#912323);
-}
-
-table.Wind tr.header {
+.Wind {
     background: linear-gradient(#39D394,#188E42);
 }
 
-table.Wind tr.icon {
-    background: url('https://storage.cloud.google.com/manasmith-221002.appspot.com/images/bg_character_wind-160.png'), linear-gradient(#39D394,#188E42);
-}
-
-table.Water tr.header {
+.Water {
     background: linear-gradient(#398ED6,#18418C);
 }
 
-table.Water tr.icon {
-    background: url('https://storage.cloud.google.com/manasmith-221002.appspot.com/images/bg_character_water-160.png'), linear-gradient(#398ED6,#18418C);
-}
-
-table.Light tr.header {
+.Light {
     background: linear-gradient(#D6C739,#947518);
 }
 
-table.Light tr.icon {
-    background: url('https://storage.cloud.google.com/manasmith-221002.appspot.com/images/bg_character_light-160.png'), linear-gradient(#D6C739,#947518);
-}
-
-table.Shadow tr.header {
+.Shadow {
     background: linear-gradient(#BD3CD6,#521884);
 }
 
-table.Shadow tr.icon {
-    background: url('https://storage.cloud.google.com/manasmith-221002.appspot.com/images/bg_character_shadow-160.png'), linear-gradient(#BD3CD6,#521884);
-}
-
-table.r03 {
-    background: linear-gradient(rgb(239, 162, 140),rgb(208, 111, 92) 30%,rgb(222, 142, 123) 49%,rgb(189, 113, 90) 50%,rgb(189, 113, 99),rgb(208, 111, 92) 83%, rgb(156, 85, 66));
-    box-shadow: inset 0 0 0 1px rgba(255,255,255,.5),3px 3px rgba(0,0,0,.5);
+.r03 {
     outline: 1px solid rgb(165, 81, 66);
 }
 
-table.r03 th {
-    outline: 1px solid rgba(255,255,255,.3);
-    box-shadow: 0 0 1px 2px rgba(255,255,255,.3);
-}
-
-table.r03 td{
-    outline: 1px solid rgba(255,255,255,.3);
-    box-shadow: 0 0 1px 2px rgba(255,255,255,.3),inset 0 0 0 5px rgba(255,255,255,.5);
-}
-
-table.r04 {
-    background: linear-gradient(rgb(165, 199, 214),rgb(161, 197, 210) 30%,rgb(181, 215, 222) 49%,rgb(99, 134, 148) 50%,rgb(99, 134, 148),rgb(161, 197, 210) 83%, rgb(128, 172, 206));
-    box-shadow: inset 0 0 0 1px rgba(255,255,255,.5),3px 3px rgba(0,0,0,.5);
+.r04 {
     outline: 1px solid rgb(99, 142, 165);
 }
 
-table.r04 th {
-    outline: 1px solid rgba(255,255,255,.3);
-    box-shadow: 0 0 1px 2px rgba(255,255,255,.3);
-}
-
-table.r04 td{
-    outline: 1px solid rgba(255,255,255,.3);
-    box-shadow: 0 0 1px 2px rgba(255,255,255,.3),inset 0 0 0 5px rgba(255,255,255,.5);
-}
-
-table.r05 {
-    background: linear-gradient(rgb(247, 182, 57),rgb(255, 214, 22) 30%,rgb(255, 223, 123) 49%,rgb(189, 109, 24) 50%,rgb(239, 146, 41),rgb(255, 214, 22) 83%, rgb(239, 146, 33));
-    box-shadow: inset 0 0 1px 1px rgba(255,255,0,.3),3px 3px rgba(0,0,0,.5);
+.r05 {
     outline: 1px solid rgb(173, 130, 8, .75);
 }
 
-table.r05 th {
-    outline: 1px solid rgba(255,255,0,.3);
-    box-shadow: 0 0 1px 2px rgba(255,255,0,.3);
-}
-
-table.r05 td{
-    outline: 1px solid rgba(255,255,0,.3);
-    box-shadow: 0 0 1px 2px rgba(255,255,0,.3),inset 0 0 0 5px rgba(255,255,255,.5);
-}
-
-table.collected0 {
+.collected0 {
     filter: grayscale(90%);
 }

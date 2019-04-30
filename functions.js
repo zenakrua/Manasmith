@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 function fetchAdventurers(section) {
 		var data = "";
 		adventurers = adventurers.sort(function (a, b) {
-			return a.ID.localeCompare( b.ID );
+			return a.ElementID.localeCompare( b.ElementID );
 		});
 		for (i = 0; i < adventurers.length; i++) {
 			document.getElementsByTagName(section)[0].innerHTML = data

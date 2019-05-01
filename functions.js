@@ -62,7 +62,7 @@ function fetchManaCircles(id) {
 				if (subcontent.hasChildNodes()) {
 					subcontent.removeChild(subcontent.childNodes[0]);
 				}
-				subcontent.innerHTML = "ERROR";
+				subcontent.innerHTML = adventurers[i].Name + "'s mana circles haven't been revealed yet.";
 		}
 	}
 }

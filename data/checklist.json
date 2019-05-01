@@ -29,7 +29,7 @@ var adventurers = [
 					},
 					{
 						"Node": "1",
-						"Reward": "HP",
+						"Reward": "HP +13",
 						"Amount": "13",
 						"Materials": [
 							{
@@ -40,7 +40,7 @@ var adventurers = [
 					},
 					{
 						"Node": "2",
-						"Reward": "Strength",
+						"Reward": "Strength +11",
 						"Amount": "11",
 						"Materials": [
 							{
@@ -51,7 +51,7 @@ var adventurers = [
 					},
 					{
 						"Node": "3",
-						"Reward": "Slayer's Strength",
+						"Reward": "Slayer's Strength +5%",
 						"Amount": "5%",
 						"Materials": [
 							{
@@ -62,7 +62,7 @@ var adventurers = [
 					},
 					{
 						"Node": "4",
-						"Reward": "HP",
+						"Reward": "HP +13",
 						"Amount": "13",
 						"Materials": [
 							{
@@ -84,7 +84,7 @@ var adventurers = [
 					},
 					{
 						"Node": "6",
-						"Reward": "HP",
+						"Reward": "HP +13",
 						"Amount": "13",
 						"Materials": [
 							{
@@ -106,7 +106,7 @@ var adventurers = [
 					},
 					{
 						"Node": "8",
-						"Reward": "Strength",
+						"Reward": "Strength +12",
 						"Amount": "12",
 						"Materials": [
 							{
@@ -117,7 +117,7 @@ var adventurers = [
 					},
 					{
 						"Node": "9",
-						"Reward": "HP",
+						"Reward": "HP +14",
 						"Amount": "14",
 						"Materials": [
 							{
@@ -128,7 +128,7 @@ var adventurers = [
 					},
 					{
 						"Node": "10",
-						"Reward": "Sleep Res",
+						"Reward": "Sleep Res +50%",
 						"Amount": "50%",
 						"Materials": [
 							{
@@ -1665,7 +1665,135 @@ var adventurers = [
 		"WeaponID": "1",
 		"Level": "0",
 		"Rank": "0",
-		"Collected": "0"
+		"Collected": "0",
+		"Circles": [
+			{
+				"Circle": "1",
+				"Nodes": [
+					{
+						"Node": "0",
+						"Reward": "Unbind",
+						"Amount": "",
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					},
+					{
+						"Node": "1",
+						"Reward": "HP +13",
+						"Amount": "13",
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "450"
+							}
+						]
+					},
+					{
+						"Node": "2",
+						"Reward": "Strength +11",
+						"Amount": "11",
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "550"
+							}
+						]
+					},
+					{
+						"Node": "3",
+						"Reward": "Last Boost I",
+						"Amount": "",
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "800"
+							}
+						]
+					},
+					{
+						"Node": "4",
+						"Reward": "HP +13",
+						"Amount": "13",
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "450"
+							}
+						]
+					},
+					{
+						"Node": "5",
+						"Reward": "New Adventurer Story",
+						"Amount": "",
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "550"
+							}
+						]
+					},
+					{
+						"Node": "6",
+						"Reward": "HP +13",
+						"Amount": "13",
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "450"
+							}
+						]
+					},
+					{
+						"Node": "7",
+						"Reward": "Force Strike",
+						"Amount": "",
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "650"
+							}
+						]
+					},
+					{
+						"Node": "8",
+						"Reward": "Strength +12",
+						"Amount": "12",
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "550"
+							}
+						]
+					},
+					{
+						"Node": "9",
+						"Reward": "HP +14",
+						"Amount": "14",
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "450"
+							}
+						]
+					},
+					{
+						"Node": "10",
+						"Reward": "Stun Res +50%",
+						"Amount": "50%",
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "800"
+							}
+						]
+					}
+				]
+			}
+		]
 	},
 	{
 		"ID": "110328",

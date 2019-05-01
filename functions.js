@@ -57,6 +57,12 @@ function fetchManaCircles(id) {
 					circle.innerHTML = node += "<tr><th class=\"node\" id=\"node" + nodes[i].Node + "\">" + nodes[i].Node + "</th></tr>";
 				}
 			}
+		} else {
+			var subcontent = document.getElementsByTagName("subcontent")[0];
+				if (subcontent.hasChildNodes()) {
+					subcontent.removeChild(subcontent.childNodes[0]);
+				}
+				subcontent.innerHTML = "ERROR";
 		}
 	}
 }

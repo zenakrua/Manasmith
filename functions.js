@@ -50,7 +50,7 @@ function fetchManaCircles(id) {
 				if (subcontent.hasChildNodes()) {
 					subcontent.removeChild(subcontent.childNodes[0]);
 				}
-				subcontent.innerHTML = "<table class=\"circle\" id=\"circle" + circles[i].Circle + "\">Circle " + circles[i].Circle + "</table>";
+				subcontent.innerHTML = circleList += "<table class=\"circle\" id=\"circle" + circles[i].Circle + "\">Circle " + circles[i].Circle + "</table>";
 				var circle = document.getElementById("circle" + circles[i].Circle);
 				var nodes = circles[i].Nodes;
 				var nodeList = "";

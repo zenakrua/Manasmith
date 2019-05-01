@@ -43,15 +43,11 @@ function fetchManaCircles(id) {
 		var data = "";
 		for (i = 0; i < adventurers.length; i++) {
 			if (adventurers[i].ID == id) {
-				var manacircles = adventurers[i].Circles;
-				for (i = 0; i < manacircles.length; i++) {
-					var circle = manacircles[i].Circle;
-					var subcontent = document.getElementsByTagName("subcontent")[0];
-					if (subcontent.hasChildNodes()) {
-						subcontent.removeChild(subcontent.childNodes[0]);
-					}
-					subcontent.innerHTML = "<div>" + circle + "</div>";
+				var subcontent = document.getElementsByTagName("subcontent")[0];
+				if (subcontent.hasChildNodes()) {
+					subcontent.removeChild(subcontent.childNodes[0]);
 				}
+				subcontent.innerHTML = "<div>" + id + "</div>";
 			}
 		}
 }

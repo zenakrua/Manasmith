@@ -1,3 +1,9 @@
+function empty(target) {
+	while (target.hasChildNodes()) {
+		target.removeChild(target.firstChild);
+	}
+}
+
 // When a navigation button is clicked, get json data based on which button and dump it into the content html element.
 document.addEventListener("DOMContentLoaded", function (event) {
 
@@ -46,15 +52,13 @@ function fetchAdventurers() {
 
 function fetchManaCircles(id) {
 	var data = "";
+	var subcontent = document.getElementsByTagName("subcontent")[0];
+	empty(subcontent);
 	for (i = 0; i < adventurers.length; i++) {
 		if (adventurers[i].ID == id) {
-			var subcontent = document.getElementsByTagName("subcontent")[0];
 			var circles = adventurers[i].Circles;
 			var circleList = "";
 			for (i = 0; i < circles.length; i++) {
-				if (subcontent.hasChildNodes()) {
-					subcontent.removeChild(subcontent.childNodes[0]);
-				}
 				subcontent.innerHTML = circleList += "<table class=\"circle\" id=\"circle" + circles[i].Circle + "\">Circle " + circles[i].Circle + "</table>";
 				var circle = document.getElementById("circle" + circles[i].Circle);
 				var nodes = circles[i].Nodes;
@@ -64,10 +68,6 @@ function fetchManaCircles(id) {
 				}
 			}
 		} else {
-			var subcontent = document.getElementsByTagName("subcontent")[0];
-			if (subcontent.hasChildNodes()) {
-				subcontent.removeChild(subcontent.childNodes[0]);
-			}
 			subcontent.innerHTML = adventurers[i].Name + "'s mana circles haven't been revealed yet.";
 		}
 	}

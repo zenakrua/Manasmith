@@ -1,4 +1,5 @@
 // content elements
+var nav = document.getElementsByClassName("nav");
 var content = document.getElementsByTagName("content")[0];
 var subcontent = document.getElementsByTagName("subcontent")[0];
 	
@@ -11,7 +12,6 @@ function empty(target) {
 // When a navigation button is clicked, get json data based on which button and dump it into the content html element.
 document.addEventListener("DOMContentLoaded", function (event) {
 
-	var nav = document.getElementsByClassName("nav");
 	for (i = 0; i < nav.length; i++) {
 		nav[i].addEventListener("click", function () {
 			var data = this.value;

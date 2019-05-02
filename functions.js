@@ -47,7 +47,7 @@ function fetchAdventurers() {
 		var rarity = adventurers[i].Rarity;
 		var collected = adventurers[i].Collected;
 		var id = adventurers[i].ID;
-		document.getElementsByTagName("content")[0].innerHTML = adventurerList
+		content.innerHTML = adventurerList
 			+= "<p class=\"adventurer" + " " + element + " " + rarity + " " + "collected" + collected + "\" onclick=\"fetchManaCircles(" + id + ");\">"
 			+ name
 			+ "</p>";
@@ -71,22 +71,13 @@ function fetchManaCircles(id) {
 }
 
 function fetchWeapons() {
-	var data = "";
-	for (i = 0; i < rawData.length; i++) {
-		document.getElementsByTagName("content")[0].innerHTML = data += rawData[i].Name;
-	}
+	return;
 }
 
 function fetchWyrmprints() {
-	var data = "";
-	for (i = 0; i < rawData.length; i++) {
-		document.getElementsByTagName("content")[0].innerHTML = data += rawData[i].Name;
-	}
+	return;
 }
 
 function fetchDragons() {
-	var data = "";
-	for (i = 0; i < rawData.length; i++) {
-		document.getElementsByTagName("content")[0].innerHTML = data += rawData[i].Name;
-	}
+	return;
 }

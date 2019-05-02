@@ -63,12 +63,6 @@ function fetchManaCircles(id) {
 			var circleList = "";
 			for (i = 0; i < circles.length; i++) {
 				subcontent.innerHTML = circleList += "<table class=\"circle\" id=\"circle" + circles[i].Circle + "\">Circle " + circles[i].Circle + "</table>";
-				var circle = document.getElementById("circle" + circles[i].Circle);
-				var nodes = circles[i].Nodes;
-				var nodeList = "";
-				for (i = 0; nodes.length; i++) {
-					circle.innerHTML = nodeList += "<tr><th class=\"node\" id=\"node" + nodes[i].Node + "\">" + nodes[i].Node + "</th></tr>";
-				}
 			}
 		} else {
 			subcontent.innerHTML = adventurers[i].Name + "'s mana circles haven't been revealed yet.";

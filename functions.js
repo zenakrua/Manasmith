@@ -1,3 +1,7 @@
+// content elements
+var content = document.getElementsByTagName("content")[0];
+var subcontent = document.getElementsByTagName("subcontent")[0];
+	
 function empty(target) {
 	while (target.hasChildNodes()) {
 		target.removeChild(target.firstChild);
@@ -10,22 +14,22 @@ document.addEventListener("DOMContentLoaded", function (event) {
 	var nav = document.getElementsByClassName("nav");
 	for (i = 0; i < nav.length; i++) {
 		nav[i].addEventListener("click", function () {
-			var content = this.value;
-			switch (content) {
+			var data = this.value;
+			switch (data) {
 				case "adventurers":
-					fetchAdventurers("content");
+					fetchAdventurers();
 					break;
 				case "weapons":
-					fetchWeapons("content");
+					fetchWeapons();
 					break;
 				case "wyrmprints":
-					fetchWyrmprints("content");
+					fetchWyrmprints();
 					break;
 				case "dragons":
-					fetchDragons("content");
+					fetchDragons();
 					break;
 				default:
-					document.getElementsByTagName("content")[0].innerHTML = "No data.";
+					content.innerHTML = "No data.";
 			}
 		});
 	}
@@ -52,7 +56,6 @@ function fetchAdventurers() {
 
 function fetchManaCircles(id) {
 	var data = "";
-	var subcontent = document.getElementsByTagName("subcontent")[0];
 	empty(subcontent);
 	for (i = 0; i < adventurers.length; i++) {
 		if (adventurers[i].ID == id) {

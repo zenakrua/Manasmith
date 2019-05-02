@@ -27,14 +27,19 @@ document.addEventListener("DOMContentLoaded", function (event) {
 });
 
 function fetchAdventurers() {
-	var data = "";
+	var adventurerList = "";
 	adventurers = adventurers.sort(function (a, b) {
 		return a.ElementID - b.ElementID || a.WeaponID - b.WeaponID || b.Rarity - a.Rarity || b.ID - a.ID || a.Name - b.Name;
 	});
 	for (i = 0; i < adventurers.length; i++) {
-		document.getElementsByTagName("content")[0].innerHTML = data
-			+= "<p class=\"adventurer" + " " + adventurers[i].Element + " " + adventurers[i].Rarity + " " + "collected" + adventurers[i].Collected + "\" onclick=\"fetchManaCircles(" + adventurers[i].ID + ");\">"
-			+ adventurers[i].Name
+		var name = adventurers[i].Name;
+		var element = adventurers[i].Element;
+		var rarity = adventurers[i].Rarity;
+		var collected = adventurers[i].Collected;
+		var id = adventurers[i].ID;
+		document.getElementsByTagName("content")[0].innerHTML = adventurerList
+			+= "<p class=\"adventurer" + " " + element + " " + rarity + " " + "collected" + collected + "\" onclick=\"fetchManaCircles(" + id + ");\">"
+			+ name
 			+ "</p>";
 	}
 }

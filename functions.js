@@ -68,8 +68,10 @@ function fetchAdventurers() {
 			subcontent.innerHTML = "<h1>" + adventurer.Name + "</h1>";
 			
 			//print list of circles from adventurer object
-			for (i in adventurer.Circles) {
-				subcontent.insertAdjacentHTML("beforeend","<table id=\"circle" + adventurer.Circles[i].Circle + "\"><th>Circle " + adventurer.Circles[i].Circle + "</th></table>");
+			var circles = adventurer.Circles;
+			for (i in circles) {
+				var circle = circles[i].Circle;
+				subcontent.insertAdjacentHTML("beforeend","<table id=\"circle" + circle + "\"><th>Circle " + circle + "</th></table>");
 			}
 		});
 	}

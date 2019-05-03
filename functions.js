@@ -79,14 +79,14 @@ function fetchAdventurers() {
 					var node = nodes[i];
 					var nodeNum = node.Node;
 					var reward = node.Reward;
-					document.getElementById("circle" + circleNum).insertAdjacentHTML("beforeend","<tr><td id=\"node" + nodeNum + "\">Node" + nodeNum + ": " + reward + "</td></tr>");
+					document.getElementById("circle" + circleNum).insertAdjacentHTML("beforeend","<tr id=\"node" + nodeNum + "\"><td>Node" + nodeNum + ": " + reward + "</td></tr>");
 
 					var materials = node.Materials;
 					for (i in materials) {
 						var material = materials[i];
 						var materialName = material.Material;
 						var amount = material.Amount;
-						document.getElementById("node" + nodeNum).insertAdjacentHTML("beforeend","<tr><td>" + materialName + "</td><td>" + amount + "</td></tr>");
+						document.getElementById("node" + nodeNum).insertAdjacentHTML("afterend","<tr><td>" + materialName + "</td><td>" + amount + "</td></tr>");
 					}
 				}
 			}

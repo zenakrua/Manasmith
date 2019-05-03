@@ -53,7 +53,7 @@ function fetchAdventurers() {
 		+ "</button><br>";
 	}
 	
-	function fetchCircles(adventurers) { 
+	function fetchCircles(adventurerID) { 
 	    return adventurers.ID === adventurerID;
 	}
 
@@ -62,7 +62,7 @@ function fetchAdventurers() {
 		this.value = adventurerID;
 		adventurer[i].addEventListener("click", function () {
 			//subcontent.innerHTML = adventurers.find(fetchManaCircles);
-			console.log(adventurers.find(fetchCircles));
+			console.log(adventurers.find(fetchCircles(adventurerID)));
 		});
 	}
 }

@@ -71,11 +71,20 @@ function fetchAdventurers() {
 			var circles = adventurer.Circles;
 			for (i in circles) {
 				var circle = circles[i].Circle;
-				subcontent.insertAdjacentHTML("beforeend","<table id=\"circle" + circle + "\"><th>Circle " + circle + "</th></table>");
+				subcontent.insertAdjacentHTML("beforeend","<table id=\"circle" + circle + "\"><tr><th>Circle " + circle + "</th><tr></table>");
 
 				var nodes = circles[i].Nodes;
 				for (i in nodes) {
-					document.getElementById("circle" + circle).insertAdjacentHTML("beforeend","<tr><td>Node " + nodes[i].Node + "</td></tr>");
+					var node = nodes[i].Node;
+					var reward = nodes[i].Reward;
+					document.getElementById("circle" + circle).insertAdjacentHTML("beforeend","<tr><td id=\"node" + node + "\">Node" + node + ": " + reward + "</td></tr>");
+
+					var materials = nodes[i].Materials;
+					for (i in materials) {
+						var material = materials[i].Material;
+						var amount = materials[i].Amount;
+						document.getElementById("node" + node).insertAdjacentHTML("beforeend","<tr><td>" + material + "</td><td>" + amount + "</td></tr>");
+					}
 				}
 			}
 		});

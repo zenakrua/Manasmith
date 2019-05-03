@@ -57,14 +57,14 @@ function fetchAdventurers() {
 	for (i = 0; i < adventurer.length; i++) {
 		adventurer[i].addEventListener("click", function () {
 			//subcontent.innerHTML = adventurers.find(fetchManaCircles);
-			console.log(adventurers.find(fetchManaCircles));
+			console.log(adventurers.find(fetchManaCircles(id)));
 		});
 	}
 }
 
-function fetchManaCircles(adventurerID) {
+function fetchManaCircles(id) {
 
-	return adventurerID = adventurers.ID;
+	return adventurer.ID = id;
 
 }
 

@@ -60,10 +60,18 @@ function fetchAdventurers() {
 	var adventurer = document.getElementsByClassName("adventurer");
 	for (i = 0; i < adventurer.length; i++) {
 		adventurer[i].addEventListener("click", function () {
-			//subcontent.innerHTML = adventurers.find(fetchManaCircles);
+			//map button value to adventurerID variable
 			adventurerID = this.value;
+			//remap adventurer variable as adventurer object
 			adventurer = (adventurers.find(fetchCircles,adventurerID));
-			subcontent.innerHTML = adventurer.Name;
+			//print adventurer name
+			subcontent.innerHTML = "<h1>" + adventurer.Name + "</h1>";
+			
+			//print list of circles from adventurer object
+			var circleList = "";
+			for (i in adventurer.Circles) {
+				subcontent.insertAdjacentHTML("beforeend",circleList += adventurer.Circles[i].Circle);
+			}
 		});
 	}
 }

@@ -54,11 +54,12 @@ function fetchAdventurers() {
 	}
 	
 	function fetchCircles(adventurers) { 
-	    return adventurers.ID === id;
+	    return adventurers.ID === adventurerID;
 	}
 
 	var adventurer = document.getElementsByClassName("adventurer");
 	for (i = 0; i < adventurer.length; i++) {
+		this.value = adventurerID;
 		adventurer[i].addEventListener("click", function () {
 			//subcontent.innerHTML = adventurers.find(fetchManaCircles);
 			console.log(adventurers.find(fetchCircles));

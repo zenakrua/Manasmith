@@ -72,6 +72,11 @@ function fetchAdventurers() {
 			for (i in circles) {
 				var circle = circles[i].Circle;
 				subcontent.insertAdjacentHTML("beforeend","<table id=\"circle" + circle + "\"><th>Circle " + circle + "</th></table>");
+
+				var nodes = circles[i].Nodes;
+				for (i in nodes) {
+					document.getElementById("circle" + circle).insertAdjacentHTML("beforeend","<tr><td>Node " + nodes[i].Node + "</td></tr>");
+				}
 			}
 		});
 	}

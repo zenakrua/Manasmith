@@ -53,16 +53,16 @@ function fetchAdventurers() {
 		+ "</button><br>";
 	}
 	
-	function fetchCircles(adventurerID) { 
+	function fetchCircles(adventurers) { 
 	    return adventurers.ID === adventurerID;
 	}
 
 	var adventurer = document.getElementsByClassName("adventurer");
 	for (i = 0; i < adventurer.length; i++) {
-		this.value = adventurerID;
 		adventurer[i].addEventListener("click", function () {
 			//subcontent.innerHTML = adventurers.find(fetchManaCircles);
-			console.log(adventurers.find(fetchCircles(adventurerID)));
+			this.value = adventurerID;
+			console.log(adventurers.find(fetchCircles,adventurerID));
 		});
 	}
 }

@@ -52,20 +52,18 @@ function fetchAdventurers() {
 			+ name
 		+ "</button><br>";
 	}
+	
+	function fetchCircles(adventurers) { 
+	    return adventurers.ID === id;
+	}
 
 	var adventurer = document.getElementsByClassName("adventurer");
 	for (i = 0; i < adventurer.length; i++) {
 		adventurer[i].addEventListener("click", function () {
 			//subcontent.innerHTML = adventurers.find(fetchManaCircles);
-			console.log(adventurers.find(fetchManaCircles(id)));
+			console.log(adventurers.find(fetchCircles));
 		});
 	}
-}
-
-function fetchManaCircles(id) {
-
-	return adventurer.ID = id;
-
 }
 
 function fetchWeapons() {

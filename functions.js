@@ -62,7 +62,8 @@ function fetchAdventurers() {
 		adventurer[i].addEventListener("click", function () {
 			//subcontent.innerHTML = adventurers.find(fetchManaCircles);
 			adventurerID = this.value;
-			console.log(adventurers.find(fetchCircles,adventurerID));
+			adventurer = (adventurers.find(fetchCircles,adventurerID));
+			subcontent.innerHTML = adventurer.Name;
 		});
 	}
 }

@@ -48,7 +48,7 @@ function fetchAdventurers() {
 		var collected = adventurers[i].Collected;
 		var id = adventurers[i].ID;
 		content.innerHTML = adventurerData
-			+= "<button value=\"" + id + "\" class=\"adventurer" + " " + element + " " + rarity + " " + "collected" + collected + "\">"
+			+= "<button value=\"" + id + "\" class=\"adventurer " + element + " " + rarity + " collected" + collected + "\">"
 			+ name
 		+ "</button><br>";
 	}
@@ -68,9 +68,8 @@ function fetchAdventurers() {
 			subcontent.innerHTML = "<h1>" + adventurer.Name + "</h1>";
 			
 			//print list of circles from adventurer object
-			var circleList = "";
 			for (i in adventurer.Circles) {
-				subcontent.insertAdjacentHTML("beforeend",circleList += adventurer.Circles[i].Circle);
+				subcontent.insertAdjacentHTML("beforeend","Circle " + adventurer.Circles[i].Circle);
 			}
 		});
 	}

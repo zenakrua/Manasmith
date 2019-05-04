@@ -1,90 +1,107 @@
-// When a navigation button is clicked, get json data based on which button and dump it into the content html element.
 document.addEventListener("DOMContentLoaded", function (event) {
 
-	var nav = document.getElementsByClassName("nav");
+	// content elements
+	nav = document.getElementsByClassName("nav");
+	content = document.getElementsByTagName("content")[0];
+	subcontent = document.getElementsByTagName("subcontent")[0];
+
+	// When a navigation button is clicked, get json data based on which button and dump it into the content html element.
 	for (i = 0; i < nav.length; i++) {
 		nav[i].addEventListener("click", function () {
-			var content = this.value;
-			switch(content){
+			var data = this.value;
+			switch (data) {
 				case "adventurers":
-					fetchAdventurers("content");
+					fetchAdventurers();
 					break;
 				case "weapons":
-					fetchWeapons("content");
-				break;
+					fetchWeapons();
+					break;
 				case "wyrmprints":
-					fetchWyrmprints("content");
-				break;
+					fetchWyrmprints();
+					break;
 				case "dragons":
-					fetchDragons("content");
-				break;
+					fetchDragons();
+					break;
 				default:
-					document.getElementsByTagName("content")[0].innerHTML = "No data.";
+					content.innerHTML = "No data.";
 			}
 		});
 	}
 
 });
 
-function fetchAdventurers() {
-	var data = "";
-	adventurers = adventurers.sort(function (a, b) {
-		return a.ElementID - b.ElementID || a.WeaponID - b.WeaponID || b.Rarity - a.Rarity || b.ID - a.ID || a.Name - b.Name;
-	});
-	for (i = 0; i < adventurers.length; i++) {
-		document.getElementsByTagName("content")[0].innerHTML = data
-			+= "<p class=\"adventurer" + " " + adventurers[i].Element + " " + adventurers[i].Rarity + " " + "collected" + adventurers[i].Collected + "\" onclick=\"fetchManaCircles(" + adventurers[i].ID + ");\">"
-				+ adventurers[i].Name
-			+ "</p>";
+function empty(target) {
+	while (target.hasChildNodes()) {
+		target.removeChild(target.firstChild);
 	}
 }
 
-function fetchManaCircles(id) {
-	var data = "";
-	for (i = 0; i < adventurers.length; i++) {
-		if (adventurers[i].ID == id) {
-			var subcontent = document.getElementsByTagName("subcontent")[0];
-			var circles = adventurers[i].Circles;
-			var circleList = "";
-			for (i = 0; i < circles.length; i++) {
-				if (subcontent.hasChildNodes()) {
-					subcontent.removeChild(subcontent.childNodes[0]);
-				}
-				subcontent.innerHTML = circleList += "<table class=\"circle\" id=\"circle" + circles[i].Circle + "\">Circle " + circles[i].Circle + "</table>";
-				var circle = document.getElementById("circle" + circles[i].Circle);
-				var nodes = circles[i].Nodes;
+function fetchAdventurers() {
+	var adventurerData = "";
+	adventurers = adventurers.sort(function (a, b) {
+		return a.ElementID - b.ElementID || a.WeaponID - b.WeaponID || b.Rarity - a.Rarity || b.ID - a.ID || a.Name - b.Name;
+	});
+	for (i in adventurers) {
+		var name = adventurers[i].Name;
+		var element = adventurers[i].Element;
+		var rarity = adventurers[i].Rarity;
+		var collected = adventurers[i].Collected;
+		var id = adventurers[i].ID;
+		content.innerHTML = adventurerData
+			+= "<button value=\"" + id + "\" class=\"adventurer " + element + " " + rarity + " collected" + collected + "\">"
+			+ name
+			+ "</button><br>";
+	}
+
+	function fetchCircles(adventurers) {
+		return adventurers.ID === adventurerID;
+	}
+
+	var adventurer = document.getElementsByClassName("adventurer");
+	for (i = 0; i < adventurer.length; i++) {
+		adventurer[i].addEventListener("click", function () {
+			//map button value to adventurerID variable
+			adventurerID = this.value;
+			//remap adventurer variable as adventurer object
+			adventurer = (adventurers.find(fetchCircles, adventurerID));
+			//print adventurer name
+			subcontent.innerHTML = "<h1>" + adventurer.Name + "</h1>";
+
+			//print list of circles from adventurer object
+			for (i in adventurer.Circles) {
+				var circle = adventurer.Circles[i];
+				var nodes = circle.Nodes;
 				var nodeList = "";
-				for (i = 0; nodes.length; i++) {
-					circle.innerHTML = nodeList += "<tr><th class=\"node\" id=\"node" + nodes[i].Node + "\">" + nodes[i].Node + "</th></tr>";
+
+				subcontent.insertAdjacentHTML("beforeend", "<h2>Circle " + circle.Circle + "</h2>");
+				subcontent.insertAdjacentHTML("beforeend", "<table id=\"circle" + circle.Circle + "\"></table>");
+				var circleTable = document.getElementById("circle" + circle.Circle);
+
+				for (i = 0; i < nodes.length; i++) {
+					for (m in nodes[i].Materials) {
+						circleTable.innerHTML = nodeList += "<tr><th>Node " + nodes[i].Node + "</th></tr><tr><td id=\"node" + nodes[i].Node + "\">" + nodes[i].Materials[m].Material + nodes[i].Materials[m].Amount + "</td><tr>";
+					}
 				}
 			}
-		} else {
-			var subcontent = document.getElementsByTagName("subcontent")[0];
-				if (subcontent.hasChildNodes()) {
-					subcontent.removeChild(subcontent.childNodes[0]);
-				}
-				subcontent.innerHTML = adventurers[i].Name + "'s mana circles haven't been revealed yet.";
-		}
+		});
 	}
 }
 
 function fetchWeapons() {
-	var data = "";
-	for (i = 0; i < rawData.length; i++) {
-		document.getElementsByTagName("content")[0].innerHTML = data += rawData[i].Name;
-	}
+	empty(content);
+	empty(subcontent);
+	content.insertAdjacentHTML("beforeend", "Weapons");
+	return;
 }
 
 function fetchWyrmprints() {
-	var data = "";
-	for (i = 0; i < rawData.length; i++) {
-		document.getElementsByTagName("content")[0].innerHTML = data += rawData[i].Name;
-	}
+	empty(content);
+	content.insertAdjacentHTML("beforeend", "Wyrmprints");
+	return;
 }
 
 function fetchDragons() {
-	var data = "";
-	for (i = 0; i < rawData.length; i++) {
-		document.getElementsByTagName("content")[0].innerHTML = data += rawData[i].Name;
-	}
+	empty(content);
+	content.insertAdjacentHTML("beforeend", "Dragons");
+	return;
 }

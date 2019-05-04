@@ -50,11 +50,11 @@ function fetchAdventurers() {
 		content.innerHTML = adventurerData
 			+= "<button value=\"" + id + "\" class=\"adventurer " + element + " " + rarity + " collected" + collected + "\">"
 			+ name
-		+ "</button><br>";
+			+ "</button><br>";
 	}
-	
-	function fetchCircles(adventurers) { 
-	    return adventurers.ID === adventurerID;
+
+	function fetchCircles(adventurers) {
+		return adventurers.ID === adventurerID;
 	}
 
 	var adventurer = document.getElementsByClassName("adventurer");
@@ -63,30 +63,28 @@ function fetchAdventurers() {
 			//map button value to adventurerID variable
 			adventurerID = this.value;
 			//remap adventurer variable as adventurer object
-			adventurer = (adventurers.find(fetchCircles,adventurerID));
+			adventurer = (adventurers.find(fetchCircles, adventurerID));
 			//print adventurer name
 			subcontent.innerHTML = "<h1>" + adventurer.Name + "</h1>";
-			
+
 			//print list of circles from adventurer object
-			var circles = adventurer.Circles;
-			for (i in circles) {
-				var circle = circles[i];
-				var circleNum = circle.Circle;
-				subcontent.insertAdjacentHTML("beforeend","<table id=\"circle" + circleNum + "\"><tr><th>Circle " + circleNum + "</th><tr></table>");
-
+			for (a = 0; a < adventurer.Circles.length; a++) {
+				var circle = adventurer.Circles[a];
 				var nodes = circle.Nodes;
-				for (i in nodes) {
-					var node = nodes[i];
-					var nodeNum = node.Node;
-					var reward = node.Reward;
-					document.getElementById("circle" + circleNum).insertAdjacentHTML("beforeend","<tr id=\"node" + nodeNum + "\"><td>Node" + nodeNum + ": " + reward + "</td></tr>");
+				var nodeList = "";
 
-					var materials = node.Materials;
-					for (i in materials) {
-						var material = materials[i];
-						var materialName = material.Material;
-						var amount = material.Amount;
-						document.getElementById("node" + nodeNum).insertAdjacentHTML("afterend","<tr><td>" + materialName + "</td><td>" + amount + "</td></tr>");
+				subcontent.insertAdjacentHTML("beforeend", "<h2>Circle " + circle.Circle + "</h2>");
+				subcontent.insertAdjacentHTML("beforeend", "<table id=\"circle" + circle.Circle + "\"></table>");
+				var circleTable = document.getElementById("circle" + circle.Circle);
+
+				for (n = 0; n < nodes.length; n++) {
+					console.log(nodes.length);
+					var node = nodes[n];
+					circleTable.innerHTML = nodeList += "<tr><th>Node " + node.Node + "</th></tr><tr><td id=\"node" + node.Node + "\"></td><tr>";
+					var materialsList = "";
+					var materialTable = document.getElementById("node" + node.Node);
+					for (m = 0; m < node.Materials.length; m++) {
+						materialTable.innerHTML = materialsList += node.Materials[m].Material + node.Materials[m].Amount;
 					}
 				}
 			}

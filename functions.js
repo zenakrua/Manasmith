@@ -1,4 +1,12 @@
 document.addEventListener("DOMContentLoaded", function (event) {
+	
+fetch('data/checklist.json')
+	.then(function(response) {
+	return response.json();
+})
+.then(function(myJson) {
+	console.log(JSON.stringify(myJson));
+});
 
 	// content elements
 	nav = document.getElementsByClassName("nav");

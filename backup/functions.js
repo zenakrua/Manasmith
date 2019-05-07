@@ -52,8 +52,8 @@ function fetchAdventurers() {
 			+ name
 			+ "</button><br>";
 	}
-
-	function fetchCircles(adventurers) {
+	
+	function fetchAdventurer(adventurers) {
 		return adventurers.ID === adventurerID;
 	}
 
@@ -63,27 +63,42 @@ function fetchAdventurers() {
 			//map button value to adventurerID variable
 			adventurerID = this.value;
 			//remap adventurer variable as adventurer object
-			adventurer = (adventurers.find(fetchCircles, adventurerID));
+			adventurer = (adventurers.find(fetchAdventurer, adventurerID));
 			//print adventurer name
-			subcontent.innerHTML = "<h1>" + adventurer.Name + "</h1>";
-
-			//print list of circles from adventurer object
-			for (i in adventurer.Circles) {
-				var circle = adventurer.Circles[i];
-				var nodes = circle.Nodes;
-				var nodeList = "";
-
-				subcontent.insertAdjacentHTML("beforeend", "<h2>Circle " + circle.Circle + "</h2>");
-				subcontent.insertAdjacentHTML("beforeend", "<table id=\"circle" + circle.Circle + "\"></table>");
-				var circleTable = document.getElementById("circle" + circle.Circle);
-
-				for (i = 0; i < nodes.length; i++) {
-					for (m in nodes[i].Materials) {
-						circleTable.innerHTML = nodeList += "<tr><th>Node " + nodes[i].Node + "</th></tr><tr><td id=\"node" + nodes[i].Node + "\">" + nodes[i].Materials[m].Material + nodes[i].Materials[m].Amount + "</td><tr>";
-					}
-				}
-			}
+			subcontent.innerHTML = "<h1>" + adventurer.Name + "</h1>";			
 		});
+	}
+}
+
+//print list of adventurer's mana circles 
+function fetchCircles(adventurer) {
+	for (a = 0; a < adventurer.Circles.length; a++) {
+		var circle = adventurer.Circles[a];
+		var nodes = circle.Nodes;
+		var nodeList = "";
+
+		subcontent.insertAdjacentHTML("beforeend", "<h2>Circle " + circle.Circle + "</h2>");
+		subcontent.insertAdjacentHTML("beforeend", "<table id=\"circle" + circle.Circle + "\"></table>");
+		var circleTable = document.getElementById("circle" + circle.Circle);
+	}
+}
+
+//print list of mana circle nodes
+function fetchNodes(circle) {
+	for (n = 0; n < nodes.length; n++) {
+		var node = nodes[n];
+		circleTable.innerHTML = nodeList += "<tr><th>Node " + node.Node + "</th></tr><tr><td id=\"node" + node.Node + "\"></td><tr>";
+		var materialsList = "";
+		var materialTable = document.getElementById("node" + node.Node);
+		
+	}
+}
+
+//print list of mana circle materials
+function fetchMaterials(node) {
+	var materialsList = "";
+	for (m = 0; m < node.Materials.length; m++) {
+		materialsList += node.Materials[m].Material + node.Materials[m].Amount;
 	}
 }
 

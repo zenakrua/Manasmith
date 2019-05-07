@@ -44,6 +44,10 @@ function empty(target) {
 	}
 }
 
+function fetchAdventurer(adventurers) {
+		return adventurers.ID === adventurerID;
+	}
+
 function fetchAdventurers() {
 	var adventurerData = "";
 	adventurers = adventurers.sort(function (a, b) {
@@ -61,10 +65,6 @@ function fetchAdventurers() {
 			+ "</button><br>";
 	}
 	
-	function fetchAdventurer(adventurers) {
-		return adventurers.ID === adventurerID;
-	}
-
 	var adventurer = document.getElementsByClassName("adventurer");
 	for (i = 0; i < adventurer.length; i++) {
 		adventurer[i].addEventListener("click", function () {

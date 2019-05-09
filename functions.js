@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 	
 	fetch('data/checklist.json')
 		.then(function(response) {
+		console.log(response);
 		return response.json();
 	})
 	.then(function(checklist) {

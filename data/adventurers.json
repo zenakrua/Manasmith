@@ -16,7 +16,7 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
-						"Amount": "",
+						"Amount": "1",
 						"Materials": [
 							{
 								"Material": "",
@@ -137,16 +137,206 @@
 				]
 			},
 			{
-				"Circle": "2"
+				"Circle": "2",
+				"Nodes": [
+					{
+						"Node": "0",
+						"Reward": "Unbind",
+						"Amount": "1",
+						"Materials": [
+							{
+								"Material": "Flame Orb",
+								"Amount": "10"
+							},
+							{
+								"Material": "Blaze Orb",
+								"Amount": "1"
+							}
+						]
+					},
+					{
+						"Node": "1",
+						"Reward": "Radiant Bauble Lv.1",
+						"Amount": "",
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "4300"
+							},
+							{
+								"Material": "Flame Orb",
+								"Amount": "15"
+							},
+							{
+								"Material": "Blaze Orb",
+								"Amount": "3"
+							},
+							{
+								"Material": "Flamewyrm's Scale",
+								"Amount": "3"
+							}
+						]
+					},
+					{
+						"Node": "2",
+						"Reward": "Strength +8",
+						"Amount": "8",
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "1950"
+							}
+						]
+					},
+					{
+						"Node": "3",
+						"Reward": "HP +15",
+						"Amount": "15",
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "1550"
+							}
+						]
+					},
+					{
+						"Node": "4",
+						"Reward": "Strength +8",
+						"Amount": "8",
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "1950"
+							}
+						]
+					},
+					{
+						"Node": "5",
+						"Reward": "New Adventurer Story",
+						"Amount": "",
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "1550"
+							}
+						]
+					},
+					{
+						"Node": "6",
+						"Reward": "Strength +8",
+						"Amount": "8",
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "1950"
+							}
+						]
+					},
+					{
+						"Node": "7",
+						"Reward": "HP +15",
+						"Amount": "15",
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "1550"
+							}
+						]
+					},
+					{
+						"Node": "8",
+						"Reward": "Strength +8",
+						"Amount": "8",
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "1950"
+							}
+						]
+					},
+					{
+						"Node": "9",
+						"Reward": "New Adventurer Story",
+						"Amount": "",
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "1550"
+							}
+						]
+					},
+					{
+						"Node": "10",
+						"Reward": "Strength +9",
+						"Amount": "9",
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "1950"
+							}
+						]
+					}
+				]
 			},
 			{
-				"Circle": "3"
+				"Circle": "3",
+				"Nodes": [
+					{
+						"Node": "0",
+						"Reward": "Unbind",
+						"Amount": "1",
+						"Materials": [
+							{
+								"Material": "Flame Orb",
+								"Amount": "20"
+							},
+							{
+								"Material": "Blaze Orb",
+								"Amount": "5"
+							},
+							{
+								"Material": "Inferno Orb",
+								"Amount": "1"
+							},
+							{
+								"Material": "Flamewyrm's Scale",
+								"Amount": "10"
+							}
+						]
+					}
+				]
 			},
 			{
-				"Circle": "4"
+				"Circle": "4",
+				"Nodes": [
+					{
+						"Node": "0",
+						"Reward": "Unbind",
+						"Amount": "1",
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					}
+				]
 			},
 			{
-				"Circle": "5"
+				"Circle": "5",
+				"Nodes": [
+					{
+						"Node": "0",
+						"Reward": "Unbind",
+						"Amount": "1",
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					}
+				]
 			}
 		]
 	},
@@ -159,7 +349,25 @@
 		"Element": "Flame",
 		"ElementID": "1",
 		"Weapon": "Blade",
-		"WeaponID": "2"
+		"WeaponID": "2",
+		"Circles": [
+			{
+				"Circle": "1",
+				"Nodes": [
+					{
+						"Node": "0",
+						"Reward": "Unbind",
+						"Amount": "1",
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					}
+				]
+			}
+		]
 	},
 	{
 		"ID": "110011",

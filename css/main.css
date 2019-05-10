@@ -1,59 +1,68 @@
 @import url("aqua-dark.css");
 
 body {
-    font-family: "\30D2\30E9\30AE\30CE\89D2\30B4 Pro W3", "Hiragino Kaku Gothic Pro", "\30E1\30A4\30EA\30AA", "Meiryo", "Osaka", "\FF2D\FF33 \FF30\30B4\30B7\30C3\30AF", "MS P Gothic", sans-serif;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
+	font-family: "\30D2\30E9\30AE\30CE\89D2\30B4 Pro W3", "Hiragino Kaku Gothic Pro", "\30E1\30A4\30EA\30AA", "Meiryo", "Osaka", "\FF2D\FF33 \FF30\30B4\30B7\30C3\30AF", "MS P Gothic", sans-serif;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
 }
 
 main {
-    display: flex;
-    flex-direction: row;
-    flex-grow: 2;
-    overflow: auto;
+	display: flex;
+	flex-direction: row;
+	flex-grow: 2;
+	overflow: auto;
 }
 
 content {
-   overflow: auto;
+	overflow: auto;
+}
+
+th {
+	background: #555;
+	column-span: all;
+}
+
+td {
+	background: #333;
 }
 
 .header {
-    text-shadow: 1px 1px rgba(0,0,0,.5);
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .Flame {
-    background: linear-gradient(#BC3232,#912323);
+	background: linear-gradient(#bc3232, #912323);
 }
 
 .Wind {
-    background: linear-gradient(#39D394,#188E42);
+	background: linear-gradient(#39d394, #188e42);
 }
 
 .Water {
-    background: linear-gradient(#398ED6,#18418C);
+	background: linear-gradient(#398ed6, #18418c);
 }
 
 .Light {
-    background: linear-gradient(#D6C739,#947518);
+	background: linear-gradient(#d6c739, #947518);
 }
 
 .Shadow {
-    background: linear-gradient(#BD3CD6,#521884);
+	background: linear-gradient(#bd3cd6, #521884);
 }
 
 .r03 {
-    outline: 1px solid rgb(165, 81, 66);
+	outline: 1px solid rgb(165, 81, 66);
 }
 
 .r04 {
-    outline: 1px solid rgb(99, 142, 165);
+	outline: 1px solid rgb(99, 142, 165);
 }
 
 .r05 {
-    outline: 1px solid rgb(173, 130, 8, .75);
+	outline: 1px solid rgb(173, 130, 8, 0.75);
 }
 
 .collected0 {
-    filter: grayscale(90%);
+	filter: grayscale(90%);
 }

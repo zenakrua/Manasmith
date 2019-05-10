@@ -3,12 +3,6 @@ var nav = document.getElementsByClassName("nav")
 var content = document.getElementsByTagName("content")[0]
 var subcontent = document.getElementsByTagName("subcontent")[0]
 
-function empty(target) {
-	while (target.hasChildNodes()) {
-		target.removeChild(target.firstChild)
-	}
-}
-
 fetch("data/checklist.json")
 	.then(function (response) {
 		return response.json()
@@ -49,8 +43,8 @@ var x
 var list
 var id
 function fetchAdventurers(checklist) {
-	empty(content)
-	empty(subcontent)
+	content.innerHTML = "";
+	subcontent.innerHTML = "";
 
 	var adventurer
 	fetch("data/adventurers.json")
@@ -136,22 +130,19 @@ function findID(list) {
 }
 
 function fetchWeapons(checklist) {
-	empty(content)
-	empty(subcontent)
+	content.innerHTML = "";
 	subcontent.innerHTML = "Weapons"
 	return
 }
 
 function fetchWyrmprints(checklist) {
-	empty(content)
-	empty(subcontent)
+	content.innerHTML = "";
 	subcontent.innerHTML = "Wyrmprints"
 	return
 }
 
 function fetchDragons(checklist) {
-	empty(content)
-	empty(subcontent)
+	content.innerHTML = "";
 	subcontent.innerHTML = "Dragons"
 	return
 }

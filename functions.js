@@ -81,8 +81,8 @@ function fetchAdventurers(checklist) {
           "</button><br>";
       }
       var adventurerNames = content.getElementsByTagName("button");
-      for (x in adventurerNames) {
-        adventurerNames[x].addEventListener("click", function() {
+      for (var i = 0; i < adventurerNames.length; i++) {
+        adventurerNames[i].addEventListener("click", function() {
           id = this.value;
           adventurer = list.find(findID, id);
           subcontent.innerHTML = "<h1>" + adventurer.Name + "</h1>";

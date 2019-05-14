@@ -93,12 +93,12 @@
 	}
 
 {
-        "ID": "110266",
-        "Variation": "01",
-        "Name": "Naveed",
+        "ID": "",
+        "Variation": "",
+        "Name": "",
         "Level": "0",
         "Rank": "0",
-        "Collected": "1",
+        "Collected": "0",
         "Circles": [
           {
             "Circle": "1",

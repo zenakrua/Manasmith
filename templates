@@ -15,6 +15,12 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
+						"Abilities": [
+							{
+								"Abilitiy": "",
+								"Amount": ""
+							}
+						],
 						"Stats": [
 							{
 								"Stat": "",
@@ -36,6 +42,12 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
+						"Abilities": [
+							{
+								"Abilitiy": "",
+								"Amount": ""
+							}
+						],
 						"Stats": [
 							{
 								"Stat": "",
@@ -57,6 +69,12 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
+						"Abilities": [
+							{
+								"Abilitiy": "",
+								"Amount": ""
+							}
+						],
 						"Stats": [
 							{
 								"Stat": "",
@@ -78,6 +96,12 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
+						"Abilities": [
+							{
+								"Abilitiy": "",
+								"Amount": ""
+							}
+						],
 						"Stats": [
 							{
 								"Stat": "",
@@ -99,6 +123,12 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
+						"Abilities": [
+							{
+								"Abilitiy": "",
+								"Amount": ""
+							}
+						],
 						"Stats": [
 							{
 								"Stat": "",

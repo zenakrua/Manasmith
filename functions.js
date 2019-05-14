@@ -1,15 +1,8 @@
+document.addEventListener("DOMContentLoaded", function (event) {
 // content elements
 var nav = document.getElementsByClassName("nav");
 var content = document.getElementsByTagName("content")[0];
 var subcontent = document.getElementsByTagName("subcontent")[0];
-
-function empty(target) {
-  if (target.hasChildNodes()) {
-    while (target.hasChildNodes()) {
-      target.removeChild(target.firstChild);
-    }
-  }
-}
 
 function findID(list) {
   if (variation !== null) {
@@ -62,8 +55,8 @@ var variation;
 var collected;
 var adventurerData;
 function fetchAdventurers(checklist) {
-  empty(content);
-  empty(subcontent);
+  content.innerHTML = "";
+  subcontent.innerHTML = "";
 
   var adventurer;
   fetch("data/adventurers.json")
@@ -166,22 +159,20 @@ function fetchNodes(circle, circleData) {
 function materialsList() {}
 
 function fetchWeapons(checklist) {
-  empty(content);
-  empty(subcontent);
+  content.innerHTML = "";
   subcontent.innerHTML = "Weapons";
   return;
 }
 
 function fetchWyrmprints(checklist) {
-  empty(content);
-  empty(subcontent);
+  content.innerHTML = "";
   subcontent.innerHTML = "Wyrmprints";
   return;
 }
 
 function fetchDragons(checklist) {
-  empty(content);
-  empty(subcontent);
+  content.innerHTML = "";
   subcontent.innerHTML = "Dragons";
   return;
 }
+});

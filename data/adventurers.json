@@ -16,7 +16,18 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
-						"Amount": "1",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
 						"Materials": [
 							{
 								"Material": "",
@@ -26,8 +37,23 @@
 					},
 					{
 						"Node": "1",
-						"Reward": "HP",
-						"Amount": "13",
+						"Reward": "HP +13",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "13"
+							},
+							{
+								"Stat": "HP",
+								"Amount": "13"
+							}
+						],
 						"Materials": [
 							{
 								"Material": "Mana",
@@ -37,8 +63,23 @@
 					},
 					{
 						"Node": "2",
-						"Reward": "Strength",
-						"Amount": "11",
+						"Reward": "Strength +11",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "11"
+							},
+							{
+								"Stat": "Strength",
+								"Amount": "11"
+							}
+						],
 						"Materials": [
 							{
 								"Material": "Mana",
@@ -48,8 +89,19 @@
 					},
 					{
 						"Node": "3",
-						"Reward": "Slayer's Strength",
-						"Amount": "5%",
+						"Reward": "Slayer's Strength +5%",
+						"Abilities": [
+							{
+								"Ability": "Slayer's Strength",
+								"Amount": "5%"
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "80"
+							}
+						],
 						"Materials": [
 							{
 								"Material": "Mana",
@@ -59,8 +111,23 @@
 					},
 					{
 						"Node": "4",
-						"Reward": "HP",
-						"Amount": "13",
+						"Reward": "HP +13",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "13"
+							},
+							{
+								"Stat": "HP",
+								"Amount": "13"
+							}
+						],
 						"Materials": [
 							{
 								"Material": "Mana",
@@ -71,7 +138,22 @@
 					{
 						"Node": "5",
 						"Reward": "New Adventurer Story",
-						"Amount": "",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "12"
+							},
+							{
+								"Stat": "Strength",
+								"Amount": "12"
+							}
+						],
 						"Materials": [
 							{
 								"Material": "Mana",
@@ -81,8 +163,23 @@
 					},
 					{
 						"Node": "6",
-						"Reward": "HP",
-						"Amount": "13",
+						"Reward": "HP +13",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "13"
+							},
+							{
+								"Stat": "HP",
+								"Amount": "13"
+							}
+						],
 						"Materials": [
 							{
 								"Material": "Mana",
@@ -93,7 +190,18 @@
 					{
 						"Node": "7",
 						"Reward": "Force Strike",
-						"Amount": "",
+						"Abilities": [
+							{
+								"Ability": "Force Strike",
+								"Amount": "1"
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "60"
+							}
+						],
 						"Materials": [
 							{
 								"Material": "Mana",
@@ -103,8 +211,23 @@
 					},
 					{
 						"Node": "8",
-						"Reward": "Strength",
-						"Amount": "12",
+						"Reward": "Strength +12",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "12"
+							},
+							{
+								"Stat": "Strength",
+								"Amount": "12"
+							}
+						],
 						"Materials": [
 							{
 								"Material": "Mana",
@@ -114,8 +237,23 @@
 					},
 					{
 						"Node": "9",
-						"Reward": "HP",
-						"Amount": "14",
+						"Reward": "HP +14",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "14"
+							},
+							{
+								"Stat": "HP",
+								"Amount": "14"
+							}
+						],
 						"Materials": [
 							{
 								"Material": "Mana",
@@ -125,8 +263,19 @@
 					},
 					{
 						"Node": "10",
-						"Reward": "Sleep Res",
-						"Amount": "50%",
+						"Reward": "Sleep Res +50%",
+						"Abilities": [
+							{
+								"Ability": "Sleep Res",
+								"Amount": "50%"
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "60"
+							}
+						],
 						"Materials": [
 							{
 								"Material": "Mana",
@@ -142,7 +291,18 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
-						"Amount": "1",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
 						"Materials": [
 							{
 								"Material": "Flame Orb",
@@ -157,7 +317,18 @@
 					{
 						"Node": "1",
 						"Reward": "Radiant Bauble Lv.1",
-						"Amount": "",
+						"Abilities": [
+							{
+								"Ability": "Radiant Bauble",
+								"Amount": "1"
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "100"
+							}
+						],
 						"Materials": [
 							{
 								"Material": "Mana",
@@ -180,7 +351,22 @@
 					{
 						"Node": "2",
 						"Reward": "Strength +8",
-						"Amount": "8",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "8"
+							},
+							{
+								"Stat": "Strength",
+								"Amount": "8"
+							}
+						],
 						"Materials": [
 							{
 								"Material": "Mana",
@@ -191,7 +377,22 @@
 					{
 						"Node": "3",
 						"Reward": "HP +15",
-						"Amount": "15",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "15"
+							},
+							{
+								"Stat": "HP",
+								"Amount": "15"
+							}
+						],
 						"Materials": [
 							{
 								"Material": "Mana",
@@ -202,7 +403,22 @@
 					{
 						"Node": "4",
 						"Reward": "Strength +8",
-						"Amount": "8",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "8"
+							},
+							{
+								"Stat": "Strength",
+								"Amount": "8"
+							}
+						],
 						"Materials": [
 							{
 								"Material": "Mana",
@@ -213,7 +429,22 @@
 					{
 						"Node": "5",
 						"Reward": "New Adventurer Story",
-						"Amount": "",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "15"
+							},
+							{
+								"Stat": "HP",
+								"Amount": "15"
+							}
+						],
 						"Materials": [
 							{
 								"Material": "Mana",
@@ -224,7 +455,22 @@
 					{
 						"Node": "6",
 						"Reward": "Strength +8",
-						"Amount": "8",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "8"
+							},
+							{
+								"Stat": "Strength",
+								"Amount": "8"
+							}
+						],
 						"Materials": [
 							{
 								"Material": "Mana",
@@ -235,7 +481,22 @@
 					{
 						"Node": "7",
 						"Reward": "HP +15",
-						"Amount": "15",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "15"
+							},
+							{
+								"Stat": "HP",
+								"Amount": "15"
+							}
+						],
 						"Materials": [
 							{
 								"Material": "Mana",
@@ -246,7 +507,22 @@
 					{
 						"Node": "8",
 						"Reward": "Strength +8",
-						"Amount": "8",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "8"
+							},
+							{
+								"Stat": "Strength",
+								"Amount": "8"
+							}
+						],
 						"Materials": [
 							{
 								"Material": "Mana",
@@ -257,7 +533,22 @@
 					{
 						"Node": "9",
 						"Reward": "New Adventurer Story",
-						"Amount": "",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "16"
+							},
+							{
+								"Stat": "HP",
+								"Amount": "16"
+							}
+						],
 						"Materials": [
 							{
 								"Material": "Mana",
@@ -268,7 +559,22 @@
 					{
 						"Node": "10",
 						"Reward": "Strength +9",
-						"Amount": "9",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "9"
+							},
+							{
+								"Stat": "Strength",
+								"Amount": "9"
+							}
+						],
 						"Materials": [
 							{
 								"Material": "Mana",
@@ -284,7 +590,18 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
-						"Amount": "1",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
 						"Materials": [
 							{
 								"Material": "Flame Orb",
@@ -312,7 +629,18 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
-						"Amount": "1",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
 						"Materials": [
 							{
 								"Material": "",
@@ -328,7 +656,18 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
-						"Amount": "1",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
 						"Materials": [
 							{
 								"Material": "",
@@ -357,7 +696,18 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
-						"Amount": "1",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
 						"Materials": [
 							{
 								"Material": "",
@@ -1596,7 +1946,238 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
-						"Amount": "1",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					},
+					{
+						"Node": "1",
+						"Reward": "HP +13",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					},
+					{
+						"Node": "2",
+						"Reward": "HP +13",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					},
+					{
+						"Node": "3",
+						"Reward": "HP +13",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					},
+					{
+						"Node": "4",
+						"Reward": "HP +13",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					},
+					{
+						"Node": "5",
+						"Reward": "Unbind",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					},
+					{
+						"Node": "6",
+						"Reward": "Unbind",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					},
+					{
+						"Node": "7",
+						"Reward": "Unbind",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					},
+					{
+						"Node": "8",
+						"Reward": "Unbind",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					},
+					{
+						"Node": "9",
+						"Reward": "Unbind",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					},
+					{
+						"Node": "10",
+						"Reward": "Unbind",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
 						"Materials": [
 							{
 								"Material": "",
@@ -1612,7 +2193,18 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
-						"Amount": "1",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
 						"Materials": [
 							{
 								"Material": "",
@@ -1628,7 +2220,18 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
-						"Amount": "1",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
 						"Materials": [
 							{
 								"Material": "",
@@ -1644,7 +2247,18 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
-						"Amount": "1",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
 						"Materials": [
 							{
 								"Material": "",
@@ -1660,7 +2274,18 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
-						"Amount": "1",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
 						"Materials": [
 							{
 								"Material": "",
@@ -1689,7 +2314,18 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
-						"Amount": "1",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
 						"Materials": [
 							{
 								"Material": "",
@@ -1705,7 +2341,18 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
-						"Amount": "1",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
 						"Materials": [
 							{
 								"Material": "",
@@ -1721,7 +2368,18 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
-						"Amount": "1",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
 						"Materials": [
 							{
 								"Material": "",
@@ -1737,7 +2395,18 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
-						"Amount": "1",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
 						"Materials": [
 							{
 								"Material": "",
@@ -1753,7 +2422,18 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
-						"Amount": "1",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
 						"Materials": [
 							{
 								"Material": "",
@@ -1782,7 +2462,18 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
-						"Amount": "1",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
 						"Materials": [
 							{
 								"Material": "",
@@ -1798,7 +2489,18 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
-						"Amount": "1",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
 						"Materials": [
 							{
 								"Material": "",
@@ -1814,7 +2516,18 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
-						"Amount": "1",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
 						"Materials": [
 							{
 								"Material": "",
@@ -1830,7 +2543,18 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
-						"Amount": "1",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
 						"Materials": [
 							{
 								"Material": "",
@@ -1846,7 +2570,18 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
-						"Amount": "1",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
 						"Materials": [
 							{
 								"Material": "",

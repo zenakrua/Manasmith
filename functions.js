@@ -156,8 +156,6 @@ function fetchNodes(circle, circleData) {
   }
 }
 
-function materialsList() {}
-
 function fetchWeapons(checklist) {
   content.innerHTML = "";
   subcontent.innerHTML = "Weapons";

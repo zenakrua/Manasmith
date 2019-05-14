@@ -15,6 +15,7 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
+						"Stat": "",
 						"Amount": "1",
 						"Materials": [
 							{
@@ -31,6 +32,7 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
+						"Stat": "",
 						"Amount": "1",
 						"Materials": [
 							{
@@ -47,6 +49,7 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
+						"Stat": "",
 						"Amount": "1",
 						"Materials": [
 							{
@@ -63,6 +66,7 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
+						"Stat": "",
 						"Amount": "1",
 						"Materials": [
 							{
@@ -79,6 +83,7 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
+						"Stat": "",
 						"Amount": "1",
 						"Materials": [
 							{

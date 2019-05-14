@@ -1578,5 +1578,284 @@
 		"ElementID": "5",
 		"Weapon": "Wand",
 		"WeaponID": "7"
+	},
+	{
+		"ID": "110015",
+		"Variation": "02",
+		"Rarity": "r05",
+		"Name": "Beautician Zardin",
+		"Class": "Attack",
+		"Element": "Light",
+		"ElementID": "4",
+		"Weapon": "Blade",
+		"WeaponID": "2",
+		"Circles": [
+			{
+				"Circle": "1",
+				"Nodes": [
+					{
+						"Node": "0",
+						"Reward": "Unbind",
+						"Amount": "1",
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					}
+				]
+			},
+			{
+				"Circle": "2",
+				"Nodes": [
+					{
+						"Node": "0",
+						"Reward": "Unbind",
+						"Amount": "1",
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					}
+				]
+			},
+			{
+				"Circle": "3",
+				"Nodes": [
+					{
+						"Node": "0",
+						"Reward": "Unbind",
+						"Amount": "1",
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					}
+				]
+			},
+			{
+				"Circle": "4",
+				"Nodes": [
+					{
+						"Node": "0",
+						"Reward": "Unbind",
+						"Amount": "1",
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					}
+				]
+			},
+			{
+				"Circle": "5",
+				"Nodes": [
+					{
+						"Node": "0",
+						"Reward": "Unbind",
+						"Amount": "1",
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"ID": "110064",
+		"Variation": "01",
+		"Rarity": "r04",
+		"Name": "Yachiyo",
+		"Class": "Attack",
+		"Element": "Light",
+		"ElementID": "4",
+		"Weapon": "Blade",
+		"WeaponID": "2",
+		"Circles": [
+			{
+				"Circle": "1",
+				"Nodes": [
+					{
+						"Node": "0",
+						"Reward": "Unbind",
+						"Amount": "1",
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					}
+				]
+			},
+			{
+				"Circle": "2",
+				"Nodes": [
+					{
+						"Node": "0",
+						"Reward": "Unbind",
+						"Amount": "1",
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					}
+				]
+			},
+			{
+				"Circle": "3",
+				"Nodes": [
+					{
+						"Node": "0",
+						"Reward": "Unbind",
+						"Amount": "1",
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					}
+				]
+			},
+			{
+				"Circle": "4",
+				"Nodes": [
+					{
+						"Node": "0",
+						"Reward": "Unbind",
+						"Amount": "1",
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					}
+				]
+			},
+			{
+				"Circle": "5",
+				"Nodes": [
+					{
+						"Node": "0",
+						"Reward": "Unbind",
+						"Amount": "1",
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"ID": "110066",
+		"Variation": "01",
+		"Rarity": "r04",
+		"Name": "Norwin",
+		"Class": "Attack",
+		"Element": "Shadow",
+		"ElementID": "5",
+		"Weapon": "Bow",
+		"WeaponID": "6",
+		"Circles": [
+			{
+				"Circle": "1",
+				"Nodes": [
+					{
+						"Node": "0",
+						"Reward": "Unbind",
+						"Amount": "1",
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					}
+				]
+			},
+			{
+				"Circle": "2",
+				"Nodes": [
+					{
+						"Node": "0",
+						"Reward": "Unbind",
+						"Amount": "1",
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					}
+				]
+			},
+			{
+				"Circle": "3",
+				"Nodes": [
+					{
+						"Node": "0",
+						"Reward": "Unbind",
+						"Amount": "1",
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					}
+				]
+			},
+			{
+				"Circle": "4",
+				"Nodes": [
+					{
+						"Node": "0",
+						"Reward": "Unbind",
+						"Amount": "1",
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					}
+				]
+			},
+			{
+				"Circle": "5",
+				"Nodes": [
+					{
+						"Node": "0",
+						"Reward": "Unbind",
+						"Amount": "1",
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					}
+				]
+			}
+		]
 	}
 ]

@@ -1,0 +1,93 @@
+{
+		"ID": "",
+		"Variation": "0",
+		"Rarity": "r0",
+		"Name": "",
+		"Class": "",
+		"Element": "",
+		"ElementID": "",
+		"Weapon": "",
+		"WeaponID": "",
+		"Circles": [
+			{
+				"Circle": "1",
+				"Nodes": [
+					{
+						"Node": "0",
+						"Reward": "Unbind",
+						"Amount": "1",
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					}
+				]
+			},
+			{
+				"Circle": "2",
+				"Nodes": [
+					{
+						"Node": "0",
+						"Reward": "Unbind",
+						"Amount": "1",
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					}
+				]
+			},
+			{
+				"Circle": "3",
+				"Nodes": [
+					{
+						"Node": "0",
+						"Reward": "Unbind",
+						"Amount": "1",
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					}
+				]
+			},
+			{
+				"Circle": "4",
+				"Nodes": [
+					{
+						"Node": "0",
+						"Reward": "Unbind",
+						"Amount": "1",
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					}
+				]
+			},
+			{
+				"Circle": "5",
+				"Nodes": [
+					{
+						"Node": "0",
+						"Reward": "Unbind",
+						"Amount": "1",
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					}
+				]
+			}
+		]
+	}

@@ -1143,6 +1143,771 @@
         "Level": "0",
         "Rank": "0",
         "Collected": "0"
+      },
+      {
+        "ID": "110015",
+        "Variation": "02",
+        "Name": "Beautician Zardin",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0",
+        "Circles": [
+          {
+            "Circle": "1",
+            "Nodes": [
+              {
+                "Node": "0",
+                "Unlocked": "1"
+              },
+              {
+                "Node": "1",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "2",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "3",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "4",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "5",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "6",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "7",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "8",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "9",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "10",
+                "Unlocked": "0"
+              }
+            ]
+          },
+          {
+            "Circle": "2",
+            "Nodes": [
+              {
+                "Node": "0",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "1",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "2",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "3",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "4",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "5",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "6",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "7",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "8",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "9",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "10",
+                "Unlocked": "0"
+              }
+            ]
+          },
+          {
+            "Circle": "3",
+            "Nodes": [
+              {
+                "Node": "0",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "1",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "2",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "3",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "4",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "5",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "6",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "7",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "8",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "9",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "10",
+                "Unlocked": "0"
+              }
+            ]
+          },
+          {
+            "Circle": "4",
+            "Nodes": [
+              {
+                "Node": "0",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "1",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "2",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "3",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "4",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "5",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "6",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "7",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "8",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "9",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "10",
+                "Unlocked": "0"
+              }
+            ]
+          },
+          {
+            "Circle": "5",
+            "Nodes": [
+              {
+                "Node": "0",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "1",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "2",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "3",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "4",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "5",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "6",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "7",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "8",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "9",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "10",
+                "Unlocked": "0"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ID": "110064",
+        "Variation": "01",
+        "Name": "Yachiyo",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0",
+        "Circles": [
+          {
+            "Circle": "1",
+            "Nodes": [
+              {
+                "Node": "0",
+                "Unlocked": "1"
+              },
+              {
+                "Node": "1",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "2",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "3",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "4",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "5",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "6",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "7",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "8",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "9",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "10",
+                "Unlocked": "0"
+              }
+            ]
+          },
+          {
+            "Circle": "2",
+            "Nodes": [
+              {
+                "Node": "0",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "1",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "2",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "3",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "4",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "5",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "6",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "7",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "8",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "9",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "10",
+                "Unlocked": "0"
+              }
+            ]
+          },
+          {
+            "Circle": "3",
+            "Nodes": [
+              {
+                "Node": "0",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "1",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "2",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "3",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "4",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "5",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "6",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "7",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "8",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "9",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "10",
+                "Unlocked": "0"
+              }
+            ]
+          },
+          {
+            "Circle": "4",
+            "Nodes": [
+              {
+                "Node": "0",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "1",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "2",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "3",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "4",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "5",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "6",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "7",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "8",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "9",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "10",
+                "Unlocked": "0"
+              }
+            ]
+          },
+          {
+            "Circle": "5",
+            "Nodes": [
+              {
+                "Node": "0",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "1",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "2",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "3",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "4",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "5",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "6",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "7",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "8",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "9",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "10",
+                "Unlocked": "0"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ID": "110066",
+        "Variation": "01",
+        "Name": "Norwin",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0",
+        "Circles": [
+          {
+            "Circle": "1",
+            "Nodes": [
+              {
+                "Node": "0",
+                "Unlocked": "1"
+              },
+              {
+                "Node": "1",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "2",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "3",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "4",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "5",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "6",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "7",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "8",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "9",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "10",
+                "Unlocked": "0"
+              }
+            ]
+          },
+          {
+            "Circle": "2",
+            "Nodes": [
+              {
+                "Node": "0",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "1",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "2",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "3",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "4",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "5",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "6",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "7",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "8",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "9",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "10",
+                "Unlocked": "0"
+              }
+            ]
+          },
+          {
+            "Circle": "3",
+            "Nodes": [
+              {
+                "Node": "0",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "1",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "2",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "3",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "4",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "5",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "6",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "7",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "8",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "9",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "10",
+                "Unlocked": "0"
+              }
+            ]
+          },
+          {
+            "Circle": "4",
+            "Nodes": [
+              {
+                "Node": "0",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "1",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "2",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "3",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "4",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "5",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "6",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "7",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "8",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "9",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "10",
+                "Unlocked": "0"
+              }
+            ]
+          },
+          {
+            "Circle": "5",
+            "Nodes": [
+              {
+                "Node": "0",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "1",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "2",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "3",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "4",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "5",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "6",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "7",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "8",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "9",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "10",
+                "Unlocked": "0"
+              }
+            ]
+          }
+        ]
       }
     ]
   },

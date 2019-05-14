@@ -1,917 +1,1164 @@
 [
-	{
-		"adventurers": [
-			{
-				"ID": "100001",
-				"Variation": "01",
-				"Name": "Euden",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "100002",
-				"Variation": "01",
-				"Name": "Elisanne",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "100002",
-				"Variation": "02",
-				"Name": "Halloween Elisanne",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "100003",
-				"Variation": "01",
-				"Name": "Ranzal",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "100003",
-				"Variation": "07",
-				"Name": "Gala Ranzal",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "100004",
-				"Variation": "01",
-				"Name": "Cleo",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "100004",
-				"Variation": "02",
-				"Name": "Dragonyule Cleo",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "100005",
-				"Variation": "01",
-				"Name": "Alex",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "100006",
-				"Variation": "01",
-				"Name": "Luca",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "100029",
-				"Variation": "02",
-				"Name": "Gala Sarisse",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110001",
-				"Variation": "01",
-				"Name": "Alain",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110002",
-				"Variation": "01",
-				"Name": "Aoi",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110003",
-				"Variation": "01",
-				"Name": "Joe",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110004",
-				"Variation": "01",
-				"Name": "Xania",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110005",
-				"Variation": "01",
-				"Name": "Renelle",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110006",
-				"Variation": "01",
-				"Name": "Aurien",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110007",
-				"Variation": "01",
-				"Name": "Vanessa",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110008",
-				"Variation": "01",
-				"Name": "Karl",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110009",
-				"Variation": "01",
-				"Name": "Sinoa",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110010",
-				"Variation": "01",
-				"Name": "Mikoto",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110011",
-				"Variation": "01",
-				"Name": "Ezelith",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110011",
-				"Variation": "02",
-				"Name": "Valentine's Ezelith",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110012",
-				"Variation": "01",
-				"Name": "Rex",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110013",
-				"Variation": "01",
-				"Name": "Waike",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110014",
-				"Variation": "01",
-				"Name": "Cibella",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110015",
-				"Variation": "01",
-				"Name": "Zardin",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110016",
-				"Variation": "01",
-				"Name": "Jurota",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110017",
-				"Variation": "01",
-				"Name": "Ricardt",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110018",
-				"Variation": "01",
-				"Name": "Karina",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110019",
-				"Variation": "01",
-				"Name": "Thaniel",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110020",
-				"Variation": "01",
-				"Name": "Luther",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110021",
-				"Variation": "01",
-				"Name": "Xainfried",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110022",
-				"Variation": "01",
-				"Name": "Xander",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110022",
-				"Variation": "02",
-				"Name": "Dragonyule Xander",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110023",
-				"Variation": "01",
-				"Name": "Johanna",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110024",
-				"Variation": "01",
-				"Name": "Sophie",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110025",
-				"Variation": "01",
-				"Name": "Nicolas",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110026",
-				"Variation": "01",
-				"Name": "Francesca",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110027",
-				"Variation": "01",
-				"Name": "Melody",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110028",
-				"Variation": "01",
-				"Name": "Philia",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110029",
-				"Variation": "01",
-				"Name": "Aeleen",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110030",
-				"Variation": "01",
-				"Name": "Musashi",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110031",
-				"Variation": "01",
-				"Name": "Eleonora",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110032",
-				"Variation": "01",
-				"Name": "Maribelle",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110033",
-				"Variation": "01",
-				"Name": "Linus",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110034",
-				"Variation": "01",
-				"Name": "Malka",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110035",
-				"Variation": "01",
-				"Name": "Raemond",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110036",
-				"Variation": "01",
-				"Name": "Malora",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110037",
-				"Variation": "01",
-				"Name": "Irfan",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110038",
-				"Variation": "01",
-				"Name": "Hope",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110039",
-				"Variation": "01",
-				"Name": "Ryozen",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110040",
-				"Variation": "01",
-				"Name": "Rawn",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110041",
-				"Variation": "01",
-				"Name": "Amane",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110042",
-				"Variation": "01",
-				"Name": "Julietta",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110043",
-				"Variation": "01",
-				"Name": "Hildegarde",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110043",
-				"Variation": "02",
-				"Name": "Valentine's Hildegarde",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110044",
-				"Variation": "01",
-				"Name": "Taro",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110045",
-				"Variation": "01",
-				"Name": "Erik",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110046",
-				"Variation": "01",
-				"Name": "Rodrigo",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110047",
-				"Variation": "01",
-				"Name": "Althemia",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110047",
-				"Variation": "02",
-				"Name": "Halloween Althemia",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110048",
-				"Variation": "01",
-				"Name": "Vice",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110049",
-				"Variation": "01",
-				"Name": "Edward",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110049",
-				"Variation": "02",
-				"Name": "Halloween Edward",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110050",
-				"Variation": "01",
-				"Name": "Berserker",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110051",
-				"Variation": "01",
-				"Name": "Kleimann",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110052",
-				"Variation": "01",
-				"Name": "Orion",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110052",
-				"Variation": "03",
-				"Name": "Valentine's Orion",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110053",
-				"Variation": "01",
-				"Name": "Nefaria",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110053",
-				"Variation": "02",
-				"Name": "Dragonyule Nefaria",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110056",
-				"Variation": "01",
-				"Name": "Yue",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110058",
-				"Variation": "01",
-				"Name": "Jakob",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110063",
-				"Variation": "01",
-				"Name": "Estelle",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110067",
-				"Variation": "01",
-				"Name": "Vida",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110252",
-				"Variation": "01",
-				"Name": "Lily",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110253",
-				"Variation": "01",
-				"Name": "Orsem",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110254",
-				"Variation": "01",
-				"Name": "Zace",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110255",
-				"Variation": "01",
-				"Name": "Celliera",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110256",
-				"Variation": "01",
-				"Name": "Louise",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110257",
-				"Variation": "01",
-				"Name": "Lowen",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110258",
-				"Variation": "01",
-				"Name": "Pietro",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110261",
-				"Variation": "01",
-				"Name": "Marty",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110266",
-				"Variation": "01",
-				"Name": "Naveed",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "1"
-			},
-			{
-				"ID": "110267",
-				"Variation": "01",
-				"Name": "Hawk",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110268",
-				"Variation": "01",
-				"Name": "Lin You",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110269",
-				"Variation": "01",
-				"Name": "Verica",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110270",
-				"Variation": "01",
-				"Name": "Melsa",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110274",
-				"Variation": "01",
-				"Name": "Albert",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110275",
-				"Variation": "01",
-				"Name": "Annelie",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110276",
-				"Variation": "01",
-				"Name": "Fritz",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110277",
-				"Variation": "01",
-				"Name": "Felicia",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110280",
-				"Variation": "01",
-				"Name": "Heinwald",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110281",
-				"Variation": "01",
-				"Name": "Curran",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110291",
-				"Variation": "01",
-				"Name": "Marth",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110301",
-				"Variation": "01",
-				"Name": "Odetta",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110302",
-				"Variation": "01",
-				"Name": "Pia",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110303",
-				"Variation": "01",
-				"Name": "Elias",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110304",
-				"Variation": "01",
-				"Name": "Vixel",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110305",
-				"Variation": "01",
-				"Name": "Lucretia",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110310",
-				"Variation": "01",
-				"Name": "Addis",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110311",
-				"Variation": "01",
-				"Name": "Sazanka",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110312",
-				"Variation": "01",
-				"Name": "Botan",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110313",
-				"Variation": "01",
-				"Name": "Ieyasu",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110314",
-				"Variation": "01",
-				"Name": "Su Fang",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110315",
-				"Variation": "01",
-				"Name": "Ku Hai",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110316",
-				"Variation": "01",
-				"Name": "Xiao Lei",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110317",
-				"Variation": "01",
-				"Name": "Laranoa",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110318",
-				"Variation": "01",
-				"Name": "Sylas",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110319",
-				"Variation": "01",
-				"Name": "Fleur",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110327",
-				"Variation": "01",
-				"Name": "Alfonse",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110328",
-				"Variation": "01",
-				"Name": "Fjorm",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			},
-			{
-				"ID": "110333",
-				"Variation": "01",
-				"Name": "Veronica",
-				"Level": "0",
-				"Rank": "0",
-				"Collected": "0"
-			}
-		]
-	},
-	{
-		"circles": []
-	},
-	{
-		"dragons": []
-	},
-	{
-		"wyrmprints": []
-	},
-	{
-		"weapons": []
-	},
-	{
-		"halidom": []
-	}
+  {
+    "adventurers": [
+      {
+        "ID": "100001",
+        "Variation": "01",
+        "Name": "Euden",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "100002",
+        "Variation": "01",
+        "Name": "Elisanne",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "100002",
+        "Variation": "02",
+        "Name": "Halloween Elisanne",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "100003",
+        "Variation": "01",
+        "Name": "Ranzal",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "100003",
+        "Variation": "07",
+        "Name": "Gala Ranzal",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "100004",
+        "Variation": "01",
+        "Name": "Cleo",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "100004",
+        "Variation": "02",
+        "Name": "Dragonyule Cleo",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "100005",
+        "Variation": "01",
+        "Name": "Alex",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "100006",
+        "Variation": "01",
+        "Name": "Luca",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "100029",
+        "Variation": "02",
+        "Name": "Gala Sarisse",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110001",
+        "Variation": "01",
+        "Name": "Alain",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110002",
+        "Variation": "01",
+        "Name": "Aoi",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110003",
+        "Variation": "01",
+        "Name": "Joe",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110004",
+        "Variation": "01",
+        "Name": "Xania",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110005",
+        "Variation": "01",
+        "Name": "Renelle",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110006",
+        "Variation": "01",
+        "Name": "Aurien",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110007",
+        "Variation": "01",
+        "Name": "Vanessa",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110008",
+        "Variation": "01",
+        "Name": "Karl",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110009",
+        "Variation": "01",
+        "Name": "Sinoa",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110010",
+        "Variation": "01",
+        "Name": "Mikoto",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110011",
+        "Variation": "01",
+        "Name": "Ezelith",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110011",
+        "Variation": "02",
+        "Name": "Valentine's Ezelith",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110012",
+        "Variation": "01",
+        "Name": "Rex",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110013",
+        "Variation": "01",
+        "Name": "Waike",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110014",
+        "Variation": "01",
+        "Name": "Cibella",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110015",
+        "Variation": "01",
+        "Name": "Zardin",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110016",
+        "Variation": "01",
+        "Name": "Jurota",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110017",
+        "Variation": "01",
+        "Name": "Ricardt",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110018",
+        "Variation": "01",
+        "Name": "Karina",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110019",
+        "Variation": "01",
+        "Name": "Thaniel",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110020",
+        "Variation": "01",
+        "Name": "Luther",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110021",
+        "Variation": "01",
+        "Name": "Xainfried",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110022",
+        "Variation": "01",
+        "Name": "Xander",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110022",
+        "Variation": "02",
+        "Name": "Dragonyule Xander",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110023",
+        "Variation": "01",
+        "Name": "Johanna",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110024",
+        "Variation": "01",
+        "Name": "Sophie",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110025",
+        "Variation": "01",
+        "Name": "Nicolas",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110026",
+        "Variation": "01",
+        "Name": "Francesca",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110027",
+        "Variation": "01",
+        "Name": "Melody",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110028",
+        "Variation": "01",
+        "Name": "Philia",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110029",
+        "Variation": "01",
+        "Name": "Aeleen",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110030",
+        "Variation": "01",
+        "Name": "Musashi",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110031",
+        "Variation": "01",
+        "Name": "Eleonora",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110032",
+        "Variation": "01",
+        "Name": "Maribelle",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110033",
+        "Variation": "01",
+        "Name": "Linus",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110034",
+        "Variation": "01",
+        "Name": "Malka",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110035",
+        "Variation": "01",
+        "Name": "Raemond",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110036",
+        "Variation": "01",
+        "Name": "Malora",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110037",
+        "Variation": "01",
+        "Name": "Irfan",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110038",
+        "Variation": "01",
+        "Name": "Hope",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110039",
+        "Variation": "01",
+        "Name": "Ryozen",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110040",
+        "Variation": "01",
+        "Name": "Rawn",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110041",
+        "Variation": "01",
+        "Name": "Amane",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110042",
+        "Variation": "01",
+        "Name": "Julietta",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110043",
+        "Variation": "01",
+        "Name": "Hildegarde",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110043",
+        "Variation": "02",
+        "Name": "Valentine's Hildegarde",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110044",
+        "Variation": "01",
+        "Name": "Taro",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110045",
+        "Variation": "01",
+        "Name": "Erik",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110046",
+        "Variation": "01",
+        "Name": "Rodrigo",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110047",
+        "Variation": "01",
+        "Name": "Althemia",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110047",
+        "Variation": "02",
+        "Name": "Halloween Althemia",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110048",
+        "Variation": "01",
+        "Name": "Vice",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110049",
+        "Variation": "01",
+        "Name": "Edward",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110049",
+        "Variation": "02",
+        "Name": "Halloween Edward",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110050",
+        "Variation": "01",
+        "Name": "Berserker",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110051",
+        "Variation": "01",
+        "Name": "Kleimann",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110052",
+        "Variation": "01",
+        "Name": "Orion",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110052",
+        "Variation": "03",
+        "Name": "Valentine's Orion",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110053",
+        "Variation": "01",
+        "Name": "Nefaria",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110053",
+        "Variation": "02",
+        "Name": "Dragonyule Nefaria",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110056",
+        "Variation": "01",
+        "Name": "Yue",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110058",
+        "Variation": "01",
+        "Name": "Jakob",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110063",
+        "Variation": "01",
+        "Name": "Estelle",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110067",
+        "Variation": "01",
+        "Name": "Vida",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110252",
+        "Variation": "01",
+        "Name": "Lily",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110253",
+        "Variation": "01",
+        "Name": "Orsem",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110254",
+        "Variation": "01",
+        "Name": "Zace",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110255",
+        "Variation": "01",
+        "Name": "Celliera",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110256",
+        "Variation": "01",
+        "Name": "Louise",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110257",
+        "Variation": "01",
+        "Name": "Lowen",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110258",
+        "Variation": "01",
+        "Name": "Pietro",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110261",
+        "Variation": "01",
+        "Name": "Marty",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110266",
+        "Variation": "01",
+        "Name": "Naveed",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "1",
+        "Circles": [
+          {
+            "Circle": "1",
+            "Nodes": [
+              {
+                "Node": "0",
+                "Unlocked": "1"
+              },
+              {
+                "Node": "1",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "2",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "3",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "4",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "5",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "6",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "7",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "8",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "9",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "10",
+                "Unlocked": "0"
+              }
+            ]
+          },
+          {
+            "Circle": "2",
+            "Nodes": [
+              {
+                "Node": "0",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "1",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "2",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "3",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "4",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "5",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "6",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "7",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "8",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "9",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "10",
+                "Unlocked": "0"
+              }
+            ]
+          },
+          {
+            "Circle": "3",
+            "Nodes": [
+              {
+                "Node": "0",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "1",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "2",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "3",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "4",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "5",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "6",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "7",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "8",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "9",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "10",
+                "Unlocked": "0"
+              }
+            ]
+          },
+          {
+            "Circle": "4",
+            "Nodes": [
+              {
+                "Node": "0",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "1",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "2",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "3",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "4",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "5",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "6",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "7",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "8",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "9",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "10",
+                "Unlocked": "0"
+              }
+            ]
+          },
+          {
+            "Circle": "5",
+            "Nodes": [
+              {
+                "Node": "0",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "1",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "2",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "3",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "4",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "5",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "6",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "7",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "8",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "9",
+                "Unlocked": "0"
+              },
+              {
+                "Node": "10",
+                "Unlocked": "0"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ID": "110267",
+        "Variation": "01",
+        "Name": "Hawk",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110268",
+        "Variation": "01",
+        "Name": "Lin You",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110269",
+        "Variation": "01",
+        "Name": "Verica",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110270",
+        "Variation": "01",
+        "Name": "Melsa",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110274",
+        "Variation": "01",
+        "Name": "Albert",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110275",
+        "Variation": "01",
+        "Name": "Annelie",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110276",
+        "Variation": "01",
+        "Name": "Fritz",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110277",
+        "Variation": "01",
+        "Name": "Felicia",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110280",
+        "Variation": "01",
+        "Name": "Heinwald",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110281",
+        "Variation": "01",
+        "Name": "Curran",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110291",
+        "Variation": "01",
+        "Name": "Marth",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110301",
+        "Variation": "01",
+        "Name": "Odetta",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110302",
+        "Variation": "01",
+        "Name": "Pia",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110303",
+        "Variation": "01",
+        "Name": "Elias",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110304",
+        "Variation": "01",
+        "Name": "Vixel",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110305",
+        "Variation": "01",
+        "Name": "Lucretia",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110310",
+        "Variation": "01",
+        "Name": "Addis",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110311",
+        "Variation": "01",
+        "Name": "Sazanka",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110312",
+        "Variation": "01",
+        "Name": "Botan",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110313",
+        "Variation": "01",
+        "Name": "Ieyasu",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110314",
+        "Variation": "01",
+        "Name": "Su Fang",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110315",
+        "Variation": "01",
+        "Name": "Ku Hai",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110316",
+        "Variation": "01",
+        "Name": "Xiao Lei",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110317",
+        "Variation": "01",
+        "Name": "Laranoa",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110318",
+        "Variation": "01",
+        "Name": "Sylas",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110319",
+        "Variation": "01",
+        "Name": "Fleur",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110327",
+        "Variation": "01",
+        "Name": "Alfonse",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110328",
+        "Variation": "01",
+        "Name": "Fjorm",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      },
+      {
+        "ID": "110333",
+        "Variation": "01",
+        "Name": "Veronica",
+        "Level": "0",
+        "Rank": "0",
+        "Collected": "0"
+      }
+    ]
+  },
+  {
+    "circles": []
+  },
+  {
+    "dragons": []
+  },
+  {
+    "wyrmprints": []
+  },
+  {
+    "weapons": []
+  },
+  {
+    "halidom": []
+  }
 ]

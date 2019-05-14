@@ -15,8 +15,12 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
-						"Stat": "",
-						"Amount": "1",
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
 						"Materials": [
 							{
 								"Material": "",
@@ -32,8 +36,12 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
-						"Stat": "",
-						"Amount": "1",
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
 						"Materials": [
 							{
 								"Material": "",
@@ -49,8 +57,12 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
-						"Stat": "",
-						"Amount": "1",
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
 						"Materials": [
 							{
 								"Material": "",
@@ -66,8 +78,12 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
-						"Stat": "",
-						"Amount": "1",
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
 						"Materials": [
 							{
 								"Material": "",
@@ -83,8 +99,12 @@
 					{
 						"Node": "0",
 						"Reward": "Unbind",
-						"Stat": "",
-						"Amount": "1",
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
 						"Materials": [
 							{
 								"Material": "",

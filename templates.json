@@ -1,4 +1,4 @@
-// 5* Light Sword
+//5*
 [
 	{
 		"Circle": "1",
@@ -295,11 +295,11 @@
 				],
 				"Materials": [
 					{
-						"Material": "Light Orb",
+						"Material": "Flame Orb",
 						"Amount": "10"
 					},
 					{
-						"Material": "Radiance Orb",
+						"Material": "Blaze Orb",
 						"Amount": "1"
 					}
 				]
@@ -325,11 +325,11 @@
 						"Amount": "4300"
 					},
 					{
-						"Material": "Light Orb",
+						"Material": "Flame Orb",
 						"Amount": "15"
 					},
 					{
-						"Material": "Radiance Orb",
+						"Material": "Blaze Orb",
 						"Amount": "3"
 					}
 				]
@@ -590,15 +590,15 @@
 				],
 				"Materials": [
 					{
-						"Material": "Light Orb",
+						"Material": "Flame Orb",
 						"Amount": "20"
 					},
 					{
-						"Material": "Radiance Orb",
+						"Material": "Blaze Orb",
 						"Amount": "5"
 					},
 					{
-						"Material": "Refulgence Orb",
+						"Material": "Inferno Orb",
 						"Amount": "1"
 					}
 				]
@@ -650,11 +650,11 @@
 						"Amount": "8100"
 					},
 					{
-						"Material": "Light Orb",
+						"Material": "Flame Orb",
 						"Amount": "15"
 					},
 					{
-						"Material": "Radiance Orb",
+						"Material": "Blaze Orb",
 						"Amount": "2"
 					},
 					{
@@ -788,15 +788,15 @@
 						"Amount": "6000"
 					},
 					{
-						"Material": "Light Orb",
+						"Material": "Flame Orb",
 						"Amount": "20"
 					},
 					{
-						"Material": "Radiance Orb",
+						"Material": "Blaze Orb",
 						"Amount": "5"
 					},
 					{
-						"Material": "Refulgence Orb",
+						"Material": "Inferno Orb",
 						"Amount": "2"
 					}
 				]
@@ -874,15 +874,15 @@
 						"Amount": "7000"
 					},
 					{
-						"Material": "Light Orb",
+						"Material": "Flame Orb",
 						"Amount": "15"
 					},
 					{
-						"Material": "Lightwyrm's Scale",
+						"Material": "Flamewyrm's Scale",
 						"Amount": "8"
 					},
 					{
-						"Material": "Lightwyrm's Glowscale",
+						"Material": "Flamewyrm's Scaldscale",
 						"Amount": "3"
 					}
 				]
@@ -909,11 +909,11 @@
 				],
 				"Materials": [
 					{
-						"Material": "Radiance Orb",
+						"Material": "Blaze Orb",
 						"Amount": "10"
 					},
 					{
-						"Material": "Refulgence Orb",
+						"Material": "Inferno Orb",
 						"Amount": "5"
 					},
 					{
@@ -921,11 +921,11 @@
 						"Amount": "1"
 					},
 					{
-						"Material": "Lightwyrm's Scale",
+						"Material": "Flamewyrm's Scale",
 						"Amount": "25"
 					},
 					{
-						"Material": "Lightwyrm's Glowscale",
+						"Material": "Flamewyrm's Scaldscale",
 						"Amount": "10"
 					}
 				]
@@ -1003,15 +1003,15 @@
 						"Amount": "9500"
 					},
 					{
-						"Material": "Light Orb",
+						"Material": "Flame Orb",
 						"Amount": "40"
 					},
 					{
-						"Material": "Lightwyrm's Scale",
+						"Material": "Flamewyrm's Scale",
 						"Amount": "5"
 					},
 					{
-						"Material": "Lightwyrm's Glowscale",
+						"Material": "Flamewyrm's Scaldscale",
 						"Amount": "2"
 					}
 				]
@@ -1115,15 +1115,15 @@
 						"Amount": "11000"
 					},
 					{
-						"Material": "Light Orb",
+						"Material": "Flame Orb",
 						"Amount": "50"
 					},
 					{
-						"Material": "Radiance Orb",
+						"Material": "Blaze Orb",
 						"Amount": "15"
 					},
 					{
-						"Material": "Refulgence Orb",
+						"Material": "Inferno Orb",
 						"Amount": "3"
 					}
 				]
@@ -1201,15 +1201,15 @@
 						"Amount": "12500"
 					},
 					{
-						"Material": "Light Orb",
+						"Material": "Flame Orb",
 						"Amount": "25"
 					},
 					{
-						"Material": "Lightwyrm's Scale",
+						"Material": "Flamewyrm's Scale",
 						"Amount": "15"
 					},
 					{
-						"Material": "Lightwyrm's Glowscale",
+						"Material": "Flamewyrm's Scaldscale",
 						"Amount": "5"
 					}
 				]
@@ -1236,7 +1236,7 @@
 				],
 				"Materials": [
 					{
-						"Material": "Refulgence Orb",
+						"Material": "Inferno Orb",
 						"Amount": "7"
 					},
 					{
@@ -1244,11 +1244,11 @@
 						"Amount": "3"
 					},
 					{
-						"Material": "Lightwyrm's Scale",
+						"Material": "Flamewyrm's Scale",
 						"Amount": "30"
 					},
 					{
-						"Material": "Lightwyrm's Glowscale",
+						"Material": "Flamewyrm's Scaldscale",
 						"Amount": "12"
 					},
 					{
@@ -1278,11 +1278,11 @@
 						"Amount": "21500"
 					},
 					{
-						"Material": "Radiance Orb",
+						"Material": "Blaze Orb",
 						"Amount": "20"
 					},
 					{
-						"Material": "Refulgence Orb",
+						"Material": "Inferno Orb",
 						"Amount": "7"
 					},
 					{
@@ -1338,7 +1338,7 @@
 						"Amount": "30000"
 					},
 					{
-						"Material": "Refulgence Orb",
+						"Material": "Inferno Orb",
 						"Amount": "3"
 					},
 					{
@@ -1442,11 +1442,11 @@
 						"Amount": "32000"
 					},
 					{
-						"Material": "Lightwyrm's Scale",
+						"Material": "Flamewyrm's Scale",
 						"Amount": "35"
 					},
 					{
-						"Material": "Lightwyrm's Glowscale",
+						"Material": "Flamewyrm's Scaldscale",
 						"Amount": "12"
 					},
 					{
@@ -1528,6 +1528,1533 @@
 		]
 	}
 ]
+
+//4*
+[
+	{
+		"Circle": "1",
+		"Nodes": [
+			{
+				"Node": "0",
+				"Reward": "Unbind",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "",
+						"Amount": ""
+					}
+				]
+			},
+			{
+				"Node": "1",
+				"Reward": "HP +",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": ""
+					},
+					{
+						"Stat": "HP",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "350"
+					}
+				]
+			},
+			{
+				"Node": "2",
+				"Reward": "Strength +",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": ""
+					},
+					{
+						"Stat": "Strength",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "450"
+					}
+				]
+			},
+			{
+				"Node": "3",
+				"Reward": "",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": "60"
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "650"
+					}
+				]
+			},
+			{
+				"Node": "4",
+				"Reward": "HP +",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": ""
+					},
+					{
+						"Stat": "HP",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "350"
+					}
+				]
+			},
+			{
+				"Node": "5",
+				"Reward": "New Adventurer Story",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": ""
+					},
+					{
+						"Stat": "Strength",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "450"
+					}
+				]
+			},
+			{
+				"Node": "6",
+				"Reward": "HP +",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": ""
+					},
+					{
+						"Stat": "HP",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "350"
+					}
+				]
+			},
+			{
+				"Node": "7",
+				"Reward": "Force Strike",
+				"Abilities": [
+					{
+						"Ability": "Force Strike",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": "60"
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "500"
+					}
+				]
+			},
+			{
+				"Node": "8",
+				"Reward": "Strength +",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": ""
+					},
+					{
+						"Stat": "Strength",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "450"
+					}
+				]
+			},
+			{
+				"Node": "9",
+				"Reward": "HP +",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": ""
+					},
+					{
+						"Stat": "HP",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "350"
+					}
+				]
+			},
+			{
+				"Node": "10",
+				"Reward": "",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": "60"
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "650"
+					}
+				]
+			}
+		]
+	},
+	{
+		"Circle": "2",
+		"Nodes": [
+			{
+				"Node": "0",
+				"Reward": "Unbind",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Flame Orb",
+						"Amount": "8"
+					},
+					{
+						"Material": "Blaze Orb",
+						"Amount": "1"
+					}
+				]
+			},
+			{
+				"Node": "1",
+				"Reward": "",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": "100"
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "3400"
+					},
+					{
+						"Material": "Flame Orb",
+						"Amount": "12"
+					},
+					{
+						"Material": "Blaze Orb",
+						"Amount": "2"
+					}
+				]
+			},
+			{
+				"Node": "2",
+				"Reward": "Strength +",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": ""
+					},
+					{
+						"Stat": "Strength",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "1550"
+					}
+				]
+			},
+			{
+				"Node": "3",
+				"Reward": "HP +",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": ""
+					},
+					{
+						"Stat": "HP",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "1250"
+					}
+				]
+			},
+			{
+				"Node": "4",
+				"Reward": "Strength +",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": ""
+					},
+					{
+						"Stat": "Strength",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "1550"
+					}
+				]
+			},
+			{
+				"Node": "5",
+				"Reward": "New Adventurer Story",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": ""
+					},
+					{
+						"Stat": "HP",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "1250"
+					}
+				]
+			},
+			{
+				"Node": "6",
+				"Reward": "Strength +",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": ""
+					},
+					{
+						"Stat": "Strength",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "1550"
+					}
+				]
+			},
+			{
+				"Node": "7",
+				"Reward": "HP +",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": ""
+					},
+					{
+						"Stat": "HP",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "1250"
+					}
+				]
+			},
+			{
+				"Node": "8",
+				"Reward": "Strength +",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": ""
+					},
+					{
+						"Stat": "Strength",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "1550"
+					}
+				]
+			},
+			{
+				"Node": "9",
+				"Reward": "New Adventurer Story",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": ""
+					},
+					{
+						"Stat": "HP",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "1250"
+					}
+				]
+			},
+			{
+				"Node": "10",
+				"Reward": "Strength +",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": ""
+					},
+					{
+						"Stat": "Strength",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "1550"
+					}
+				]
+			}
+		]
+	},
+	{
+		"Circle": "3",
+		"Nodes": [
+			{
+				"Node": "0",
+				"Reward": "Unbind",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Flame Orb",
+						"Amount": "15"
+					},
+					{
+						"Material": "Blaze Orb",
+						"Amount": "4"
+					},
+					{
+						"Material": "Inferno Orb",
+						"Amount": "1"
+					}
+				]
+			},
+			{
+				"Node": "1",
+				"Reward": "HP +",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": ""
+					},
+					{
+						"Stat": "HP",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "2800"
+					}
+				]
+			},
+			{
+				"Node": "2",
+				"Reward": "Strength +",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": ""
+					},
+					{
+						"Stat": "Strength",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "3400"
+					}
+				]
+			},
+			{
+				"Node": "3",
+				"Reward": "HP +",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": ""
+					},
+					{
+						"Stat": "HP",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "2800"
+					}
+				]
+			},
+			{
+				"Node": "4",
+				"Reward": "",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": "20"
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "5200"
+					},
+					{
+						"Material": "Flame Orb",
+						"Amount": "25"
+					},
+					{
+						"Material": "Blaze Orb",
+						"Amount": "5"
+					},
+					{
+						"Material": "Inferno Orb",
+						"Amount": "1"
+					}
+				]
+			},
+			{
+				"Node": "5",
+				"Reward": "Strength +",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": ""
+					},
+					{
+						"Stat": "Strength",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "3400"
+					}
+				]
+			},
+			{
+				"Node": "6",
+				"Reward": "HP +",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": ""
+					},
+					{
+						"Stat": "HP",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "2800"
+					}
+				]
+			},
+			{
+				"Node": "7",
+				"Reward": "New Adventurer Story",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": ""
+					},
+					{
+						"Stat": "Strength",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "3400"
+					}
+				]
+			},
+			{
+				"Node": "8",
+				"Reward": "HP +",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": ""
+					},
+					{
+						"Stat": "HP",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "2800"
+					}
+				]
+			},
+			{
+				"Node": "9",
+				"Reward": "Strength +",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": ""
+					},
+					{
+						"Stat": "Strength",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "3400"
+					}
+				]
+			},
+			{
+				"Node": "10",
+				"Reward": "",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": "100"
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "6900"
+					},
+					{
+						"Material": "Flame Orb",
+						"Amount": "12"
+					},
+					{
+						"Material": "Flamewyrm's Scale",
+						"Amount": "6"
+					},
+					{
+						"Material": "Flamewyrm's Scaldscale",
+						"Amount": "2"
+					}
+				]
+			}
+		]
+	},
+	{
+		"Circle": "4",
+		"Nodes": [
+			{
+				"Node": "0",
+				"Reward": "Unbind",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Blaze Orb",
+						"Amount": "8"
+					},
+					{
+						"Material": "Inferno Orb",
+						"Amount": "4"
+					},
+					{
+						"Material": "Rainbow Orb",
+						"Amount": "1"
+					},
+					{
+						"Material": "Flamewyrm's Scale",
+						"Amount": "20"
+					},
+					{
+						"Material": "Flamewyrm's Scaldscale",
+						"Amount": "8"
+					}
+				]
+			},
+			{
+				"Node": "1",
+				"Reward": "HP +",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": ""
+					},
+					{
+						"Stat": "HP",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "4000"
+					}
+				]
+			},
+			{
+				"Node": "2",
+				"Reward": "Strength +",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": ""
+					},
+					{
+						"Stat": "Strength",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "5000"
+					}
+				]
+			},
+			{
+				"Node": "3",
+				"Reward": "",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": "60"
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "7500"
+					},
+					{
+						"Material": "Flame Orb",
+						"Amount": "30"
+					},
+					{
+						"Material": "Flamewyrm's Scale",
+						"Amount": "4"
+					},
+					{
+						"Material": "Flamewyrm's Scaldscale",
+						"Amount": "1"
+					}
+				]
+			},
+			{
+				"Node": "4",
+				"Reward": "HP +",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": ""
+					},
+					{
+						"Stat": "HP",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "4000"
+					}
+				]
+			},
+			{
+				"Node": "5",
+				"Reward": "Strength +",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": ""
+					},
+					{
+						"Stat": "Strength",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "5000"
+					}
+				]
+			},
+			{
+				"Node": "6",
+				"Reward": "HP +",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": ""
+					},
+					{
+						"Stat": "HP",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "4000"
+					}
+				]
+			},
+			{
+				"Node": "7",
+				"Reward": "",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": "40"
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "9000"
+					},
+					{
+						"Material": "Flame Orb",
+						"Amount": "40"
+					},
+					{
+						"Material": "Blaze Orb",
+						"Amount": "12"
+					},
+					{
+						"Material": "Inferno Orb",
+						"Amount": "2"
+					}
+				]
+			},
+			{
+				"Node": "8",
+				"Reward": "Strength +",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": ""
+					},
+					{
+						"Stat": "Strength",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "5000"
+					}
+				]
+			},
+			{
+				"Node": "9",
+				"Reward": "HP +",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": ""
+					},
+					{
+						"Stat": "HP",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "4000"
+					}
+				]
+			},
+			{
+				"Node": "10",
+				"Reward": "",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": "100"
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "10000"
+					},
+					{
+						"Material": "Flame Orb",
+						"Amount": "20"
+					},
+					{
+						"Material": "Flamewyrm's Scale",
+						"Amount": "12"
+					},
+					{
+						"Material": "Flamewyrm's Scaldscale",
+						"Amount": "4"
+					}
+				]
+			}
+		]
+	},
+	{
+		"Circle": "5",
+		"Nodes": [
+			{
+				"Node": "0",
+				"Reward": "Unbind",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Inferno Orb",
+						"Amount": "5"
+					},
+					{
+						"Material": "Rainbow Orb",
+						"Amount": "2"
+					},
+					{
+						"Material": "Flamewyrm's Scale",
+						"Amount": "25"
+					},
+					{
+						"Material": "Flamewyrm's Scaldscale",
+						"Amount": "10"
+					},
+					{
+						"Material": "Knight's Testament",
+						"Amount": "2"
+					}
+				]
+			},
+			{
+				"Node": "1",
+				"Reward": "",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": "60"
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "16500"
+					},
+					{
+						"Material": "Blaze Orb",
+						"Amount": "15"
+					},
+					{
+						"Material": "Inferno Orb",
+						"Amount": "5"
+					},
+					{
+						"Material": "Rainbow Orb",
+						"Amount": "1"
+					}
+				]
+			},
+			{
+				"Node": "2",
+				"Reward": "Strength +",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": ""
+					},
+					{
+						"Stat": "Strength",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "8500"
+					}
+				]
+			},
+			{
+				"Node": "3",
+				"Reward": "Damascus Crystal",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": "0"
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "30000"
+					},
+					{
+						"Material": "Inferno Orb",
+						"Amount": "3"
+					},
+					{
+						"Material": "Rainbow Orb",
+						"Amount": "1"
+					},
+					{
+						"Material": "Champion's Testament",
+						"Amount": "1"
+					}
+				]
+			},
+			{
+				"Node": "4",
+				"Reward": "HP +",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": ""
+					},
+					{
+						"Stat": "HP",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "6500"
+					}
+				]
+			},
+			{
+				"Node": "5",
+				"Reward": "",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": "30"
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Eldwater",
+						"Amount": "6000"
+					}
+				]
+			},
+			{
+				"Node": "6",
+				"Reward": "",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": "30"
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Eldwater",
+						"Amount": "12000"
+					}
+				]
+			},
+			{
+				"Node": "7",
+				"Reward": "",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": "100"
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "25000"
+					},
+					{
+						"Material": "Flamewyrm's Scale",
+						"Amount": "30"
+					},
+					{
+						"Material": "Flamewyrm's Scaldscale",
+						"Amount": "10"
+					},
+					{
+						"Material": "Knight's Testament",
+						"Amount": "1"
+					}
+				]
+			},
+			{
+				"Node": "8",
+				"Reward": "",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": "60"
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Eldwater",
+						"Amount": "20000"
+					}
+				]
+			},
+			{
+				"Node": "9",
+				"Reward": "",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": "90"
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Eldwater",
+						"Amount": "35000"
+					}
+				]
+			},
+			{
+				"Node": "10",
+				"Reward": "Strength +",
+				"Abilities": [
+					{
+						"Ability": "",
+						"Amount": ""
+					}
+				],
+				"Stats": [
+					{
+						"Stat": "Might",
+						"Amount": ""
+					},
+					{
+						"Stat": "Strength",
+						"Amount": ""
+					}
+				],
+				"Materials": [
+					{
+						"Material": "Mana",
+						"Amount": "8500"
+					}
+				]
+			}
+		]
+	}
+]
+
+//3*
+
+
 //checklist
 {
   "ID": "",

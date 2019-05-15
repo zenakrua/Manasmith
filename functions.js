@@ -176,4 +176,4 @@ function fetchDragons(checklist) {
 	subcontent.innerHTML = "Dragons"
 	return
 }
- });
+});

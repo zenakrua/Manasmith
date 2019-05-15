@@ -45,9 +45,7 @@
 }
 
 body {
-	font-family: "\30D2\30E9\30AE\30CE\89D2\30B4 Pro W3",
-		"Hiragino Kaku Gothic Pro", "\30E1\30A4\30EA\30AA", "Meiryo", "Osaka",
-		"\FF2D\FF33 \FF30\30B4\30B7\30C3\30AF", "MS P Gothic", sans-serif;
+	font-family: "\30D2\30E9\30AE\30CE\89D2\30B4 Pro W3", "Hiragino Kaku Gothic Pro", "\30E1\30A4\30EA\30AA", "Meiryo", "Osaka", "\FF2D\FF33 \FF30\30B4\30B7\30C3\30AF", "MS P Gothic", sans-serif;
 	display: flex;
 	flex-direction: column;
 	height: 100vh;
@@ -72,9 +70,7 @@ subcontent {
 content button {
 	width: 100%;
 	text-align: left;
-	background: /*url("/images/banners/100001_01_banner.png") right, */ var(
-		--element-bg-color
-	);
+	background: /*url("/images/banners/100001_01_banner.png") right, */ var( --element-bg-color );
 	color: white;
 	text-shadow: 1px 1px 2px black, -1px -1px 2px black;
 	text-transform: uppercase;
@@ -89,9 +85,9 @@ td {
 	background: #333;
 }
 
-td:empty {
-	display: none;
-}
+	td:empty {
+		display: none;
+	}
 
 .header {
 	text-shadow: 1px 1px rgba(0, 0, 0, 0.5);

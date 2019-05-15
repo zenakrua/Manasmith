@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function(event) {
+// document.addEventListener("DOMContentLoaded", function(event) {
 // content elements
 var nav = document.getElementsByClassName("nav")
 var content = document.getElementsByTagName("content")[0]
@@ -176,4 +176,4 @@ function fetchDragons(checklist) {
 	subcontent.innerHTML = "Dragons"
 	return
 }
-});
+// });

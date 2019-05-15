@@ -1929,6 +1929,7 @@
 		"Weapon": "Wand",
 		"WeaponID": "7"
 	},
+
 	{
 		"ID": "110015",
 		"Variation": "02",
@@ -1976,6 +1977,891 @@
 						],
 						"Stats": [
 							{
+								"Stat": "Might",
+								"Amount": "13"
+							},
+							{
+								"Stat": "HP",
+								"Amount": "13"
+							}
+						],
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "450"
+							}
+						]
+					},
+					{
+						"Node": "2",
+						"Reward": "HP +13",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "13"
+							},
+							{
+								"Stat": "HP",
+								"Amount": "13"
+							}
+						],
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "450"
+							}
+						]
+					},
+					{
+						"Node": "3",
+						"Reward": "HP +13",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "13"
+							},
+							{
+								"Stat": "HP",
+								"Amount": "13"
+							}
+						],
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "450"
+							}
+						]
+					},
+					{
+						"Node": "4",
+						"Reward": "HP +13",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "13"
+							},
+							{
+								"Stat": "HP",
+								"Amount": "13"
+							}
+						],
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "450"
+							}
+						]
+					},
+					{
+						"Node": "5",
+						"Reward": "Strength +12",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "12"
+							},
+							{
+								"Stat": "Strength",
+								"Amount": "12"
+							}
+						],
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "550"
+							}
+						]
+					},
+					{
+						"Node": "6",
+						"Reward": "Strength +12",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "12"
+							},
+							{
+								"Stat": "Strength",
+								"Amount": "12"
+							}
+						],
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "550"
+							}
+						]
+					},
+					{
+						"Node": "7",
+						"Reward": "Striker's Energy II",
+						"Abilities": [
+							{
+								"Ability": "Striker's Energy",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "100"
+							}
+						],
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "800"
+							}
+						]
+					},
+					{
+						"Node": "8",
+						"Reward": "Poison Res +50%",
+						"Abilities": [
+							{
+								"Ability": "Poison Res",
+								"Amount": "50%"
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "60"
+							}
+						],
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "800"
+							}
+						]
+					},
+					{
+						"Node": "9",
+						"Reward": "Force Strike",
+						"Abilities": [
+							{
+								"Ability": "Force Strike",
+								"Amount": "1"
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "60"
+							}
+						],
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "650"
+							}
+						]
+					},
+					{
+						"Node": "10",
+						"Reward": "New Adventurer Story",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "12"
+							},
+							{
+								"Stat": "Strength",
+								"Amount": "12"
+							}
+						],
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "550"
+							}
+						]
+					}
+				]
+			},
+			{
+				"Circle": "2",
+				"Nodes": [
+					{
+						"Node": "0",
+						"Reward": "Unbind",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
+						"Materials": [
+							{
+								"Material": "Light Orb",
+								"Amount": "10"
+							},
+							{
+								"Material": "Radiance Orb",
+								"Amount": "1"
+							}
+						]
+					},
+					{
+						"Node": "1",
+						"Reward": "HP +15",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "15"
+							},
+							{
+								"Stat": "HP",
+								"Amount": "15"
+							}
+						],
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "1550"
+							}
+						]
+					},
+					{
+						"Node": "2",
+						"Reward": "HP +15",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "15"
+							},
+							{
+								"Stat": "HP",
+								"Amount": "15"
+							}
+						],
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "1550"
+							}
+						]
+					},
+					{
+						"Node": "3",
+						"Reward": "Strength +9",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "9"
+							},
+							{
+								"Stat": "Strength",
+								"Amount": "9"
+							}
+						],
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "1950"
+							}
+						]
+					},
+					{
+						"Node": "4",
+						"Reward": "Strength +9",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "9"
+							},
+							{
+								"Stat": "Strength",
+								"Amount": "9"
+							}
+						],
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "1950"
+							}
+						]
+					},
+					{
+						"Node": "5",
+						"Reward": "Strength +8",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "8"
+							},
+							{
+								"Stat": "Strength",
+								"Amount": "8"
+							}
+						],
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "1950"
+							}
+						]
+					},
+					{
+						"Node": "6",
+						"Reward": "Strength +8",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "8"
+							},
+							{
+								"Stat": "Strength",
+								"Amount": "8"
+							}
+						],
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "1950"
+							}
+						]
+					},
+					{
+						"Node": "7",
+						"Reward": "Strength +8",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "8"
+							},
+							{
+								"Stat": "Strength",
+								"Amount": "8"
+							}
+						],
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "1950"
+							}
+						]
+					},
+					{
+						"Node": "8",
+						"Reward": "Stunning Visage Lv.1",
+						"Abilities": [
+							{
+								"Ability": "Stunning Visage",
+								"Amount": "1"
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "100"
+							}
+						],
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "4300"
+							},
+							{
+								"Material": "Light Orb",
+								"Amount": "15"
+							},
+							{
+								"Material": "Radiance Orb",
+								"Amount": "3"
+							}
+						]
+					},
+					{
+						"Node": "9",
+						"Reward": "New Adventurer Story",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "15"
+							},
+							{
+								"Stat": "HP",
+								"Amount": "15"
+							}
+						],
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "1550"
+							}
+						]
+					},
+					{
+						"Node": "10",
+						"Reward": "New Adventurer Story",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "15"
+							},
+							{
+								"Stat": "HP",
+								"Amount": "15"
+							}
+						],
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "1550"
+							}
+						]
+					}
+				]
+			},
+			{
+				"Circle": "3",
+				"Nodes": [
+					{
+						"Node": "0",
+						"Reward": "Unbind",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
+						"Materials": [
+							{
+								"Material": "Light Orb",
+								"Amount": "20"
+							},
+							{
+								"Material": "Radiance Orb",
+								"Amount": "5"
+							},
+							{
+								"Material": "Refulgence Orb",
+								"Amount": "1"
+							}
+						]
+					},
+					{
+						"Node": "1",
+						"Reward": "HP +18",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "18"
+							},
+							{
+								"Stat": "HP",
+								"Amount": "18"
+							}
+						],
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "3200"
+							}
+						]
+					},
+					{
+						"Node": "2",
+						"Reward": "HP +18",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "18"
+							},
+							{
+								"Stat": "HP",
+								"Amount": "18"
+							}
+						],
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "3200"
+							}
+						]
+					},
+					{
+						"Node": "3",
+						"Reward": "HP +18",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "18"
+							},
+							{
+								"Stat": "HP",
+								"Amount": "18"
+							}
+						],
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "3200"
+							}
+						]
+					},
+					{
+						"Node": "4",
+						"Reward": "HP +17",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "17"
+							},
+							{
+								"Stat": "HP",
+								"Amount": "17"
+							}
+						],
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "3200"
+							}
+						]
+					},
+					{
+						"Node": "5",
+						"Reward": "Strength +17",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "17"
+							},
+							{
+								"Stat": "Strength",
+								"Amount": "17"
+							}
+						],
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "4000"
+							}
+						]
+					},
+					{
+						"Node": "6",
+						"Reward": "Strength +16",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "16"
+							},
+							{
+								"Stat": "Strength",
+								"Amount": "16"
+							}
+						],
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "4000"
+							}
+						]
+					},
+					{
+						"Node": "7",
+						"Reward": "HP 70% = Skill Damage +30%",
+						"Abilities": [
+							{
+								"Ability": "HP 70% = Skill Damage +30%",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "80"
+							}
+						],
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "8100"
+							},
+							{
+								"Material": "Light Orb",
+								"Amount": "15"
+							},
+							{
+								"Material": "Radiance Orb",
+								"Amount": "2"
+							},
+							{
+								"Material": "Rainbow Orb",
+								"Amount": "1"
+							}
+						]
+					},
+					{
+						"Node": "8",
+						"Reward": "Ravishing Rainbow Lv.2",
+						"Abilities": [
+							{
+								"Ability": "Ravishing Rainbow",
+								"Amount": "2"
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "200"
+							}
+						],
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "7000"
+							},
+							{
+								"Material": "Light Orb",
+								"Amount": "15"
+							},
+							{
+								"Material": "Lightwyrm's Scale",
+								"Amount": "8"
+							},
+							{
+								"Material": "Lightwyrm's Glowscale",
+								"Amount": "3"
+							}
+						]
+					},
+					{
+						"Node": "9",
+						"Reward": "Striker's Energy III",
+						"Abilities": [
+							{
+								"Ability": "Striker's Energy",
+								"Amount": "III"
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "0"
+							}
+						],
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "6000"
+							},
+							{
+								"Material": "Light Orb",
+								"Amount": "20"
+							},
+							{
+								"Material": "Radiance Orb",
+								"Amount": "5"
+							},
+							{
+								"Material": "Refulgence Orb",
+								"Amount": "2"
+							}
+						]
+					},
+					{
+						"Node": "10",
+						"Reward": "New Adventurer Story",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "Might",
+								"Amount": "16"
+							}
+						],
+						"Materials": [
+							{
+								"Material": "Mana",
+								"Amount": "4000"
+							}
+						]
+					}
+				]
+			},
+			{
+				"Circle": "4",
+				"Nodes": [
+					{
+						"Node": "0",
+						"Reward": "Unbind",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					},
+					{
+						"Node": "1",
+						"Reward": "Unbind",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
 								"Stat": "",
 								"Amount": ""
 							}
@@ -1989,7 +2875,7 @@
 					},
 					{
 						"Node": "2",
-						"Reward": "HP +13",
+						"Reward": "Unbind",
 						"Abilities": [
 							{
 								"Ability": "",
@@ -2011,7 +2897,7 @@
 					},
 					{
 						"Node": "3",
-						"Reward": "HP +13",
+						"Reward": "Unbind",
 						"Abilities": [
 							{
 								"Ability": "",
@@ -2033,7 +2919,7 @@
 					},
 					{
 						"Node": "4",
-						"Reward": "HP +13",
+						"Reward": "Unbind",
 						"Abilities": [
 							{
 								"Ability": "",
@@ -2188,91 +3074,230 @@
 				]
 			},
 			{
-				"Circle": "2",
-				"Nodes": [
-					{
-						"Node": "0",
-						"Reward": "Unbind",
-						"Abilities": [
-							{
-								"Ability": "",
-								"Amount": ""
-							}
-						],
-						"Stats": [
-							{
-								"Stat": "",
-								"Amount": ""
-							}
-						],
-						"Materials": [
-							{
-								"Material": "",
-								"Amount": ""
-							}
-						]
-					}
-				]
-			},
-			{
-				"Circle": "3",
-				"Nodes": [
-					{
-						"Node": "0",
-						"Reward": "Unbind",
-						"Abilities": [
-							{
-								"Ability": "",
-								"Amount": ""
-							}
-						],
-						"Stats": [
-							{
-								"Stat": "",
-								"Amount": ""
-							}
-						],
-						"Materials": [
-							{
-								"Material": "",
-								"Amount": ""
-							}
-						]
-					}
-				]
-			},
-			{
-				"Circle": "4",
-				"Nodes": [
-					{
-						"Node": "0",
-						"Reward": "Unbind",
-						"Abilities": [
-							{
-								"Ability": "",
-								"Amount": ""
-							}
-						],
-						"Stats": [
-							{
-								"Stat": "",
-								"Amount": ""
-							}
-						],
-						"Materials": [
-							{
-								"Material": "",
-								"Amount": ""
-							}
-						]
-					}
-				]
-			},
-			{
 				"Circle": "5",
 				"Nodes": [
 					{
 						"Node": "0",
+						"Reward": "Unbind",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					},
+					{
+						"Node": "1",
+						"Reward": "Unbind",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					},
+					{
+						"Node": "2",
+						"Reward": "Unbind",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					},
+					{
+						"Node": "3",
+						"Reward": "Unbind",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					},
+					{
+						"Node": "4",
+						"Reward": "Unbind",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					},
+					{
+						"Node": "5",
+						"Reward": "Unbind",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					},
+					{
+						"Node": "6",
+						"Reward": "Unbind",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					},
+					{
+						"Node": "7",
+						"Reward": "Unbind",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					},
+					{
+						"Node": "8",
+						"Reward": "Unbind",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					},
+					{
+						"Node": "9",
+						"Reward": "Unbind",
+						"Abilities": [
+							{
+								"Ability": "",
+								"Amount": ""
+							}
+						],
+						"Stats": [
+							{
+								"Stat": "",
+								"Amount": ""
+							}
+						],
+						"Materials": [
+							{
+								"Material": "",
+								"Amount": ""
+							}
+						]
+					},
+					{
+						"Node": "10",
 						"Reward": "Unbind",
 						"Abilities": [
 							{

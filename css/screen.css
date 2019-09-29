@@ -1,0 +1,56 @@
+.hide {
+	display: none;
+}
+
+body {
+	font-family: "\30D2\30E9\30AE\30CE\89D2\30B4 Pro W3", "Hiragino Kaku Gothic Pro", "\30E1\30A4\30EA\30AA", "Meiryo", "Osaka", "\FF2D\FF33 \FF30\30B4\30B7\30C3\30AF", "MS P Gothic", sans-serif;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+	flex-grow: 2;
+	overflow: auto;
+}
+
+content,
+subcontent {
+	overflow: auto;
+	padding: 1em;
+}
+
+subcontent {
+	flex-grow: 1;
+}
+
+content button {
+	text-align: left;
+}
+
+table,
+thead,
+tbody,
+tr,
+th,
+td {
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+	white-space: nowrap;
+}
+
+subcontent > table {
+	width: auto;
+}
+
+tr {
+	display: flex;
+	flex-direction: row;
+}
+
+/* td:empty {
+	display: none;
+} */

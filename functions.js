@@ -12,13 +12,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 	// Initialize Firebase
 	var firebaseConfig = {
 		// ...
-		apiKey: "AIzaSyC4XwSfWKINC59fjQusX6ox_g-eWaUArIQ",
-		authDomain: "new-alberia-census.firebaseapp.com",
-		databaseURL: "https://new-alberia-census.firebaseio.com",
-		projectId: "new-alberia-census",
-		storageBucket: "new-alberia-census.appspot.com",
-		messagingSenderId: "377724389599",
-		appId: "1:377724389599:web:b79d509c26ded573"
+		
 	};
 
 	firebase.initializeApp(firebaseConfig);

@@ -183,18 +183,64 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 	// calcStats([circle number], [node number], [table key], [stat type (hp, str, etc.)])
 	function calcStats(circle, node, stat, type) {
-		if (type === "hp") {
-			if (circle === 0) {
-				var div = 4;
-				var mod = 4;
-				var plus = 1
-			}
-		} else if (type === "str") {
-			if (circle === 0) {
-				var div = 3;
-				var mod = 3;
-				var plus = 1
-			}
+		switch (circle)
+			case 0:
+				if (type === "hp") {
+					var mod = 4;
+					var div = 4;
+					var plus = 1
+				} else if (type === "str") {
+					var mod = 3;
+					var div = 3;
+					var plus = 1
+				}
+				break;
+			case 1:
+				if (type === "hp") {
+					var mod = 4;
+					var div = 4;
+					var plus = 1
+				} else if (type === "str") {
+					var mod = 5;
+					var div = 5;
+					var plus = 1
+				}
+				break;
+			case 2:
+				if (type === "hp") {
+					var mod = 4;
+					var div = 4;
+					var plus = 1
+				} else if (type === "str") {
+					var mod = 3;
+					var div = 3;
+					var plus = 1
+				}
+				break;
+			case 3:
+				if (type === "hp") {
+					var mod = 3;
+					var div = 3;
+					var plus = 1
+				} else if (type === "str") {
+					var mod = 4;
+					var div = 4;
+					var plus = 1
+				}
+				break;
+			case 4:
+				if (type === "hp") {
+					var mod = 2;
+					var div = 2;
+					var plus = 1
+				} else if (type === "str") {
+					var mod = 1;
+					var div = 1;
+					var plus = 1
+				}
+				break;
+			default:
+				return "Unknown circle number.";
 		}
 		switch (stat % mod) {
 			case 0:
@@ -242,7 +288,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 				}
 				break;
 			default:
-				node = "Unknown stat value";
+				return "Unknown stat value";
 		}
 	}
 

@@ -183,7 +183,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 	// calcStats([circle number], [node number], [table key], [stat type (hp, str, etc.)])
 	function calcStats(circle, node, stat, type) {
-		switch (circle)
+		switch (circle) {
 			case 0:
 				if (type === "hp") {
 					var mod = 4;

@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 		});
 	}
 
-	var name, element, rarity, adventurer;
+	var name, element, elementID, rarity, adventurer;
 
 	// elemental orbs
 	var eleOrb1, eleOrb2, eleOrb3;
@@ -150,17 +150,17 @@ document.addEventListener("DOMContentLoaded", function (event) {
 			.then(querySnapshot => {
 				querySnapshot.forEach(doc => {
 					var adventurerName = document.createElement("button");
-					var name = doc.data()["FullName_" + lang];
+					var name = doc.data().FullName[lang];
 					// collected = adventurers.find(findID, id, variation)
 					adventurerName.classList.add("adventurer");
-					adventurerName.setAttribute("element", doc.data().Element);
+					adventurerName.setAttribute("elementID", doc.data().ElementID);
 					adventurerName.setAttribute("rarity", doc.data().Rarity);
 					adventurerName.setAttribute("collected", "1");
 					adventurerName.id = doc.data().ID;
 					adventurerName.setAttribute("variant", doc.data().Variant);
 					adventurerName.innerHTML += name;
 					adventurerName.addEventListener("click", function () {
-						fetchAdventurer(doc.data().Version, name);
+						fetchAdventurer(doc.data().FullName[lang]);
 					});
 					content.innerHTML = "<h4>Adventurers</h4>";
 					content.appendChild(adventurerName);
@@ -168,9 +168,9 @@ document.addEventListener("DOMContentLoaded", function (event) {
 			});
 	}
 
-	function fetchAdventurer(version, name) {
+	function fetchAdventurer(name) {
 		db.collection("Adventurers")
-			.doc(version + name)
+			.doc(name)
 			.get()
 			.then(function (doc) {
 				subcontent.innerHTML = "<h1>" + name + "</h1>";
@@ -293,50 +293,54 @@ document.addEventListener("DOMContentLoaded", function (event) {
 	}
 
 	function manaCircles(adventurer) {
+
+		hp01 = calcStats(0, 1, adventurer.PlusHp0, "hp");
+		hp02 = calcStats(0, 2, adventurer.PlusHp0, "hp");
+		hp03 = calcStats(0, 3, adventurer.PlusHp0, "hp");
+		hp04 = calcStats(0, 4, adventurer.PlusHp0, "hp");
+		hp11 = calcStats(1, 1, adventurer.PlusHp1, "hp");
+		hp12 = calcStats(1, 2, adventurer.PlusHp1, "hp");
+		hp13 = calcStats(1, 3, adventurer.PlusHp1, "hp");
+		hp14 = calcStats(1, 4, adventurer.PlusHp1, "hp");
+		hp21 = calcStats(2, 1, adventurer.PlusHp2, "hp");
+		hp22 = calcStats(2, 2, adventurer.PlusHp2, "hp");
+		hp23 = calcStats(2, 3, adventurer.PlusHp2, "hp");
+		hp24 = calcStats(2, 4, adventurer.PlusHp2, "hp");
+		hp31 = calcStats(3, 1, adventurer.PlusHp3, "hp");
+		hp32 = calcStats(3, 2, adventurer.PlusHp3, "hp");
+		hp33 = calcStats(3, 3, adventurer.PlusHp3, "hp");
+		hp41 = calcStats(4, 1, adventurer.PlusHp4, "hp");
+		hp42 = calcStats(4, 2, adventurer.PlusHp4, "hp");
+		str01 = calcStats(0, 1, adventurer.PlusAtk0, "str");
+		str02 = calcStats(0, 2, adventurer.PlusAtk0, "str");
+		str03 = calcStats(0, 3, adventurer.PlusAtk0, "str");
+		str11 = calcStats(1, 1, adventurer.PlusAtk1, "str");
+		str12 = calcStats(1, 2, adventurer.PlusAtk1, "str");
+		str13 = calcStats(1, 3, adventurer.PlusAtk1, "str");
+		str14 = calcStats(1, 4, adventurer.PlusAtk1, "str");
+		str15 = calcStats(1, 5, adventurer.PlusAtk1, "str");
+		str21 = calcStats(2, 1, adventurer.PlusAtk2, "str");
+		str22 = calcStats(2, 2, adventurer.PlusAtk2, "str");
+		str23 = calcStats(2, 3, adventurer.PlusAtk2, "str");
+		str31 = calcStats(3, 1, adventurer.PlusAtk3, "str");
+		str32 = calcStats(3, 2, adventurer.PlusAtk3, "str");
+		str33 = calcStats(3, 3, adventurer.PlusAtk3, "str");
+		str34 = calcStats(3, 4, adventurer.PlusAtk3, "str");
+		skill1 = adventurer.Skill1.FullName[lang];
+		skill2 = adventurer.Skill2.FullName[lang];
+		ability11 = adventurer.Abilities11.FullName[lang];
+		ability12 = adventurer.Abilities12.FullName[lang];
+		ability21 = adventurer.Abilities21.FullName[lang];
+		ability22 = adventurer.Abilities22.FullName[lang];
+		ability31 = adventurer.Abilities31.FullName[lang];
+		ability32 = adventurer.Abilities32.FullName[lang];
+		coability1 = adventurer.ExAbilityData1.FullName[lang];
+		coability2 = adventurer.ExAbilityData2.FullName[lang];
+		coability3 = adventurer.ExAbilityData3.FullName[lang];
+		coability4 = adventurer.ExAbilityData4.FullName[lang];
+		coability5 = adventurer.ExAbilityData5.FullName[lang];
+
 		if (adventurer.Rarity === 5 && adventurer.NodeMap === "0501") {
-			hp01 = calcStats(0, 1, adventurer.PlusHp0, "hp");
-			hp02 = calcStats(0, 2, adventurer.PlusHp0, "hp");
-			hp03 = calcStats(0, 3, adventurer.PlusHp0, "hp");
-			hp04 = calcStats(0, 4, adventurer.PlusHp0, "hp");
-			hp11 = calcStats(1, 1, adventurer.PlusHp1, "hp");
-			hp12 = calcStats(1, 2, adventurer.PlusHp1, "hp");
-			hp13 = calcStats(1, 3, adventurer.PlusHp1, "hp");
-			hp14 = calcStats(1, 4, adventurer.PlusHp1, "hp");
-			hp21 = calcStats(2, 1, adventurer.PlusHp2, "hp");
-			hp22 = calcStats(2, 2, adventurer.PlusHp2, "hp");
-			hp23 = calcStats(2, 3, adventurer.PlusHp2, "hp");
-			hp24 = calcStats(2, 4, adventurer.PlusHp2, "hp");
-			hp31 = calcStats(3, 1, adventurer.PlusHp3, "hp");
-			hp32 = calcStats(3, 2, adventurer.PlusHp3, "hp");
-			hp33 = calcStats(3, 3, adventurer.PlusHp3, "hp");
-			hp41 = calcStats(4, 1, adventurer.PlusHp4, "hp");
-			hp42 = calcStats(4, 2, adventurer.PlusHp4, "hp");
-			str01 = calcStats(0, 1, adventurer.PlusAtk0, "str");
-			str02 = calcStats(0, 2, adventurer.PlusAtk0, "str");
-			str03 = calcStats(0, 3, adventurer.PlusAtk0, "str");
-			str11 = calcStats(1, 1, adventurer.PlusAtk1, "str");
-			str12 = calcStats(1, 2, adventurer.PlusAtk1, "str");
-			str13 = calcStats(1, 3, adventurer.PlusAtk1, "str");
-			str14 = calcStats(1, 4, adventurer.PlusAtk1, "str");
-			str15 = calcStats(1, 5, adventurer.PlusAtk1, "str");
-			str21 = calcStats(2, 1, adventurer.PlusAtk2, "str");
-			str22 = calcStats(2, 2, adventurer.PlusAtk2, "str");
-			str23 = calcStats(2, 3, adventurer.PlusAtk2, "str");
-			str31 = calcStats(3, 1, adventurer.PlusAtk3, "str");
-			str32 = calcStats(3, 2, adventurer.PlusAtk3, "str");
-			str33 = calcStats(3, 3, adventurer.PlusAtk3, "str");
-			str34 = calcStats(3, 4, adventurer.PlusAtk3, "str");
-			ability11 = adventurer.Abilities11["FullName_" + lang];
-			ability12 = adventurer.Abilities12["FullName_" + lang];
-			ability21 = adventurer.Abilities21["FullName_" + lang];
-			ability22 = adventurer.Abilities22["FullName_" + lang];
-			ability31 = adventurer.Abilities31["FullName_" + lang];
-			ability32 = adventurer.Abilities32["FullName_" + lang];
-			coability1 = adventurer.ExAbilityData1["FullName_" + lang];
-			coability2 = adventurer.ExAbilityData2["FullName_" + lang];
-			coability3 = adventurer.ExAbilityData3["FullName_" + lang];
-			coability4 = adventurer.ExAbilityData4["FullName_" + lang];
-			coability5 = adventurer.ExAbilityData5["FullName_" + lang];
 			
 			var nodes = [
 				{
@@ -358,13 +362,13 @@ document.addEventListener("DOMContentLoaded", function (event) {
 					circle: 2,
 					nodes: [
 						skill2,
-						str14,
-						hp14,
-						str13,
+						"Strength " + str14,
+						"HP " + hp14,
+						"Strength " + str13,
 						"New Adventurer Story",
-						str12,
-						hp11,
-						str11,
+						"Strength " + str12,
+						"HP " + hp11,
+						"Strength " + str11,
 						"New Adventurer Story",
 						ability21
 					]
@@ -417,41 +421,46 @@ document.addEventListener("DOMContentLoaded", function (event) {
 			];
 		}
 
-		switch (element) {
-			case "Flame":
+		switch (elementID) {
+			// Flame
+			case 1:
 				eleOrb1 = "Flame Orb";
 				eleOrb2 = "Blaze Orb";
 				eleOrb3 = "Inferno Orb";
 				dragonScale1 = "Flamewyrm's Scale";
 				dragonScale2 = "Flamewyrm's Scaldscale";
 				break;
-			case "Water":
-				eleOrb1 = "Flame Orb";
-				eleOrb2 = "Blaze Orb";
-				eleOrb3 = "Inferno Orb";
-				dragonScale1 = "Flamewyrm's Scale";
-				dragonScale2 = "Flamewyrm's Scaldscale";
+			// Water
+			case 2:
+				eleOrb1 = "Water Orb";
+				eleOrb2 = "Stream Orb";
+				eleOrb3 = "Deluge Orb";
+				dragonScale1 = "Waterwyrm's Scale";
+				dragonScale2 = "Waterwyrm's Glistscale";
 				break;
-			case "Wind":
-				eleOrb1 = "Flame Orb";
-				eleOrb2 = "Blaze Orb";
-				eleOrb3 = "Inferno Orb";
-				dragonScale1 = "Flamewyrm's Scale";
-				dragonScale2 = "Flamewyrm's Scaldscale";
+			// Wind
+			case 3:
+				eleOrb1 = "Wind Orb";
+				eleOrb2 = "Storm Orb";
+				eleOrb3 = "Maelstrom Orb";
+				dragonScale1 = "Windwyrm's Scale";
+				dragonScale2 = "Windwyrm's Squallscale";
 				break;
-			case "Light":
-				eleOrb1 = "Flame Orb";
-				eleOrb2 = "Blaze Orb";
-				eleOrb3 = "Inferno Orb";
-				dragonScale1 = "Flamewyrm's Scale";
-				dragonScale2 = "Flamewyrm's Scaldscale";
+			// Light
+			case 4:
+				eleOrb1 = "Light Orb";
+				eleOrb2 = "Radiance Orb";
+				eleOrb3 = "Refulgence Orb";
+				dragonScale1 = "Lightwyrm's Scale";
+				dragonScale2 = "Lightwyrm's Glowscale";
 				break;
-			case "Shadow":
-				eleOrb1 = "Flame Orb";
-				eleOrb2 = "Blaze Orb";
-				eleOrb3 = "Inferno Orb";
-				dragonScale1 = "Flamewyrm's Scale";
-				dragonScale2 = "Flamewyrm's Scaldscale";
+			// Shadow
+			case 5:
+				eleOrb1 = "Shadow Orb";
+				eleOrb2 = "Nightfall Orb";
+				eleOrb3 = "Nether Orb";
+				dragonScale1 = "Shadowwyrm's Scale";
+				dragonScale2 = "Shadowwyrm's Darkscale";
 				break;
 			default:
 				eleOrb1 = "Unknown Orb";
@@ -469,7 +478,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 		for (i = 1; i <= 5; i++) {
 			var circleListing = document.createElement("button");
-			circleListing.classList.add("circle", adventurer.Element);
+			circleListing.classList.add("circle", adventurer.ElementID);
 			circleListing.innerHTML = "Circle " + i;
 			circleListing.value = i;
 			circleList.appendChild(circleListing);

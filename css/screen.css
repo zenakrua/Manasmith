@@ -26,27 +26,6 @@ content button {
 	text-align: left;
 }
 
-table,
-thead,
-tbody,
-tr,
-th,
-td {
-	width: 100%;
-	border-collapse: collapse;
-	text-align: center;
-	white-space: nowrap;
+table {
+	width: 100%
 }
-
-subcontent > table {
-	width: auto;
-}
-
-tr {
-	display: flex;
-	flex-direction: row;
-}
-
-/* td:empty {
-	display: none;
-} */

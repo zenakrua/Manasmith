@@ -5,27 +5,32 @@
 	text-shadow: 0px 0px 0.188em black
 }
 
-[element="Flame"] {
+/*Flame*/
+[elementid="1"] {
 	background: linear-gradient(#bc3232, #912323);
 	color: LightSalmon
 }
 
-[element="Wind"] {
-	background: linear-gradient(#39d394, #188e42);
-	color: greenyellow
-}
-
-[element="Water"] {
+/*Water*/
+[elementid="2"] {
 	background: linear-gradient(#398ed6, #18418c);
 	color: aqua
 }
 
-[element="Light"] {
+/*Wind*/
+[elementid="3"] {
+	background: linear-gradient(#39d394, #188e42);
+	color: greenyellow
+}
+
+/*Light*/
+[elementid="4"] {
 	background: linear-gradient(#d6c739, #947518);
 	color: yellow
 }
 
-[element="Shadow"] {
+/*Shadow*/
+[elementid="5"] {
 	background: linear-gradient(#bd3cd6, #521884);
 	color: pink
 }

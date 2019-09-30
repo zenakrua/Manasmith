@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function (event) {
-
+				
 	// initial
 	var db, x, i;
 	var lang = document.documentElement.lang;
@@ -189,7 +189,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 				var mod = 4;
 				var plus = 1
 			}
-		} else if (stat === "str") {
+		} else if (type === "str") {
 			if (circle === 0) {
 				var div = 3;
 				var mod = 3;
@@ -199,46 +199,46 @@ document.addEventListener("DOMContentLoaded", function (event) {
 		switch (stat % mod) {
 			case 0:
 				if (node === 1) {
-					return parseInt(type / div);
+					return parseInt(stat / div);
 				} else if (node === 2) {
-					return parseInt(type / div);
+					return parseInt(stat / div);
 				} else if (node === 3) {
-					return parseInt(type / div);
+					return parseInt(stat / div);
 				} else if (node === 4) {
-					return parseInt(type / div);
+					return parseInt(stat / div);
 				}
 				break;
 			case 1:
 				if (node === 1) {
-					return parseInt(type / div) + plus;
+					return parseInt((stat / div) + plus);
 				} else if (node === 2) {
-					return parseInt(type / div);
+					return parseInt(stat / div);
 				} else if (node === 3) {
-					return parseInt(type / div);
+					return parseInt(stat / div);
 				} else if (node === 4) {
-					return parseInt(type / div);
+					return parseInt(stat / div);
 				}
 				break;
 			case 2:
 				if (node === 1) {
-					return parseInt(type / div) + plus;
+					return parseInt((stat / div) + plus);
 				} else if (node === 2) {
-					return parseInt(type / div) + plus;
+					return parseInt((stat / div) + plus);
 				} else if (node === 3) {
-					return parseInt(type / div);
+					return parseInt(stat / div);
 				} else if (node === 4) {
-					return parseInt(type / div);
+					return parseInt(stat / div);
 				}
 				break;
 			case 3:
 				if (node === 1) {
-					return parseInt(type / div) + plus;
+					return parseInt((stat / div) + plus);
 				} else if (node === 2) {
-					return parseInt(type / div) + plus;
+					return parseInt((stat / div) + plus);
 				} else if (node === 3) {
-					return parseInt(type / div) + plus;
+					return parseInt((stat / div) + plus);
 				} else if (node === 4) {
-					return parseInt(type / div);
+					return parseInt(stat / div);
 				}
 				break;
 			default:
@@ -249,22 +249,36 @@ document.addEventListener("DOMContentLoaded", function (event) {
 	function manaCircles(adventurer) {
 		if (adventurer.Rarity === 5 && adventurer.NodeMap === "0501") {
 			hp01 = calcStats(0, 1, adventurer.PlusHp0, "hp");
-			str01 = calcStats(0, 1, adventurer.PlusStr0, "str");
+			hp02 = calcStats(0, 2, adventurer.PlusHp0, "hp");
+			hp03 = calcStats(0, 3, adventurer.PlusHp0, "hp");
+			hp04 = calcStats(0, 4, adventurer.PlusHp0, "hp");
+			hp11 = calcStats(1, 1, adventurer.PlusHp1, "hp");
+			hp12 = calcStats(1, 2, adventurer.PlusHp1, "hp");
+			hp13 = calcStats(1, 3, adventurer.PlusHp1, "hp");
+			hp14 = calcStats(1, 4, adventurer.PlusHp1, "hp");
+			str01 = calcStats(0, 1, adventurer.PlusAtk0, "str");
+			str02 = calcStats(0, 2, adventurer.PlusAtk0, "str");
+			str03 = calcStats(0, 3, adventurer.PlusAtk0, "str");
+			str11 = calcStats(1, 1, adventurer.PlusAtk1, "str");
+			str12 = calcStats(1, 2, adventurer.PlusAtk1, "str");
+			str13 = calcStats(1, 3, adventurer.PlusAtk1, "str");
+			str14 = calcStats(1, 4, adventurer.PlusAtk1, "str");
+			str15 = calcStats(1, 5, adventurer.PlusAtk1, "str");
 			ability11 = adventurer.Abilities11["FullName_" + lang];
 			ability21 = adventurer.Abilities21["FullName_" + lang];
 			var nodes = [
 				{
 					circle: 1,
 					nodes: [
-						"HP " + hp01,
-						"Strength " + str01,
+						"HP " + hp04,
+						"Strength " + str03,
 						ability11,
-						hp02,
+						"HP " + hp03,
 						"New Adventurer Story",
-						hp03,
+						"HP " + hp02,
 						"Force Strike",
-						str03,
-						hp04,
+						"Strength " + str01,
+						"HP " + hp01,
 						ability21
 					]
 				},

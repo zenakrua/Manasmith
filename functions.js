@@ -181,7 +181,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 			});
 	}
 
-	function calcHP(nodemap, circle, node, hp) {
+	function calcHP(circle, node, hp) {
 		switch (hp % 4) {
 			case 0:
 				if (circle === 0 && node === 1) {
@@ -232,7 +232,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 		}
 	}
 
-	function calcSTR(nodemap, circle, node, str) {
+	function calcSTR(circle, node, str) {
 		switch (str % 4) {
 			case 0:
 				if (circle === 0 && node === 1) {
@@ -285,7 +285,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 	function manaCircles(adventurer) {
 		if (adventurer.Rarity === 5 && adventurer.NodeMap === "0501") {
-			hp01 = "HP " + calcHP("0501", 0, 1, adventurer.PlusHp0);
+			hp01 = "HP " + calcHP(0, 1, adventurer.PlusHp0);
 			ability11 = adventurer.Abilities11["FullName_" + lang];
 			ability21 = adventurer.Abilities21["FullName_" + lang];
 			var nodes = [
@@ -366,6 +366,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 				}
 			];
 		}
+
 		switch (element) {
 			case "Flame":
 				eleOrb1 = "Flame Orb";
@@ -374,12 +375,40 @@ document.addEventListener("DOMContentLoaded", function (event) {
 				dragonScale1 = "Flamewyrm's Scale";
 				dragonScale2 = "Flamewyrm's Scaldscale";
 				break;
+			case "Water":
+				eleOrb1 = "Flame Orb";
+				eleOrb2 = "Blaze Orb";
+				eleOrb3 = "Inferno Orb";
+				dragonScale1 = "Flamewyrm's Scale";
+				dragonScale2 = "Flamewyrm's Scaldscale";
+				break;
+			case "Wind":
+				eleOrb1 = "Flame Orb";
+				eleOrb2 = "Blaze Orb";
+				eleOrb3 = "Inferno Orb";
+				dragonScale1 = "Flamewyrm's Scale";
+				dragonScale2 = "Flamewyrm's Scaldscale";
+				break;
+			case "Light":
+				eleOrb1 = "Flame Orb";
+				eleOrb2 = "Blaze Orb";
+				eleOrb3 = "Inferno Orb";
+				dragonScale1 = "Flamewyrm's Scale";
+				dragonScale2 = "Flamewyrm's Scaldscale";
+				break;
+			case "Shadow":
+				eleOrb1 = "Flame Orb";
+				eleOrb2 = "Blaze Orb";
+				eleOrb3 = "Inferno Orb";
+				dragonScale1 = "Flamewyrm's Scale";
+				dragonScale2 = "Flamewyrm's Scaldscale";
+				break;
 			default:
-				eleOrb1 = "Unknown";
-				eleOrb2 = "Unknown";
-				eleOrb3 = "Unknown";
-				dragonScale1 = "Unknown";
-				dragonScale2 = "Unknown";
+				eleOrb1 = "Unknown Orb";
+				eleOrb2 = "Unknown Orb";
+				eleOrb3 = "Unknown Orb";
+				dragonScale1 = "Unknown Scale";
+				dragonScale2 = "Unknown Scale";
 				break;
 		}
 

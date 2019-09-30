@@ -183,13 +183,13 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 	// calcStats([circle number], [node number], [table key], [stat type (hp, str, etc.)])
 	function calcStats(circle, node, stat, type) {
-		if (type = hp) {
+		if (type === "hp") {
 			if (circle === 0) {
 				var div = 4;
 				var mod = 4;
 				var plus = 1
 			}
-		} else if (stat = str) {
+		} else if (stat === "str") {
 			if (circle === 0) {
 				var div = 3;
 				var mod = 3;
@@ -248,8 +248,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 	function manaCircles(adventurer) {
 		if (adventurer.Rarity === 5 && adventurer.NodeMap === "0501") {
-			hp01 = calcStats(0, 1, adventurer.PlusHp0, hp);
-			str01 = calcStats(0, 1, adventurer.PlusStr0, str);
+			hp01 = calcStats(0, 1, adventurer.PlusHp0, "hp");
+			str01 = calcStats(0, 1, adventurer.PlusStr0, "str");
 			ability11 = adventurer.Abilities11["FullName_" + lang];
 			ability21 = adventurer.Abilities21["FullName_" + lang];
 			var nodes = [

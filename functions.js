@@ -46,23 +46,23 @@ document.addEventListener("DOMContentLoaded", function (event) {
 					break;
 				case "weapons":
 					content.innerHTML = "";
-					subcontent.innerHTML = "";
+					subcontent.innerHTML = "weapons";
 					break;
 				case "wyrmprints":
 					content.innerHTML = "";
-					subcontent.innerHTML = "";
+					subcontent.innerHTML = "wyrmprints";
 					break;
 				case "dragons":
 					content.innerHTML = "";
-					subcontent.innerHTML = "";
+					subcontent.innerHTML = "dragons";
 					break;
 				case "halidom":
 					content.innerHTML = "";
-					subcontent.innerHTML = "";
+					subcontent.innerHTML = "halidom";
 					break;
 				case "home":
 					content.innerHTML = "";
-					subcontent.innerHTML = "";
+					subcontent.innerHTML = "HOME PAGE SHIT";
 					break;
 				default:
 					content.innerHTML = "";
@@ -394,6 +394,21 @@ document.addEventListener("DOMContentLoaded", function (event) {
 			circleListing.innerHTML = "Circle " + i;
 			circleListing.value = i;
 			circleList.appendChild(circleListing);
+			circleListing.addEventListener("click", function () {
+
+				var circle = this.value
+				var nodeTables = document.getElementsByTagName("table")
+				for (i = 0; i < nodeTables.length; i++) {
+
+					if (nodeTables[i].getAttribute("circle") === circle) {
+						nodeTables[i].style.display = "inherit"
+					} else if (nodeTables[i].getAttribute("circle") !== circle) {
+						nodeTables[i].style.display = "none"
+					}
+
+				}
+
+			})
 		}
 
 		subcontent.appendChild(circleList);
@@ -406,7 +421,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 				nodeTable.setAttribute("circle", circlenum);
 				nodeTable.setAttribute("node", i);
 				if (circlenum !== 1) {
-					nodeTable.classList.add("hide");
+					nodeTable.style.display = "none";
 				}
 				var nodeTHead = document.createElement("thead");
 				nodeTable.appendChild(nodeTHead);
@@ -428,9 +443,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
 			circlenum++;
 		}
 
-		var circles = document.getElementsByClassName("circle");
-		for (i = 0; i < circles.length; i++) {
-			nav[i].addEventListener("click", function () { });
-		}
 	}
-)}
+
+})

@@ -181,111 +181,82 @@ document.addEventListener("DOMContentLoaded", function (event) {
 			});
 	}
 
-	function calcHP(circle, node, hp) {
-		if (circle === 0) {
-			var div = 4;
-			var mod = 4;
-			var plus = 1
+	// calcStats([circle number], [node number], [table key], [stat type (hp, str, etc.)])
+	function calcStats(circle, node, stat, type) {
+		if (type = hp) {
+			if (circle === 0) {
+				var div = 4;
+				var mod = 4;
+				var plus = 1
+			}
+		} else if (stat = str) {
+			if (circle === 0) {
+				var div = 3;
+				var mod = 3;
+				var plus = 1
+			}
 		}
 		switch (hp % mod) {
 			case 0:
 				if (node === 1) {
-					return parseInt(hp / div);
+					return parseInt(type / div);
 				} else if (node === 2) {
-					return parseInt(hp / div);
+					return parseInt(type / div);
 				} else if (node === 3) {
-					return parseInt(hp / div);
+					return parseInt(type / div);
 				} else if (node === 4) {
-					return parseInt(hp / div);
+					return parseInt(type / div);
 				}
 				break;
 			case 1:
 				if (node === 1) {
-					return parseInt(hp / div) + plus;
+					return parseInt(type / div) + plus;
 				} else if (node === 2) {
-					return parseInt(hp / div);
+					return parseInt(type / div);
 				} else if (node === 3) {
-					return parseInt(hp / div);
+					return parseInt(type / div);
 				} else if (node === 4) {
-					return parseInt(hp / div);
+					return parseInt(type / div);
 				}
 				break;
 			case 2:
 				if (node === 1) {
-					return parseInt(hp / div) + plus;
+					return parseInt(type / div) + plus;
 				} else if (node === 2) {
-					return parseInt(hp / div) + plus;
+					return parseInt(type / div) + plus;
 				} else if (node === 3) {
-					return parseInt(hp / div);
+					return parseInt(type / div);
 				} else if (node === 4) {
-					return parseInt(hp / div);
+					return parseInt(type / div);
 				}
 				break;
 			case 3:
 				if (node === 1) {
-					return parseInt(hp / div) + plus;
+					return parseInt(type / div) + plus;
 				} else if (node === 2) {
-					return parseInt(hp / div) + plus;
+					return parseInt(type / div) + plus;
 				} else if (node === 3) {
-					return parseInt(hp / div) + plus;
+					return parseInt(type / div) + plus;
 				} else if (node === 4) {
-					return parseInt(hp / div);
+					return parseInt(type / div);
 				}
 				break;
 			default:
-				node = "Unknown";
-		}
-	}
-
-	function calcSTR(circle, node, str) {
-		if (circle === 0) {
-			var div = 3;
-			var mod = 3;
-			var plus = 1
-		}
-			switch (str % mod) {
-			case 0:
-				if (node === 1) {
-					return parseInt(str / div);
-				} else if (node === 2) {
-					return parseInt(str / div);
-				} else if (node === 3) {
-					return parseInt(str / div);
-				}
-				break;
-			case 1:
-				if (node === 1) {
-					return parseInt(str / div) + plus;
-				} else if (node === 2) {
-					return parseInt(str / div);
-				} else if (node === 3) {
-					return parseInt(str / div);
-				}
-				break;
-			case 2:
-				if (node === 1) {
-					return parseInt(str / div) + plus;
-				} else if (node === 2) {
-					return parseInt(str / div) + plus;
-				} else if (node === 3) {
-					return parseInt(str / div);
-				}
-				break;
-			default:
-				node = "Unknown";
+				node = "Unknown stat value";
 		}
 	}
 
 	function manaCircles(adventurer) {
 		if (adventurer.Rarity === 5 && adventurer.NodeMap === "0501") {
-			hp01 = "HP " + calcHP(0, 1, adventurer.PlusHp0);
+			hp01 = calcStats(0, 1, adventurer.PlusHp0, hp);
+			str01 = calcStats(0, 1, adventurer.PlusStr0, str);
 			ability11 = adventurer.Abilities11["FullName_" + lang];
 			ability21 = adventurer.Abilities21["FullName_" + lang];
 			var nodes = [
 				{
 					circle: 1,
 					nodes: [
-						hp01,
+						"HP " + hp01,
 						"Strength " + str01,
 						ability11,
 						hp02,

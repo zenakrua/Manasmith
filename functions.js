@@ -196,7 +196,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 				var plus = 1
 			}
 		}
-		switch (hp % mod) {
+		switch (stat % mod) {
 			case 0:
 				if (node === 1) {
 					return parseInt(type / div);

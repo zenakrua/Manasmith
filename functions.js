@@ -182,49 +182,54 @@ document.addEventListener("DOMContentLoaded", function (event) {
 	}
 
 	function calcHP(circle, node, hp) {
-		switch (hp % 4) {
+		if (circle === 0) {
+			var div = 4;
+			var mod = 4;
+			var plus = 1
+		}
+		switch (hp % mod) {
 			case 0:
-				if (circle === 0 && node === 1) {
-					return parseInt(hp / 4);
-				} else if (circle === 0 && node === 2) {
-					return parseInt(hp / 4);
-				} else if (circle === 0 && node === 3) {
-					return parseInt(hp / 4);
-				} else if (circle === 0 && node === 4) {
-					return parseInt(hp / 4);
+				if (node === 1) {
+					return parseInt(hp / div);
+				} else if (node === 2) {
+					return parseInt(hp / div);
+				} else if (node === 3) {
+					return parseInt(hp / div);
+				} else if (node === 4) {
+					return parseInt(hp / div);
 				}
 				break;
 			case 1:
-				if (circle === 0 && node === 1) {
-					return parseInt(hp / 4) + 1;
-				} else if (circle === 0 && node === 2) {
-					return parseInt(hp / 4);
-				} else if (circle === 0 && node === 3) {
-					return parseInt(hp / 4);
-				} else if (circle === 0 && node === 4) {
-					return parseInt(hp / 4);
+				if (node === 1) {
+					return parseInt(hp / div) + plus;
+				} else if (node === 2) {
+					return parseInt(hp / div);
+				} else if (node === 3) {
+					return parseInt(hp / div);
+				} else if (node === 4) {
+					return parseInt(hp / div);
 				}
 				break;
 			case 2:
-				if (circle === 0 && node === 1) {
-					return parseInt(hp / 4) + 1;
-				} else if (circle === 0 && node === 2) {
-					return parseInt(hp / 4) + 1;
-				} else if (circle === 0 && node === 3) {
-					return parseInt(hp / 4);
-				} else if (circle === 0 && node === 4) {
-					return parseInt(hp / 4);
+				if (node === 1) {
+					return parseInt(hp / div) + plus;
+				} else if (node === 2) {
+					return parseInt(hp / div) + plus;
+				} else if (node === 3) {
+					return parseInt(hp / div);
+				} else if (node === 4) {
+					return parseInt(hp / div);
 				}
 				break;
 			case 3:
-				if (circle === 0 && node === 1) {
-					return parseInt(hp / 4) + 1;
-				} else if (circle === 0 && node === 2) {
-					return parseInt(hp / 4) + 1;
-				} else if (circle === 0 && node === 3) {
-					return parseInt(hp / 4) + 1;
-				} else if (circle === 0 && node === 4) {
-					return parseInt(hp / 4);
+				if (node === 1) {
+					return parseInt(hp / div) + plus;
+				} else if (node === 2) {
+					return parseInt(hp / div) + plus;
+				} else if (node === 3) {
+					return parseInt(hp / div) + plus;
+				} else if (node === 4) {
+					return parseInt(hp / div);
 				}
 				break;
 			default:
@@ -233,49 +238,37 @@ document.addEventListener("DOMContentLoaded", function (event) {
 	}
 
 	function calcSTR(circle, node, str) {
-		switch (str % 4) {
+		if (circle === 0) {
+			var div = 3;
+			var mod = 3;
+			var plus = 1
+		}
+			switch (str % mod) {
 			case 0:
-				if (circle === 0 && node === 1) {
-					return parseInt(str / 4);
-				} else if (circle === 0 && node === 2) {
-					return parseInt(str / 4);
-				} else if (circle === 0 && node === 3) {
-					return parseInt(str / 4);
-				} else if (circle === 0 && node === 4) {
-					return parseInt(str / 4);
+				if (node === 1) {
+					return parseInt(str / div);
+				} else if (node === 2) {
+					return parseInt(str / div);
+				} else if (node === 3) {
+					return parseInt(str / div);
 				}
 				break;
 			case 1:
-				if (circle === 0 && node === 1) {
-					return parseInt(str / 4) + 1;
-				} else if (circle === 0 && node === 2) {
-					return parseInt(str / 4);
-				} else if (circle === 0 && node === 3) {
-					return parseInt(hp / 4);
-				} else if (circle === 0 && node === 4) {
-					return parseInt(hp / 4);
+				if (node === 1) {
+					return parseInt(str / div) + plus;
+				} else if (node === 2) {
+					return parseInt(str / div);
+				} else if (node === 3) {
+					return parseInt(str / div);
 				}
 				break;
 			case 2:
-				if (circle === 0 && node === 1) {
-					return parseInt(hp / 4) + 1;
-				} else if (circle === 0 && node === 2) {
-					return parseInt(hp / 4) + 1;
-				} else if (circle === 0 && node === 3) {
-					return parseInt(hp / 4);
-				} else if (circle === 0 && node === 4) {
-					return parseInt(hp / 4);
-				}
-				break;
-			case 3:
-				if (circle === 0 && node === 1) {
-					return parseInt(hp / 4) + 1;
-				} else if (circle === 0 && node === 2) {
-					return parseInt(hp / 4) + 1;
-				} else if (circle === 0 && node === 3) {
-					return parseInt(hp / 4) + 1;
-				} else if (circle === 0 && node === 4) {
-					return parseInt(hp / 4);
+				if (node === 1) {
+					return parseInt(str / div) + plus;
+				} else if (node === 2) {
+					return parseInt(str / div) + plus;
+				} else if (node === 3) {
+					return parseInt(str / div);
 				}
 				break;
 			default:

@@ -5,6 +5,14 @@ body {
 	height: 100vh;
 }
 
+header, footer {
+	margin: 0 auto;
+}
+
+h1,h2 {
+	text-align: center;
+}
+
 main {
 	display: flex;
 	flex-direction: row;
@@ -19,13 +27,30 @@ subcontent {
 }
 
 subcontent {
-	flex-grow: 1;
+	margin: 0 auto;
 }
 
 content button {
 	text-align: left;
 }
 
-table {
-	width: 100%
+subcontent > div {
+	position: fixed;
+	left: 50%;
+	/* bring your own prefixes */
+	transform: translate(-50%, -0%);
+}
+
+	subcontent > div > table {
+	width: 100%;
+	border-collapse: collapse
+}
+
+th, td {
+	padding: 0.3125em;
+}
+
+#nodeHeader {
+	display: flex;
+	justify-content: space-between;
 }

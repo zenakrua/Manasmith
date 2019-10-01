@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function (event) {
-				
+
 	// initial
 	var db, x, i;
 	var lang = document.documentElement.lang;
@@ -147,8 +147,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
 	function fetchAdventurers() {
 		db.collection("Adventurers")
 			.get()
-			.then(querySnapshot => {
-				querySnapshot.forEach(doc => {
+			.then(function (querySnapshot) {
+				querySnapshot.forEach(function (doc) {
 					var adventurerName = document.createElement("button");
 					var name = doc.data().FullName[lang];
 					// collected = adventurers.find(findID, id, variation)
@@ -173,7 +173,20 @@ document.addEventListener("DOMContentLoaded", function (event) {
 			.doc(name)
 			.get()
 			.then(function (doc) {
-				subcontent.innerHTML = "<h1>" + name + "</h1>";
+				var circleTables = document.createElement("div")
+				circleTables.setAttribute("id", "circleTables")
+
+				subcontent.appendChild(circleTables);
+
+				var adventurerTitle = document.createElement("h2");
+				adventurerTitle.innerHTML = doc.data().Title[lang];
+				var adventurerName = document.createElement("h1");
+				adventurerName.innerHTML = name;
+				circleTables.appendChild(adventurerTitle);
+				circleTables.appendChild(adventurerName);
+
+
+
 				manaCircles(doc.data());
 			})
 			.catch(function (error) {
@@ -252,6 +265,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
 					return parseInt(stat / div);
 				} else if (node === 4) {
 					return parseInt(stat / div);
+				} else if (node === 5) {
+					return parseInt(stat / div);
 				}
 				break;
 			case 1:
@@ -262,6 +277,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
 				} else if (node === 3) {
 					return parseInt(stat / div);
 				} else if (node === 4) {
+					return parseInt(stat / div);
+				} else if (node === 5) {
 					return parseInt(stat / div);
 				}
 				break;
@@ -274,6 +291,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
 					return parseInt(stat / div);
 				} else if (node === 4) {
 					return parseInt(stat / div);
+				} else if (node === 5) {
+					return parseInt(stat / div);
 				}
 				break;
 			case 3:
@@ -284,6 +303,21 @@ document.addEventListener("DOMContentLoaded", function (event) {
 				} else if (node === 3) {
 					return parseInt((stat / div) + plus);
 				} else if (node === 4) {
+					return parseInt(stat / div);
+				} else if (node === 5) {
+					return parseInt(stat / div);
+				}
+				break;
+			case 4:
+				if (node === 1) {
+					return parseInt((stat / div) + plus);
+				} else if (node === 2) {
+					return parseInt((stat / div) + plus);
+				} else if (node === 3) {
+					return parseInt((stat / div) + plus);
+				} else if (node === 4) {
+					return parseInt((stat / div) + plus);
+				} else if (node === 5) {
 					return parseInt(stat / div);
 				}
 				break;
@@ -326,6 +360,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 		str32 = calcStats(3, 2, adventurer.PlusAtk3, "str");
 		str33 = calcStats(3, 3, adventurer.PlusAtk3, "str");
 		str34 = calcStats(3, 4, adventurer.PlusAtk3, "str");
+		str41 = calcStats(4, 1, adventurer.PlusAtk4, "str");
 		skill1 = adventurer.Skill1.FullName[lang];
 		skill2 = adventurer.Skill2.FullName[lang];
 		ability11 = adventurer.Abilities11.FullName[lang];
@@ -341,81 +376,181 @@ document.addEventListener("DOMContentLoaded", function (event) {
 		coability5 = adventurer.ExAbilityData5.FullName[lang];
 
 		if (adventurer.Rarity === 5 && adventurer.NodeMap === "0501") {
-			
+
 			var nodes = [
 				{
 					circle: 1,
 					nodes: [
-						"HP " + hp04,
-						"Strength " + str03,
-						ability11,
-						"HP " + hp03,
-						"New Adventurer Story",
-						"HP " + hp02,
-						"Force Strike",
-						"Strength " + str01,
-						"HP " + hp01,
-						ability21
+						{
+							"Reward": "HP +" + hp04
+						},
+						{
+							"Reward": "Strength +" + str03
+						},
+						{
+							"Reward": ability11
+						},
+						{
+							"Reward": "HP +" + hp03
+						},
+						{
+							"Reward": "New Adventurer Story"
+						},
+						{
+							"Reward": "HP +" + hp02
+						},
+						{
+							"Reward": "Force Strike"
+						},
+						{
+							"Reward": "Strength +" + str01
+						},
+						{
+							"Reward": "HP +" + hp01
+						},
+						{
+							"Reward": ability21
+						}
 					]
 				},
 				{
 					circle: 2,
 					nodes: [
-						skill2,
-						"Strength " + str14,
-						"HP " + hp14,
-						"Strength " + str13,
-						"New Adventurer Story",
-						"Strength " + str12,
-						"HP " + hp11,
-						"Strength " + str11,
-						"New Adventurer Story",
-						ability21
+						{
+							"Reward": skill2 + " Lv. 1"
+						},
+						{
+							"Reward": "Strength +" + str15
+						},
+						{
+							"Reward": "HP +" + hp13
+						},
+						{
+							"Reward": "Strength +" + str14
+						},
+						{
+							"Reward": "New Adventurer Story"
+						},
+						{
+							"Reward": "Strength +" + str13
+						},
+						{
+							"Reward": "HP +" + hp12
+						},
+						{
+							"Reward": "Strength +" + str12
+						},
+						{
+							"Reward": "New Adventurer Story"
+						},
+						{
+							"Reward": "Strength +" + str11
+						}
 					]
 				},
 				{
 					circle: 3,
 					nodes: [
-						hp01,
-						str01,
-						ability11,
-						hp02,
-						"New Adventurer Story",
-						hp03,
-						"Force Strike",
-						str03,
-						hp04,
-						ability21
+						{
+							"Reward": "HP +" + hp24
+						},
+						{
+							"Reward": ability31
+						},
+						{
+							"Reward": "Strength +" + str22
+						},
+						{
+							"Reward": "HP +" + hp23
+						},
+						{
+							"Reward": "New Adventurer Story"
+						},
+						{
+							"Reward": "HP +" + hp22
+						},
+						{
+							"Reward": ability12
+						},
+						{
+							"Reward": "Strength +" + str21
+						},
+						{
+							"Reward": "HP +" + hp21
+						},
+						{
+							"Reward": skill1 + " Lv. 2"
+						}
 					]
 				},
 				{
 					circle: 4,
 					nodes: [
-						hp01,
-						str01,
-						ability11,
-						hp02,
-						"New Adventurer Story",
-						hp03,
-						"Force Strike",
-						str03,
-						hp04,
-						ability21
+						{
+							"Reward": "Strength +" + str34
+						},
+						{
+							"Reward": "HP +" + hp33
+						},
+						{
+							"Reward": "Upgrade Force Strike"
+						},
+						{
+							"Reward": "Strength +" + str33
+						},
+						{
+							"Reward": "HP +" + hp32
+						},
+						{
+							"Reward": "Strength +" + str32
+						},
+						{
+							"Reward": ability22
+						},
+						{
+							"Reward": "HP +" + hp31
+						},
+						{
+							"Reward": "Strength +" + str31
+						},
+						{
+							"Reward": skill2 + " Lv. 2"
+						}
 					]
 				},
 				{
 					circle: 5,
 					nodes: [
-						hp01,
-						str01,
-						ability11,
-						hp02,
-						"New Adventurer Story",
-						hp03,
-						"Force Strike",
-						str03,
-						hp04,
-						ability21
+						{
+							"Reward": ability32
+						},
+						{
+							"Reward": "HP +" + hp42
+						},
+						{
+							"Reward": "Damascus Crystal"
+						},
+						{
+							"Reward": "Strength +" + str41
+						},
+						{
+							"Reward": coability2
+						},
+						{
+							"Reward": coability3
+						},
+						{
+							"Reward": skill1 + " Lv. 3"
+						},
+						{
+							"Reward": coability4
+						},
+						{
+							"Reward": coability5
+						},
+						{
+							"Reward": "HP +" + hp41
+						}
 					]
 				}
 			];
@@ -472,8 +607,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 		}
 
 		// add circle filters
-
-		var circleList = document.createElement("span");
+		var circleList = document.createElement("p");
 		var circlenum = 1;
 
 		for (i = 1; i <= 5; i++) {
@@ -489,7 +623,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 				for (i = 0; i < nodeTables.length; i++) {
 
 					if (nodeTables[i].getAttribute("circle") === circle) {
-						nodeTables[i].style.display = "inherit"
+						nodeTables[i].style.display = "table"
 					} else if (nodeTables[i].getAttribute("circle") !== circle) {
 						nodeTables[i].style.display = "none"
 					}
@@ -499,7 +633,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
 			})
 		}
 
-		subcontent.appendChild(circleList);
+		var circleTables = document.getElementById("circleTables")
+		circleTables.appendChild(circleList);
 
 		while (circlenum <= 5) {
 			// add node tables
@@ -514,19 +649,25 @@ document.addEventListener("DOMContentLoaded", function (event) {
 				var nodeTHead = document.createElement("thead");
 				nodeTable.appendChild(nodeTHead);
 				var nodeHeaderRow = nodeTHead.insertRow(0);
+				nodeTHead.setAttribute("elementID", adventurer.ElementID);
+				nodeHeaderRow.setAttribute("id", "nodeHeaderRow")
 				var nodeHeader = document.createElement("th");
-				nodeHeader.innerHTML = "Node " + i;
+				nodeHeader.setAttribute("id", "nodeHeader")
+				var nodeHeading = document.createElement("span");
+				nodeHeading.setAttribute("id", "nodeHeading")
+				var rewardHeading = document.createElement("span");
+				rewardHeading.setAttribute("id", "rewardHeading")
+				nodeHeading.innerHTML = "Node " + i;
+				rewardHeading.innerHTML = nodes[circlenum - 1].nodes[i - 1].Reward;
+				nodeHeaderRow.appendChild(nodeHeader);
+				nodeHeader.appendChild(nodeHeading)
+				nodeHeader.appendChild(rewardHeading);
 
 				var nodeTBody = document.createElement("tbody");
-				var rewardHeaderRow = nodeTBody.insertRow(0);
-				var rewardHeader = document.createElement("th");
-				rewardHeader.innerHTML = nodes[circlenum - 1].nodes[i - 1];
-				rewardHeaderRow.appendChild(rewardHeader);
-
+				nodeTBody
 				nodeTable.appendChild(nodeTBody);
-				nodeHeaderRow.appendChild(nodeHeader);
 
-				subcontent.appendChild(nodeTable);
+				circleTables.appendChild(nodeTable);
 			}
 			circlenum++;
 		}

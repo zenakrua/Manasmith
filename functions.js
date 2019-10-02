@@ -258,16 +258,10 @@ document.addEventListener("DOMContentLoaded", function (event) {
 		}
 		switch (stat % mod) {
 			case 0:
-				if (node === 1) {
-					return parseInt(stat / div);
-				} else if (node === 2) {
-					return parseInt(stat / div);
-				} else if (node === 3) {
-					return parseInt(stat / div);
-				} else if (node === 4) {
-					return parseInt(stat / div);
-				} else if (node === 5) {
-					return parseInt(stat / div);
+				for (i = 0; i <= (stat % mod); i++) {
+					if (node === i) {
+						return parseInt(stat / div);
+					}
 				}
 				break;
 			case 1:
@@ -327,15 +321,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
 		}
 	}
 	
-	function nodeMap(adventurer) {
-		var nodes = [];
-		var node1;
-		node1 = if (adventurer.NodeMap === "0501") {
-			calcStats(0, 1, adventurer.PlusHp0, "hp");
-		}
-		console.log(node1)
-	}
-
 	function manaCircles(adventurer) {
 
 		hp01 = calcStats(0, 1, adventurer.PlusHp0, "hp");

@@ -326,6 +326,15 @@ document.addEventListener("DOMContentLoaded", function (event) {
 				return "Unknown stat value";
 		}
 	}
+	
+	function nodeMap(adventurer) {
+		var nodes = [];
+		var node1;
+		node1 = if (adventurer.NodeMap === "0501") {
+			calcStats(0, 1, adventurer.PlusHp0, "hp");
+		}
+		console.log(node1)
+	}
 
 	function manaCircles(adventurer) {
 

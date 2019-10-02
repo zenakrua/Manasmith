@@ -116,7 +116,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
 		str31,
 		str32,
 		str33,
-		str34;
+		str34,
+		str41;
 
 	// abilities
 	var ability11,

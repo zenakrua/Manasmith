@@ -665,9 +665,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
 				nodeHeader.appendChild(rewardHeading);
 
 				var nodeTBody = document.createElement("tbody");
-				for (i = 0; i <= nodes[circlenum - 1].nodes[i - 1].Materials.length; i++) {
-					console.log([i])
-				}
 				
 				nodeTable.appendChild(nodeTBody);
 

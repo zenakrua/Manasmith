@@ -383,11 +383,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
 					nodes: [
 						{
 							"Reward": "HP +" + hp04
-							"Materials": [
-								{
-									"Mana": "450"
-								}
-							]
 						},
 						{
 							"Reward": "Strength +" + str03

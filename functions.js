@@ -258,11 +258,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
 		}
 		switch (stat % mod) {
 			case 0:
-				for (i = 0; i <= (stat % mod); i++) {
-					if (node === i) {
-						return parseInt(stat / div);
-					}
-				}
+				var statcalc = parseInt((stat / div) + (stat % mod))
+				return statcalc;
 				break;
 			case 1:
 				if (node === 1) {

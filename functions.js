@@ -399,46 +399,12 @@ function manaCircles(adventurer) {
 
 function fetchMaterials(adventurer) {
 
-	eleOrb1 = ["Flame Orb", "Water Orb"];
-	eleOrb2 = ["Blaze Orb", "Stream Orb"];
-	eleOrb3 = ["Inferno Orb", "Deluge Orb"];
-	dragonScale1 = ["Flamewyrm's Scale", "Waterwyrm's Scale"];
-	dragonScale2 = ["Flamewyrm's Scaldscale", "Waterwyrm's Glistscale"]
+	eleOrb1 = ["Flame Orb", "Water Orb","Wind Orb","Light Orb","Shadow Orb"];
+	eleOrb2 = ["Blaze Orb", "Stream Orb","Storm Orb","Radiance Orb","Nightfall Orb"];
+	eleOrb3 = ["Inferno Orb", "Deluge Orb","Maelstrom Orb","Refulgence Orb","Nether Orb"];
+	dragonScale1 = ["Flamewyrm's Scale", "Waterwyrm's Scale","Windwyrm's Scale","Lightwyrm's Scale","Shadowwyrm's Scale"];
+	dragonScale2 = ["Flamewyrm's Scaldscale", "Waterwyrm's Glistscale","Windwyrm's Squallscale","Lightwyrm's Glowscale","Shadowwyrm's Darkscale"]
 
-
-	switch (elementID) {
-		// Wind
-		case 3:
-			eleOrb1 = "Wind Orb"
-			eleOrb2 = "Storm Orb"
-			eleOrb3 = "Maelstrom Orb"
-			dragonScale1 = "Windwyrm's Scale"
-			dragonScale2 = "Windwyrm's Squallscale"
-			break
-		// Light
-		case 4:
-			eleOrb1 = "Light Orb"
-			eleOrb2 = "Radiance Orb"
-			eleOrb3 = "Refulgence Orb"
-			dragonScale1 = "Lightwyrm's Scale"
-			dragonScale2 = "Lightwyrm's Glowscale"
-			break
-		// Shadow
-		case 5:
-			eleOrb1 = "Shadow Orb"
-			eleOrb2 = "Nightfall Orb"
-			eleOrb3 = "Nether Orb"
-			dragonScale1 = "Shadowwyrm's Scale"
-			dragonScale2 = "Shadowwyrm's Darkscale"
-			break
-		default:
-			eleOrb1 = "Unknown Orb"
-			eleOrb2 = "Unknown Orb"
-			eleOrb3 = "Unknown Orb"
-			dragonScale1 = "Unknown Scale"
-			dragonScale2 = "Unknown Scale"
-			break
-	}
 
 	if (adventurer.NodeMap === "0501") {
 		var nodes = [

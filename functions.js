@@ -25,7 +25,7 @@ firebase.initializeApp(firebaseConfig)
 firebase
 	.auth()
 	.signInAnonymously()
-	.catch(function(error) {
+	.catch(function (error) {
 		// Handle Errors here.
 		var errorCode = error.code
 		var errorMessage = error.message
@@ -36,7 +36,7 @@ firebase
 db = firebase.firestore()
 
 for (i = 0; i < nav.length; i++) {
-	nav[i].addEventListener("click", function() {
+	nav[i].addEventListener("click", function () {
 		var lookup = this.value
 		switch (lookup) {
 			case "adventurers":
@@ -148,8 +148,8 @@ var coability1,
 function fetchAdventurers() {
 	db.collection("Adventurers")
 		.get()
-		.then(function(querySnapshot) {
-			querySnapshot.forEach(function(doc) {
+		.then(function (querySnapshot) {
+			querySnapshot.forEach(function (doc) {
 				var adventurerName = document.createElement("button")
 				var name = doc.data().FullName[lang]
 				// collected = adventurers.find(findID, id, variation)
@@ -160,7 +160,7 @@ function fetchAdventurers() {
 				adventurerName.id = doc.data().ID
 				adventurerName.setAttribute("variant", doc.data().Variant)
 				adventurerName.innerHTML += name
-				adventurerName.addEventListener("click", function() {
+				adventurerName.addEventListener("click", function () {
 					fetchAdventurer(doc.data().FullName[lang])
 				})
 				content.innerHTML = "<h4>Adventurers</h4>"
@@ -173,7 +173,7 @@ function fetchAdventurer(name) {
 	db.collection("Adventurers")
 		.doc(name)
 		.get()
-		.then(function(doc) {
+		.then(function (doc) {
 			var circleTables = document.createElement("div")
 			circleTables.setAttribute("id", "circleTables")
 
@@ -188,7 +188,7 @@ function fetchAdventurer(name) {
 
 			manaCircles(doc.data())
 		})
-		.catch(function(error) {
+		.catch(function (error) {
 			console.log("Error getting Adventurer data:", error)
 		})
 }
@@ -313,73 +313,23 @@ function manaCircles(adventurer) {
 	if (adventurer.NodeMap === "0501") {
 		var nodes = [
 			["Unbind", "Unbind", "Unbind", "Unbind", "Unbind"],
-			[hp04, skill2, hp24, str34, ability32],
-			[str03, str15, ability31, hp33, hp42],
-			[ability11, hp13, str22, "Force Strike", "Damascus Crystal"],
-			[hp03, str14, hp23, str33, str41],
+			["HP +" + hp04, "New Skill " + skill2 + " Lv. 1", "HP +" + hp24, "Strength +" + str34, "Upgrade Ability " + ability32],
+			["Strength +" + str03, "Strength +" + str15, "New Ability " + ability31, "HP +" + hp33, "HP +" + hp42],
+			["New Ability " + ability11, "HP +" + hp13, "Strength +" + str22, "Upgrade Force Strike", "Damascus Crystal"],
+			["HP +" + hp03, "Strength +" + str14, "HP +" + hp23, "Strength +" + str33, "Strength +" + str41],
 			[
 				"New Adventurer Story",
 				"New Adventurer Story",
 				"New Adventurer Story",
-				hp32,
-				coability2
+				"HP +" + hp32,
+				"Upgrade Co-ability " + coability2
 			],
-			[hp02, str13, hp22, str32, coability3],
-			["Force Strike", hp12, ability12, ability22, skill1],
-			[str01, str12, str21, hp31, coability4],
-			[hp01, "New Adventurer Story", hp21, str31, coability5],
-			[ability21, str11, skill1, skill2, hp41]
+			["HP +" + hp02, "Strength +" + str13, "HP +" + hp22, "Strength +" + str32, "Upgrade Co-ability " + coability3],
+			["Force Strike", "HP +" + hp12, "Upgrade Ability " + ability12, "Upgrade Ability " + ability22, "Upgrade Skill " + skill1 + " Lv. 3"],
+			["Strength +" + str01, "Strength +" + str12, "Strength +" + str21, "HP +" + hp31, "Upgrade Co-ability " + coability4],
+			["HP +" + hp01, "New Adventurer Story", "HP +" + hp21, "Strength +" + str31, "Upgrade Co-ability " + coability5],
+			["New Ability " + ability21, "Strength +" + str11, "Upgrade Skill " + skill1 + " Lv. 2", "Upgrade Skill " + skill2 + " Lv. 2", "HP +" + hp41]
 		]
-	}
-
-	switch (elementID) {
-		// Flame
-		case 1:
-			eleOrb1 = "Flame Orb"
-			eleOrb2 = "Blaze Orb"
-			eleOrb3 = "Inferno Orb"
-			dragonScale1 = "Flamewyrm's Scale"
-			dragonScale2 = "Flamewyrm's Scaldscale"
-			break
-		// Water
-		case 2:
-			eleOrb1 = "Water Orb"
-			eleOrb2 = "Stream Orb"
-			eleOrb3 = "Deluge Orb"
-			dragonScale1 = "Waterwyrm's Scale"
-			dragonScale2 = "Waterwyrm's Glistscale"
-			break
-		// Wind
-		case 3:
-			eleOrb1 = "Wind Orb"
-			eleOrb2 = "Storm Orb"
-			eleOrb3 = "Maelstrom Orb"
-			dragonScale1 = "Windwyrm's Scale"
-			dragonScale2 = "Windwyrm's Squallscale"
-			break
-		// Light
-		case 4:
-			eleOrb1 = "Light Orb"
-			eleOrb2 = "Radiance Orb"
-			eleOrb3 = "Refulgence Orb"
-			dragonScale1 = "Lightwyrm's Scale"
-			dragonScale2 = "Lightwyrm's Glowscale"
-			break
-		// Shadow
-		case 5:
-			eleOrb1 = "Shadow Orb"
-			eleOrb2 = "Nightfall Orb"
-			eleOrb3 = "Nether Orb"
-			dragonScale1 = "Shadowwyrm's Scale"
-			dragonScale2 = "Shadowwyrm's Darkscale"
-			break
-		default:
-			eleOrb1 = "Unknown Orb"
-			eleOrb2 = "Unknown Orb"
-			eleOrb3 = "Unknown Orb"
-			dragonScale1 = "Unknown Scale"
-			dragonScale2 = "Unknown Scale"
-			break
 	}
 
 	// add circle filters
@@ -392,7 +342,7 @@ function manaCircles(adventurer) {
 		circleListing.innerHTML = "Circle " + i
 		circleListing.value = i
 		circleList.appendChild(circleListing)
-		circleListing.addEventListener("click", function() {
+		circleListing.addEventListener("click", function () {
 			var circle = this.value
 			var nodeTables = document.getElementsByTagName("table")
 			for (i = 0; i < nodeTables.length; i++) {
@@ -429,7 +379,7 @@ function manaCircles(adventurer) {
 			nodeHeading.setAttribute("id", "nodeHeading")
 			var rewardHeading = document.createElement("span")
 			rewardHeading.setAttribute("id", "rewardHeading")
-			nodeHeading.innerHTML = "Node " + i
+			nodeHeading.innerHTML = i
 			rewardHeading.innerHTML = nodes[i][circlenum - 1]
 			nodeHeaderRow.appendChild(nodeHeader)
 			nodeHeader.appendChild(nodeHeading)
@@ -442,6 +392,74 @@ function manaCircles(adventurer) {
 			circleTables.appendChild(nodeTable)
 		}
 		circlenum++
+	}
+
+	fetchMaterials(adventurer)
+}
+
+function fetchMaterials(adventurer) {
+
+	eleOrb1 = ["Flame Orb", "Water Orb"];
+	eleOrb2 = ["Blaze Orb", "Stream Orb"];
+	eleOrb3 = ["Inferno Orb", "Deluge Orb"];
+	dragonScale1 = ["Flamewyrm's Scale", "Waterwyrm's Scale"];
+	dragonScale2 = ["Flamewyrm's Scaldscale", "Waterwyrm's Glistscale"]
+
+
+	switch (elementID) {
+		// Wind
+		case 3:
+			eleOrb1 = "Wind Orb"
+			eleOrb2 = "Storm Orb"
+			eleOrb3 = "Maelstrom Orb"
+			dragonScale1 = "Windwyrm's Scale"
+			dragonScale2 = "Windwyrm's Squallscale"
+			break
+		// Light
+		case 4:
+			eleOrb1 = "Light Orb"
+			eleOrb2 = "Radiance Orb"
+			eleOrb3 = "Refulgence Orb"
+			dragonScale1 = "Lightwyrm's Scale"
+			dragonScale2 = "Lightwyrm's Glowscale"
+			break
+		// Shadow
+		case 5:
+			eleOrb1 = "Shadow Orb"
+			eleOrb2 = "Nightfall Orb"
+			eleOrb3 = "Nether Orb"
+			dragonScale1 = "Shadowwyrm's Scale"
+			dragonScale2 = "Shadowwyrm's Darkscale"
+			break
+		default:
+			eleOrb1 = "Unknown Orb"
+			eleOrb2 = "Unknown Orb"
+			eleOrb3 = "Unknown Orb"
+			dragonScale1 = "Unknown Scale"
+			dragonScale2 = "Unknown Scale"
+			break
+	}
+
+	if (adventurer.NodeMap === "0501") {
+		var nodes = [
+			["Unbind", "Unbind", "Unbind", "Unbind", "Unbind"],
+			["HP +" + hp04, "New Skill " + skill2 + " Lv. 1", "HP +" + hp24, "Strength +" + str34, "Upgrade Ability " + ability32],
+			["Strength +" + str03, "Strength +" + str15, "New Ability " + ability31, "HP +" + hp33, "HP +" + hp42],
+			["New Ability " + ability11, "HP +" + hp13, "Strength +" + str22, "Upgrade Force Strike", "Damascus Crystal"],
+			["HP +" + hp03, "Strength +" + str14, "HP +" + hp23, "Strength +" + str33, "Strength +" + str41],
+			[
+				"New Adventurer Story",
+				"New Adventurer Story",
+				"New Adventurer Story",
+				"HP +" + hp32,
+				"Upgrade Co-ability " + coability2
+			],
+			["HP +" + hp02, "Strength +" + str13, "HP +" + hp22, "Strength +" + str32, "Upgrade Co-ability " + coability3],
+			["Force Strike", "HP +" + hp12, "Upgrade Ability " + ability12, "Upgrade Ability " + ability22, "Upgrade Skill " + skill1 + " Lv. 3"],
+			["Strength +" + str01, "Strength +" + str12, "Strength +" + str21, "HP +" + hp31, "Upgrade Co-ability " + coability4],
+			["HP +" + hp01, "New Adventurer Story", "HP +" + hp21, "Strength +" + str31, "Upgrade Co-ability " + coability5],
+			["New Ability " + ability21, "Strength +" + str11, "Upgrade Skill " + skill1 + " Lv. 2", "Upgrade Skill " + skill2 + " Lv. 2", "HP +" + hp41]
+		]
 	}
 }
 

@@ -73,78 +73,6 @@ for (i = 0; i < nav.length; i++) {
 
 var name, element, elementID, rarity, adventurer
 
-// elemental orbs
-var eleOrb1, eleOrb2, eleOrb3
-
-// dragon scales
-var dragonScale1, dragonScale2
-
-// skills
-var skill1, skill2
-
-// hp
-var hp01,
-	hp02,
-	hp03,
-	hp04,
-	hp11,
-	hp12,
-	hp13,
-	hp14,
-	hp21,
-	hp22,
-	hp23,
-	hp24,
-	hp31,
-	hp32,
-	hp33,
-	hp41,
-	hp42
-
-// strength
-var str01,
-	str02,
-	str03,
-	str11,
-	str12,
-	str13,
-	str14,
-	str15,
-	str21,
-	str22,
-	str23,
-	str31,
-	str32,
-	str33,
-	str34,
-	str41
-
-// abilities
-var ability11,
-	ability11Might,
-	ability12,
-	ability12Might,
-	ability21,
-	ability21Might,
-	ability22,
-	ability22Might,
-	ability31,
-	ability31Might,
-	ability32,
-	ability32Might
-
-// coabilities
-var coability1,
-	coability1Might,
-	coability2,
-	coability2Might,
-	coability3,
-	coability3Might,
-	coability4,
-	coability4Might,
-	coability5,
-	coability5Might
-
 function fetchAdventurers() {
 	db.collection("Adventurers")
 		.get()
@@ -263,52 +191,52 @@ function calcStats(circle, node, stat, type) {
 }
 
 function manaCircles(adventurer) {
-	hp01 = calcStats(0, 1, adventurer.PlusHp0, "HP")
-	hp02 = calcStats(0, 2, adventurer.PlusHp0, "HP")
-	hp03 = calcStats(0, 3, adventurer.PlusHp0, "HP")
-	hp04 = calcStats(0, 4, adventurer.PlusHp0, "HP")
-	hp11 = calcStats(1, 1, adventurer.PlusHp1, "HP")
-	hp12 = calcStats(1, 2, adventurer.PlusHp1, "HP")
-	hp13 = calcStats(1, 3, adventurer.PlusHp1, "HP")
-	hp14 = calcStats(1, 4, adventurer.PlusHp1, "HP")
-	hp21 = calcStats(2, 1, adventurer.PlusHp2, "HP")
-	hp22 = calcStats(2, 2, adventurer.PlusHp2, "HP")
-	hp23 = calcStats(2, 3, adventurer.PlusHp2, "HP")
-	hp24 = calcStats(2, 4, adventurer.PlusHp2, "HP")
-	hp31 = calcStats(3, 1, adventurer.PlusHp3, "HP")
-	hp32 = calcStats(3, 2, adventurer.PlusHp3, "HP")
-	hp33 = calcStats(3, 3, adventurer.PlusHp3, "HP")
-	hp41 = calcStats(4, 1, adventurer.PlusHp4, "HP")
-	hp42 = calcStats(4, 2, adventurer.PlusHp4, "HP")
-	str01 = calcStats(0, 1, adventurer.PlusAtk0, "Strength")
-	str02 = calcStats(0, 2, adventurer.PlusAtk0, "Strength")
-	str03 = calcStats(0, 3, adventurer.PlusAtk0, "Strength")
-	str11 = calcStats(1, 1, adventurer.PlusAtk1, "Strength")
-	str12 = calcStats(1, 2, adventurer.PlusAtk1, "Strength")
-	str13 = calcStats(1, 3, adventurer.PlusAtk1, "Strength")
-	str14 = calcStats(1, 4, adventurer.PlusAtk1, "Strength")
-	str15 = calcStats(1, 5, adventurer.PlusAtk1, "Strength")
-	str21 = calcStats(2, 1, adventurer.PlusAtk2, "Strength")
-	str22 = calcStats(2, 2, adventurer.PlusAtk2, "Strength")
-	str23 = calcStats(2, 3, adventurer.PlusAtk2, "Strength")
-	str31 = calcStats(3, 1, adventurer.PlusAtk3, "Strength")
-	str32 = calcStats(3, 2, adventurer.PlusAtk3, "Strength")
-	str33 = calcStats(3, 3, adventurer.PlusAtk3, "Strength")
-	str34 = calcStats(3, 4, adventurer.PlusAtk3, "Strength")
-	str41 = calcStats(4, 1, adventurer.PlusAtk4, "Strength")
-	skill1 = adventurer.Skill1.FullName[lang]
-	skill2 = adventurer.Skill2.FullName[lang]
-	ability11 = adventurer.Abilities11.FullName[lang]
-	ability12 = adventurer.Abilities12.FullName[lang]
-	ability21 = adventurer.Abilities21.FullName[lang]
-	ability22 = adventurer.Abilities22.FullName[lang]
-	ability31 = adventurer.Abilities31.FullName[lang]
-	ability32 = adventurer.Abilities32.FullName[lang]
-	coability1 = adventurer.ExAbilityData1.FullName[lang]
-	coability2 = adventurer.ExAbilityData2.FullName[lang]
-	coability3 = adventurer.ExAbilityData3.FullName[lang]
-	coability4 = adventurer.ExAbilityData4.FullName[lang]
-	coability5 = adventurer.ExAbilityData5.FullName[lang]
+	var hp01 = calcStats(0, 1, adventurer.PlusHp0, "HP")
+	var hp02 = calcStats(0, 2, adventurer.PlusHp0, "HP")
+	var hp03 = calcStats(0, 3, adventurer.PlusHp0, "HP")
+	var hp04 = calcStats(0, 4, adventurer.PlusHp0, "HP")
+	var hp11 = calcStats(1, 1, adventurer.PlusHp1, "HP")
+	var hp12 = calcStats(1, 2, adventurer.PlusHp1, "HP")
+	var hp13 = calcStats(1, 3, adventurer.PlusHp1, "HP")
+	var hp14 = calcStats(1, 4, adventurer.PlusHp1, "HP")
+	var hp21 = calcStats(2, 1, adventurer.PlusHp2, "HP")
+	var hp22 = calcStats(2, 2, adventurer.PlusHp2, "HP")
+	var hp23 = calcStats(2, 3, adventurer.PlusHp2, "HP")
+	var hp24 = calcStats(2, 4, adventurer.PlusHp2, "HP")
+	var hp31 = calcStats(3, 1, adventurer.PlusHp3, "HP")
+	var hp32 = calcStats(3, 2, adventurer.PlusHp3, "HP")
+	var hp33 = calcStats(3, 3, adventurer.PlusHp3, "HP")
+	var hp41 = calcStats(4, 1, adventurer.PlusHp4, "HP")
+	var hp42 = calcStats(4, 2, adventurer.PlusHp4, "HP")
+	var str01 = calcStats(0, 1, adventurer.PlusAtk0, "Strength")
+	var str02 = calcStats(0, 2, adventurer.PlusAtk0, "Strength")
+	var str03 = calcStats(0, 3, adventurer.PlusAtk0, "Strength")
+	var str11 = calcStats(1, 1, adventurer.PlusAtk1, "Strength")
+	var str12 = calcStats(1, 2, adventurer.PlusAtk1, "Strength")
+	var str13 = calcStats(1, 3, adventurer.PlusAtk1, "Strength")
+	var str14 = calcStats(1, 4, adventurer.PlusAtk1, "Strength")
+	var str15 = calcStats(1, 5, adventurer.PlusAtk1, "Strength")
+	var str21 = calcStats(2, 1, adventurer.PlusAtk2, "Strength")
+	var str22 = calcStats(2, 2, adventurer.PlusAtk2, "Strength")
+	var str23 = calcStats(2, 3, adventurer.PlusAtk2, "Strength")
+	var str31 = calcStats(3, 1, adventurer.PlusAtk3, "Strength")
+	var str32 = calcStats(3, 2, adventurer.PlusAtk3, "Strength")
+	var str33 = calcStats(3, 3, adventurer.PlusAtk3, "Strength")
+	var str34 = calcStats(3, 4, adventurer.PlusAtk3, "Strength")
+	var str41 = calcStats(4, 1, adventurer.PlusAtk4, "Strength")
+	var skill1 = adventurer.Skill1.FullName[lang]
+	var skill2 = adventurer.Skill2.FullName[lang]
+	var ability11 = adventurer.Abilities11.FullName[lang]
+	var ability12 = adventurer.Abilities12.FullName[lang]
+	var ability21 = adventurer.Abilities21.FullName[lang]
+	var ability22 = adventurer.Abilities22.FullName[lang]
+	var ability31 = adventurer.Abilities31.FullName[lang]
+	var ability32 = adventurer.Abilities32.FullName[lang]
+	var coability1 = adventurer.ExAbilityData1.FullName[lang]
+	var coability2 = adventurer.ExAbilityData2.FullName[lang]
+	var coability3 = adventurer.ExAbilityData3.FullName[lang]
+	var coability4 = adventurer.ExAbilityData4.FullName[lang]
+	var coability5 = adventurer.ExAbilityData5.FullName[lang]
 
 	if (adventurer.NodeMap === "0501") {
 		var nodes = [

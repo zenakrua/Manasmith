@@ -1,4 +1,4 @@
-//document.addEventListener("DOMContentLoaded", function (event) {
+document.addEventListener("DOMContentLoaded", function (event) {
 
 // initial
 var db, x, i
@@ -429,4 +429,4 @@ function fetchMaterials(adventurer) {
 	}
 }
 
-//})
+})

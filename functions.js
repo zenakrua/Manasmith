@@ -1,43 +1,136 @@
-document.addEventListener("DOMContentLoaded", function (event) {
-
+//document.addEventListener("DOMContentLoaded", function (event) {
 // initial
 var db, x, i
 var lang = document.documentElement.lang
 
 // content elements
+var logInOutMessage = document.createElement("h4")
+logInOutMessage.setAttribute("id", "logInOutMessage")
+
+var logInOutButton = document.createElement("button")
+logInOutButton.setAttribute("value", "userAuthStateChange")
+logInOutButton.textContent = "Logout"
+logInOutButton.addEventListener("click", function() {
+	firebase
+		.auth()
+		.signOut()
+		.then(function() {
+			// Sign-out successful, redirect home
+			location.href = "/"
+		})
+		.catch(function(error) {
+			// An error happened.
+		})
+})
+
+var header = document.getElementsByTagName("header")[0]
+var headerNav = document.createElement("span")
+headerNav.setAttribute("id", "headerNav")
+header.appendChild(headerNav)
+
+var navContent = [
+	{ value: "home", text: "Home" },
+	{ value: "adventurers", text: "Adventurers" },
+	{ value: "weapons", text: "Weapons" },
+	{ value: "wyrmprints", text: "Wyrmprints" },
+	{ value: "dragons", text: "Dragons" },
+	{ value: "halidom", text: "Halidom" },
+	{ value: "shopping", text: "Shopping List" },
+	{ value: "teams", text: "Team Builder" }
+]
+for (i = 0; i < navContent.length; i++) {
+	var navButton = document.createElement("button")
+	navButton.setAttribute("class", "nav")
+	navButton.setAttribute("value", navContent[i]["value"])
+	navButton.textContent = navContent[i]["text"]
+	headerNav.appendChild(navButton)
+}
+
 var nav = document.getElementsByClassName("nav")
+header.appendChild(logInOutMessage)
+
+var main = document.getElementsByTagName("main")[0]
 var content = document.getElementsByTagName("content")[0]
 var subcontent = document.getElementsByTagName("subcontent")[0]
 
-// Initialize Firebase
-var firebaseConfig = {
-	// ...
-	apiKey: "AIzaSyC4XwSfWKINC59fjQusX6ox_g-eWaUArIQ",
-	authDomain: "new-alberia-census.firebaseapp.com",
-	databaseURL: "https://new-alberia-census.firebaseio.com",
-	projectId: "new-alberia-census",
-	storageBucket: "new-alberia-census.appspot.com",
-	messagingSenderId: "377724389599",
-	appId: "1:377724389599:web:b79d509c26ded573"
-}
+var firebaseuiAuthContainer = document.createElement("div")
+firebaseuiAuthContainer.setAttribute("id", "firebaseui-auth-container")
+var loader = document.createElement("div")
+loader.setAttribute("id", "loader")
 
-firebase.initializeApp(firebaseConfig)
-firebase
-	.auth()
-	.signInAnonymously()
-	.catch(function (error) {
-		// Handle Errors here.
-		var errorCode = error.code
-		var errorMessage = error.message
-		console.log(errorMessage + errorCode)
-	})
+subcontent.appendChild(firebaseuiAuthContainer)
+subcontent.appendChild(loader)
 
 //initialize the database
 db = firebase.firestore()
 
+// Initialize the FirebaseUI Widget using Firebase.
+var ui = new firebaseui.auth.AuthUI(firebase.auth())
+
+//instantiate user data
+var user = firebase.auth().currentUser
+
+// determine user login state
+firebase.auth().onAuthStateChanged(function(user) {
+	if (user) {
+		// generate user greeting and login/out button
+		subcontent.removeChild(firebaseuiAuthContainer)
+		subcontent.removeChild(loader)
+		logInOutMessage.textContent = "Welcome, " + user.displayName + "!"
+		logInOutMessage.appendChild(logInOutButton)
+		for (i = 0; i < nav.length; i++) {
+			nav[i].removeAttribute("disabled")
+		}
+	} else {
+		// generate user greeting
+		for (i = 0; i < nav.length; i++) {
+			nav[i].setAttribute("disabled", "disabled")
+		}
+		logInOutMessage.textContent = "You are not signed in."
+	}
+})
+
+ui.start("#firebaseui-auth-container", {
+	callbacks: {
+		signInSuccessWithAuthResult: function(authResult, redirectUrl) {
+			// User successfully signed in.
+			// Return type determines whether we continue the redirect automatically
+			// or whether we leave that to developer to handle.
+			return true
+		},
+		uiShown: function() {
+			// The widget is rendered.
+			// Hide the loader.
+			document.getElementById("loader").style.display = "none"
+		}
+	},
+	// Will use popup for IDP Providers sign-in flow instead of the default, redirect.
+	signInFlow: "popup",
+	signInSuccessUrl: "/",
+	signInOptions: [
+		firebase.auth.GoogleAuthProvider.PROVIDER_ID,
+		{
+			provider: firebase.auth.EmailAuthProvider.PROVIDER_ID,
+			requireDisplayName: true
+		}
+	],
+	credentialHelper: firebaseui.auth.CredentialHelper.NONE,
+	// Terms of service url.
+	tosUrl: "<your-tos-url>",
+	// Privacy policy url.
+	privacyPolicyUrl: "<your-privacy-policy-url>"
+	// Other config options...
+})
+
+// header navigation buttons
 for (i = 0; i < nav.length; i++) {
-	nav[i].addEventListener("click", function () {
-		var lookup = this.value
+	nav[i].addEventListener("click", function() {
+		var lookup
+		if (user.isAnonymous) {
+			lookup = "home"
+		} else {
+			lookup = this.value
+		}
 		switch (lookup) {
 			case "adventurers":
 				content.innerHTML = ""
@@ -60,9 +153,18 @@ for (i = 0; i < nav.length; i++) {
 				content.innerHTML = ""
 				subcontent.innerHTML = "halidom"
 				break
+			case "shopping":
+				content.innerHTML = ""
+				subcontent.innerHTML = "shopping"
+				break
+			case "teams":
+				content.innerHTML = ""
+				subcontent.innerHTML = ""
+				fetchTeams()
+				break
 			case "home":
 				content.innerHTML = ""
-				subcontent.innerHTML = "HOME PAGE SHIT"
+				subcontent.innerHTML = ""
 				break
 			default:
 				content.innerHTML = ""
@@ -73,11 +175,61 @@ for (i = 0; i < nav.length; i++) {
 
 var name, element, elementID, rarity, adventurer
 
+fetchTeams()
+
+function fetchTeams() {
+	// var team = [110012, 110349, 110303, 110257]
+	var team = [110291,110291,110291,110291]
+
+	// stage drilldowns
+	var questsButton = document.createElement("button")
+	questsButton.textContent = "Quests"
+	var eventsButton = document.createElement("button")
+	eventsButton.textContent = "Events"
+	content.appendChild(questsButton)
+	content.appendChild(eventsButton)
+
+	fetchTeamBuilder(team)
+}
+
+function fetchTeamBuilder() {
+	var teamBuilderFrame = document.createElement("teamBuilderFrame")
+
+	var teamBuilderHeader = document.createElement("teamBuilderHeader")
+
+	var stageInfo = document.createElement("stageInfo")
+	
+	var stageElement = document.createElement("stageElement")
+	
+	var stageName = document.createElement("stageName")
+	stageName.textContent = "No Stage Selected"
+
+	var stageMight = document.createElement("stageMight")
+	stageMight.textContent = "99999"
+
+	stageInfo.appendChild(stageElement)
+	stageInfo.appendChild(stageName)
+	stageInfo.appendChild(stageMight)
+
+	teamBuilderHeader.appendChild(stageInfo)
+
+	var teamBuilderBody = document.createElement("teamBuilderBody")
+	var teamBuilderFooter = document.createElement("teamBuilderFooter")
+
+	teamBuilderFrame.appendChild(teamBuilderHeader)
+	teamBuilderFrame.appendChild(teamBuilderBody)
+	teamBuilderFrame.appendChild(teamBuilderFooter)
+
+	main.appendChild(teamBuilderFrame)
+}
+
+function fetchChecklist() {}
+
 function fetchAdventurers() {
 	db.collection("Adventurers")
 		.get()
-		.then(function (querySnapshot) {
-			querySnapshot.forEach(function (doc) {
+		.then(function(querySnapshot) {
+			querySnapshot.forEach(function(doc) {
 				var adventurerName = document.createElement("button")
 				var name = doc.data().FullName[lang]
 				// collected = adventurers.find(findID, id, variation)
@@ -88,7 +240,7 @@ function fetchAdventurers() {
 				adventurerName.id = doc.data().ID
 				adventurerName.setAttribute("variant", doc.data().Variant)
 				adventurerName.innerHTML += name
-				adventurerName.addEventListener("click", function () {
+				adventurerName.addEventListener("click", function() {
 					fetchAdventurer(doc.data().FullName[lang])
 				})
 				content.innerHTML = "<h4>Adventurers</h4>"
@@ -101,7 +253,7 @@ function fetchAdventurer(name) {
 	db.collection("Adventurers")
 		.doc(name)
 		.get()
-		.then(function (doc) {
+		.then(function(doc) {
 			var circleTables = document.createElement("div")
 			circleTables.setAttribute("id", "circleTables")
 
@@ -116,8 +268,8 @@ function fetchAdventurer(name) {
 
 			manaCircles(doc.data())
 		})
-		.catch(function (error) {
-			console.log("Error getting Adventurer data:", error)
+		.catch(function(error) {
+			console.log("Error getting Adventurer data: ", error)
 		})
 }
 
@@ -187,7 +339,6 @@ function calcStats(circle, node, stat, type) {
 	} else {
 		return parseInt(stat / div)
 	}
-
 }
 
 function manaCircles(adventurer) {
@@ -241,10 +392,34 @@ function manaCircles(adventurer) {
 	if (adventurer.NodeMap === "0501") {
 		var nodes = [
 			["Unbind", "Unbind", "Unbind", "Unbind", "Unbind"],
-			["HP +" + hp04, "New Skill " + skill2 + " Lv. 1", "HP +" + hp24, "Strength +" + str34, "Upgrade Ability " + ability32],
-			["Strength +" + str03, "Strength +" + str15, "New Ability " + ability31, "HP +" + hp33, "HP +" + hp42],
-			["New Ability " + ability11, "HP +" + hp13, "Strength +" + str22, "Upgrade Force Strike", "Damascus Crystal"],
-			["HP +" + hp03, "Strength +" + str14, "HP +" + hp23, "Strength +" + str33, "Strength +" + str41],
+			[
+				"HP +" + hp04,
+				"New Skill " + skill2 + " Lv. 1",
+				"HP +" + hp24,
+				"Strength +" + str34,
+				"Upgrade Ability " + ability32
+			],
+			[
+				"Strength +" + str03,
+				"Strength +" + str15,
+				"New Ability " + ability31,
+				"HP +" + hp33,
+				"HP +" + hp42
+			],
+			[
+				"New Ability " + ability11,
+				"HP +" + hp13,
+				"Strength +" + str22,
+				"Upgrade Force Strike",
+				"Damascus Crystal"
+			],
+			[
+				"HP +" + hp03,
+				"Strength +" + str14,
+				"HP +" + hp23,
+				"Strength +" + str33,
+				"Strength +" + str41
+			],
 			[
 				"New Adventurer Story",
 				"New Adventurer Story",
@@ -252,11 +427,41 @@ function manaCircles(adventurer) {
 				"HP +" + hp32,
 				"Upgrade Co-ability " + coability2
 			],
-			["HP +" + hp02, "Strength +" + str13, "HP +" + hp22, "Strength +" + str32, "Upgrade Co-ability " + coability3],
-			["Force Strike", "HP +" + hp12, "Upgrade Ability " + ability12, "Upgrade Ability " + ability22, "Upgrade Skill " + skill1 + " Lv. 3"],
-			["Strength +" + str01, "Strength +" + str12, "Strength +" + str21, "HP +" + hp31, "Upgrade Co-ability " + coability4],
-			["HP +" + hp01, "New Adventurer Story", "HP +" + hp21, "Strength +" + str31, "Upgrade Co-ability " + coability5],
-			["New Ability " + ability21, "Strength +" + str11, "Upgrade Skill " + skill1 + " Lv. 2", "Upgrade Skill " + skill2 + " Lv. 2", "HP +" + hp41]
+			[
+				"HP +" + hp02,
+				"Strength +" + str13,
+				"HP +" + hp22,
+				"Strength +" + str32,
+				"Upgrade Co-ability " + coability3
+			],
+			[
+				"Force Strike",
+				"HP +" + hp12,
+				"Upgrade Ability " + ability12,
+				"Upgrade Ability " + ability22,
+				"Upgrade Skill " + skill1 + " Lv. 3"
+			],
+			[
+				"Strength +" + str01,
+				"Strength +" + str12,
+				"Strength +" + str21,
+				"HP +" + hp31,
+				"Upgrade Co-ability " + coability4
+			],
+			[
+				"HP +" + hp01,
+				"New Adventurer Story",
+				"HP +" + hp21,
+				"Strength +" + str31,
+				"Upgrade Co-ability " + coability5
+			],
+			[
+				"New Ability " + ability21,
+				"Strength +" + str11,
+				"Upgrade Skill " + skill1 + " Lv. 2",
+				"Upgrade Skill " + skill2 + " Lv. 2",
+				"HP +" + hp41
+			]
 		]
 	}
 
@@ -270,7 +475,7 @@ function manaCircles(adventurer) {
 		circleListing.innerHTML = "Circle " + i
 		circleListing.value = i
 		circleList.appendChild(circleListing)
-		circleListing.addEventListener("click", function () {
+		circleListing.addEventListener("click", function() {
 			var circle = this.value
 			var nodeTables = document.getElementsByTagName("table")
 			for (i = 0; i < nodeTables.length; i++) {
@@ -326,21 +531,80 @@ function manaCircles(adventurer) {
 }
 
 function fetchMaterials(adventurer) {
-
-	eleOrb1 = ["Flame Orb", "Water Orb","Wind Orb","Light Orb","Shadow Orb"];
-	eleOrb2 = ["Blaze Orb", "Stream Orb","Storm Orb","Radiance Orb","Nightfall Orb"];
-	eleOrb3 = ["Inferno Orb", "Deluge Orb","Maelstrom Orb","Refulgence Orb","Nether Orb"];
-	dragonScale1 = ["Flamewyrm's Scale", "Waterwyrm's Scale","Windwyrm's Scale","Lightwyrm's Scale","Shadowwyrm's Scale"];
-	dragonScale2 = ["Flamewyrm's Scaldscale", "Waterwyrm's Glistscale","Windwyrm's Squallscale","Lightwyrm's Glowscale","Shadowwyrm's Darkscale"]
-
+	var eleOrb1 = [
+		"Flame Orb",
+		"Water Orb",
+		"Wind Orb",
+		"Light Orb",
+		"Shadow Orb"
+	]
+	eleOrb2 = [
+		"Blaze Orb",
+		"Stream Orb",
+		"Storm Orb",
+		"Radiance Orb",
+		"Nightfall Orb"
+	]
+	var eleOrb3 = [
+		"Inferno Orb",
+		"Deluge Orb",
+		"Maelstrom Orb",
+		"Refulgence Orb",
+		"Nether Orb"
+	]
+	var eleOrb4 = [
+		"Rainbow Orb",
+		"Rainbow Orb",
+		"Rainbow Orb",
+		"Rainbow Orb",
+		"Rainbow Orb"
+	]
+	var dragonScale1 = [
+		"Flamewyrm's Scale",
+		"Waterwyrm's Scale",
+		"Windwyrm's Scale",
+		"Lightwyrm's Scale",
+		"Shadowwyrm's Scale"
+	]
+	var dragonScale2 = [
+		"Flamewyrm's Scaldscale",
+		"Waterwyrm's Glistscale",
+		"Windwyrm's Squallscale",
+		"Lightwyrm's Glowscale",
+		"Shadowwyrm's Darkscale"
+	]
 
 	if (adventurer.NodeMap === "0501") {
 		var nodes = [
 			["Unbind", "Unbind", "Unbind", "Unbind", "Unbind"],
-			["HP +" + hp04, "New Skill " + skill2 + " Lv. 1", "HP +" + hp24, "Strength +" + str34, "Upgrade Ability " + ability32],
-			["Strength +" + str03, "Strength +" + str15, "New Ability " + ability31, "HP +" + hp33, "HP +" + hp42],
-			["New Ability " + ability11, "HP +" + hp13, "Strength +" + str22, "Upgrade Force Strike", "Damascus Crystal"],
-			["HP +" + hp03, "Strength +" + str14, "HP +" + hp23, "Strength +" + str33, "Strength +" + str41],
+			[
+				"HP +" + hp04,
+				"New Skill " + skill2 + " Lv. 1",
+				"HP +" + hp24,
+				"Strength +" + str34,
+				"Upgrade Ability " + ability32
+			],
+			[
+				"Strength +" + str03,
+				"Strength +" + str15,
+				"New Ability " + ability31,
+				"HP +" + hp33,
+				"HP +" + hp42
+			],
+			[
+				"New Ability " + ability11,
+				"HP +" + hp13,
+				"Strength +" + str22,
+				"Upgrade Force Strike",
+				"Damascus Crystal"
+			],
+			[
+				"HP +" + hp03,
+				"Strength +" + str14,
+				"HP +" + hp23,
+				"Strength +" + str33,
+				"Strength +" + str41
+			],
 			[
 				"New Adventurer Story",
 				"New Adventurer Story",
@@ -348,13 +612,43 @@ function fetchMaterials(adventurer) {
 				"HP +" + hp32,
 				"Upgrade Co-ability " + coability2
 			],
-			["HP +" + hp02, "Strength +" + str13, "HP +" + hp22, "Strength +" + str32, "Upgrade Co-ability " + coability3],
-			["Force Strike", "HP +" + hp12, "Upgrade Ability " + ability12, "Upgrade Ability " + ability22, "Upgrade Skill " + skill1 + " Lv. 3"],
-			["Strength +" + str01, "Strength +" + str12, "Strength +" + str21, "HP +" + hp31, "Upgrade Co-ability " + coability4],
-			["HP +" + hp01, "New Adventurer Story", "HP +" + hp21, "Strength +" + str31, "Upgrade Co-ability " + coability5],
-			["New Ability " + ability21, "Strength +" + str11, "Upgrade Skill " + skill1 + " Lv. 2", "Upgrade Skill " + skill2 + " Lv. 2", "HP +" + hp41]
+			[
+				"HP +" + hp02,
+				"Strength +" + str13,
+				"HP +" + hp22,
+				"Strength +" + str32,
+				"Upgrade Co-ability " + coability3
+			],
+			[
+				"Force Strike",
+				"HP +" + hp12,
+				"Upgrade Ability " + ability12,
+				"Upgrade Ability " + ability22,
+				"Upgrade Skill " + skill1 + " Lv. 3"
+			],
+			[
+				"Strength +" + str01,
+				"Strength +" + str12,
+				"Strength +" + str21,
+				"HP +" + hp31,
+				"Upgrade Co-ability " + coability4
+			],
+			[
+				"HP +" + hp01,
+				"New Adventurer Story",
+				"HP +" + hp21,
+				"Strength +" + str31,
+				"Upgrade Co-ability " + coability5
+			],
+			[
+				"New Ability " + ability21,
+				"Strength +" + str11,
+				"Upgrade Skill " + skill1 + " Lv. 2",
+				"Upgrade Skill " + skill2 + " Lv. 2",
+				"HP +" + hp41
+			]
 		]
 	}
 }
 
-})
+//})

@@ -61,14 +61,20 @@ content button {
 	font-weight: bold;
 }
 
-th, td {
-	border: black 1px solid;
-}
-
 .circle {
 	background: orange;
 }
 
-td {
-	background: grey;
+teamBuilderFrame {
+	background: #99d9ea;
+}
+
+stageInfo {
+	background: #000d1a;
+	color: #fff;
+}
+
+teamInfo {
+	background: #00264d;
+	color: #fff;
 }

@@ -1,191 +1,51 @@
-<teamBuilderFrame>
-		<teamBuilderHeader>
-			<stageInfo>
-				<stageElement>
-					<img
-						src="https://gamepedia.cursecdn.com/dragalialost_gamepedia_en/5/57/Icon_Element_Flame.png"
-						title="Flame"
-						alt="Flame"
-					/>
-				</stageElement>
-				<stageName>
-					Avenue to Power
-				</stageName>
-				<stageMight>
-					20000
-				</stageMight>
-			</stageInfo>
-			<teamInfo>
-				<difficulties>
-					Beginner Standard Expert Master
-				</difficulties>
-				<teamMight>
-					99999
-				</teamMight>
-				<teamLeader>Leader</teamLeader>
-				<teamBuffs>
-					<buff id="1"><img src="Co-ab 1"/></buff>
-					<buff id="2"><img src="Co-ab 2"/></buff>
-					<buff id="3"><img src="Co-ab 3"/></buff>
-					<buff id="4"><img src="Co-ab 4"/></buff>
-				</teamBuffs>
-			</teamInfo>
-		</teamBuilderHeader>
-		<teamBuilderBody>
-			<table class="teamBuilderSlot" id="1">
-				<tr>
-					<td>
-						<img
-							class="elementIcon"
-							src="https://gamepedia.cursecdn.com/dragalialost_gamepedia_en/5/57/Icon_Element_Flame.png"
-						/>
-					</td>
-					<td>
-						<img
-							class="weaponIcon"
-							src="https://gamepedia.cursecdn.com/dragalialost_gamepedia_en/5/57/Icon_Element_Flame.png"
-						/>
-					</td>
-					<td colspan="2">Lv. 1</td>
-				</tr>
-				<tr>
-					<td colspan="4" class>
-						<img
-							class="r03 Fire Sword"
-							src="https://gamepedia.cursecdn.com/dragalialost_gamepedia_en/0/0b/110261_01_r03.png"
-							title="Marty"
-							alt="Marty"
-						/>
-					</td>
-				</tr>
-				<tr>
-					<td class="weaponSlot" colspan="2">
-						<img src="Element 1" /><img src="Skin Toggle 1" />
-					</td>
-					<td class="dragonSlot" colspan="2"></td>
-				</tr>
-				<tr>
-					<td class="printSlot" colspan="2"></td>
-					<td class="printSlot" colspan="2"></td>
-				</tr>
-			</table>
+<!DOCTYPE html>
 
-			<table class="teamBuilderSlot" id="2">
-				<tr>
-					<td>
-						<img
-							class="elementIcon"
-							src="https://gamepedia.cursecdn.com/dragalialost_gamepedia_en/5/57/Icon_Element_Flame.png"
-						/>
-					</td>
-					<td>
-						<img
-							class="weaponIcon"
-							src="https://gamepedia.cursecdn.com/dragalialost_gamepedia_en/5/57/Icon_Element_Flame.png"
-						/>
-					</td>
-					<td colspan="2">Lv. 1</td>
-				</tr>
-				<tr>
-					<td colspan="4" class>
-						<img
-							class="r03 Fire Sword"
-							src="https://gamepedia.cursecdn.com/dragalialost_gamepedia_en/0/0b/110261_01_r03.png"
-							title="Marty"
-							alt="Marty"
-						/>
-					</td>
-				</tr>
-				<tr>
-					<td class="weaponSlot" colspan="2">
-						<img src="Element 1" /><img src="Skin Toggle 1" />
-					</td>
-					<td class="dragonSlot" colspan="2"></td>
-				</tr>
-				<tr>
-					<td class="printSlot" colspan="2"></td>
-					<td class="printSlot" colspan="2"></td>
-				</tr>
-			</table>
+<html lang="en">
+	<head>
+		<script src="https://www.gstatic.com/firebasejs/6.4.1/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/6.4.1/firebase-auth.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/6.4.1/firebase-firestore.js"></script>
+		<script>
+			// Initialize Firebase
+			var firebaseConfig = {
+				// ...
+				apiKey: "AIzaSyC4XwSfWKINC59fjQusX6ox_g-eWaUArIQ",
+				authDomain: "new-alberia-census.firebaseapp.com",
+				databaseURL: "https://new-alberia-census.firebaseio.com",
+				projectId: "new-alberia-census",
+				storageBucket: "new-alberia-census.appspot.com",
+				messagingSenderId: "377724389599",
+				appId: "1:377724389599:web:b79d509c26ded573"
+			}
+			firebase.initializeApp(firebaseConfig)
+		</script>
+		<script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+		<link
+			type="text/css"
+			rel="stylesheet"
+			href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css"
+		/>
+		<script src="functions.js"></script>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="https://cdn.jsdelivr.net/npm/normalize.css"
+			media="all"
+		/>
+		<link rel="stylesheet" type="text/css" href="css/main.css" media="screen" />
+	</head>
 
-			<table class="teamBuilderSlot" id="1">
-				<tr>
-					<td>
-						<img
-							class="elementIcon"
-							src="https://gamepedia.cursecdn.com/dragalialost_gamepedia_en/5/57/Icon_Element_Flame.png"
-						/>
-					</td>
-					<td>
-						<img
-							class="weaponIcon"
-							src="https://gamepedia.cursecdn.com/dragalialost_gamepedia_en/5/57/Icon_Element_Flame.png"
-						/>
-					</td>
-					<td colspan="2">Lv. 1</td>
-				</tr>
-				<tr>
-					<td colspan="4" class>
-						<img
-							class="r03 Fire Sword"
-							src="https://gamepedia.cursecdn.com/dragalialost_gamepedia_en/0/0b/110261_01_r03.png"
-							title="Marty"
-							alt="Marty"
-						/>
-					</td>
-				</tr>
-				<tr>
-					<td class="weaponSlot" colspan="2">
-						<img src="Element 1" /><img src="Skin Toggle 1" />
-					</td>
-					<td class="dragonSlot" colspan="2"></td>
-				</tr>
-				<tr>
-					<td class="printSlot" colspan="2"></td>
-					<td class="printSlot" colspan="2"></td>
-				</tr>
-			</table>
+	<body>
+		<header></header>
 
-			<table class="teamBuilderSlot" id="1">
-				<tr>
-					<td>
-						<img
-							class="elementIcon"
-							src="https://gamepedia.cursecdn.com/dragalialost_gamepedia_en/5/57/Icon_Element_Flame.png"
-						/>
-					</td>
-					<td>
-						<img
-							class="weaponIcon"
-							src="https://gamepedia.cursecdn.com/dragalialost_gamepedia_en/5/57/Icon_Element_Flame.png"
-						/>
-					</td>
-					<td colspan="2">Lv. 1</td>
-				</tr>
-				<tr>
-					<td colspan="4" class>
-						<img
-							class="r03 Fire Sword"
-							src="https://gamepedia.cursecdn.com/dragalialost_gamepedia_en/0/0b/110261_01_r03.png"
-							title="Marty"
-							alt="Marty"
-						/>
-					</td>
-				</tr>
-				<tr>
-					<td class="weaponSlot" colspan="2">
-						<img src="Element 1" /><img src="Skin Toggle 1" />
-					</td>
-					<td class="dragonSlot" colspan="2"></td>
-				</tr>
-				<tr>
-					<td class="printSlot" colspan="2"></td>
-					<td class="printSlot" colspan="2"></td>
-				</tr>
-			</table>
-		</teamBuilderBody>
-		<teamBuilderFooter>
-			<button>Team History</button>
-			<button>Save Team</button>
-		</teamBuilderFooter>
-	</teamBuilderFrame>
+		<main>
+			<content></content>
+			<subcontent>
+				<!-- <div id="firebaseui-auth-container"></div> -->
+				<!-- <div id="loader">Loading...</div> -->
+			</subcontent>
+		</main>
+
+		<footer>FOOTER SHIT</footer>
+	</body>
+</html>
